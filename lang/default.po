@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: roots-immo\n"
+"POT-Creation-Date: 2014-05-20 14:39+0100\n"
+"PO-Revision-Date: 2014-05-20 15:03+0100\n"
+"Last-Translator: marchal yoan <marchalyoan@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\begip-dev\\wp-content\\themes\\roots\n"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Désolé, la page que vous essayez d'afficher n'existe pas."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/404.php:7
+msgid "It looks like this was the result of either:"
+msgstr "Il ressemble à ceci est le résultat d'une ou l'autre:"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/404.php:9
+msgid "a mistyped address"
+msgstr "l'adresse est erronée"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/404.php:10
+msgid "an out-of-date link"
+msgstr "cette page n'existe plus"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Vous utilisez un navigateur <strong> dépassé </ strong> . S'il vous plaît <a "
+"href=\"http://browsehappy.com/\"> mettez à niveau de votre navigateur </ a> "
+"pour améliorer votre expérience."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/index.php:5
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/search.php:8
+msgid "Sorry, no results were found."
+msgstr "Désolé, aucun résultat n'a été trouvé."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:17
+msgid "Photos"
+msgstr "Photos"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:18
+msgid "Video"
+msgstr "Vidéo"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:20
+msgid "Map"
+msgstr "Carte"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:83
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:35
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:29
+msgid "Summary "
+msgstr "Description "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:84
+msgid "Share on facebook"
+msgstr "Partager sur facebook"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/single-rent.php:85
+msgid "Send to a friend"
+msgstr "Envoyer à un ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:15
+msgid "CONTACT FORM"
+msgstr "FORMULAIRE DE CONTACT"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:17
+msgid "Please feel free to send us a message if you have any cuestion"
+msgstr ""
+"S'il vous plaît, n'hésitez pas à nous envoyer un message si vous avez une "
+"question."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:23
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:24
+msgid "Your Name"
+msgstr "Votre prénom"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:27
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:28
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:31
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:32
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:70
+msgid "Email"
+msgstr "Email"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:35
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:36
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:66
+msgid "Website"
+msgstr "Site Web"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:39
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:40
+msgid "Message"
+msgstr "Message"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:43
+msgid "All the fields are required."
+msgstr "Tous les champs sont obligatoires."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:46
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:25
+msgid "Send it"
+msgstr "Envoyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:58
+msgid "INFORMATION"
+msgstr "INFORMATIONS"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:68
+msgid "Phone"
+msgstr "Téléphone"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/template-contact.php:69
+msgid "Fax"
+msgstr "Fax"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/ts-functions.php:370
+msgid "Profile Image"
+msgstr "Image de profil"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/ts-functions.php:380
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:5
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:35
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:46
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/settings.php:20
+msgid "Help Center"
+msgstr "Centre d'aide"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:18
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:33
+msgid "Basic Questions"
+msgstr "Questions de base"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:19
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:34
+msgid "General Usage"
+msgstr "Utilisation générale"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:20
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:35
+msgid "Theme Docs"
+msgstr "Docs sur le thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:21
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:36
+msgid "Forum"
+msgstr "Forum"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:25
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:50
+msgid "Login"
+msgstr "Connexion "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:26
+msgid "Profile"
+msgstr "Profil"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:36
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:72
+msgid "Affiliate Program"
+msgstr "Programme d'affiliation"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:37
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:82
+msgid "Developer Mode"
+msgstr "Mode développeur"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:48
+msgid ""
+"ThemeShift theme packages inlcude support. That means that after purchasing "
+"a theme from ThemeShift you can register and create an account on the "
+"ThemeShift website. I will then manually upgrade your account. Please bear "
+"with me on week ends."
+msgstr ""
+"Thème ThemeShift inclue la mise à jour des paquets. Cela signifie que, après "
+"l'achat d'un thème à partir de ThemeShift vous pouvez vous inscrire et créer "
+"un compte sur le site ThemeShift. Je vais ensuite mettre à jour manuellement "
+"votre compte. S'il vous plaît garder avec moi le week-end."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:50
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:50
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:66
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:76
+msgid "or"
+msgstr "ou"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:52
+msgid "Theme Support"
+msgstr "Soutien thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:54
+msgid ""
+"Once your account is upgraded you have access to extensive theme "
+"documentation, tutorials, screencasts and the support forum. You can find "
+"useful shortlinks in the top bar of the theme options page."
+msgstr ""
+"Une fois que votre compte est mis à niveau, vous avez accès à la "
+"documentation thème vaste, des tutoriels, des screencasts et le forum de "
+"support. Vous pouvez trouver shortlinks utiles dans la barre supérieure de "
+"la page thématique options."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:56
+msgid "Customizations"
+msgstr "Personnalisations"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:58
+msgid ""
+"In the forum I try to cover minor theme modifications and tweaks. For major "
+"customizations please check out the list of recommended co-workers."
+msgstr ""
+"Dans le forum, j'ai essayer de couvrir des modifications mineures à thème et "
+"des réglages. Pour les personnalisations importantes s'il vous plaît "
+"consulter la liste des recommandés collègues."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:60
+msgid "Custom Work"
+msgstr "Travail personnalisé"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:62
+msgid "WordPress Support"
+msgstr "Support de WordPress"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:64
+msgid ""
+"Please understand that I cannot provide support for general WordPress "
+"questions. If your issue is not theme-related, please visit the Codex or the "
+"official WordPress forum."
+msgstr ""
+"S'il vous plaît comprendre que je ne peux pas fournir un soutien pour les "
+"questions générales de WordPress. Si votre problème n'est pas lié à thème, "
+"s'il vous plaît visitez le Codex ou le forum officiel de WordPress."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:74
+#, php-format
+msgid ""
+"Signup to our affiliate program and generate some extra income. For every "
+"theme package sold through one of your affiliate links you get "
+"<strong>30% commision</strong>. Place a banner on your website and start "
+"making serious cash."
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:76
+msgid "More info"
+msgstr "Plus d'infos"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/docs.php:76
+msgid "Banners"
+msgstr "Bannières"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:5
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/settings.php:19
+msgid "Themes &amp; News"
+msgstr "Thèmes & News"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:18
+msgid "All Themes"
+msgstr "Tous les thèmes"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:19
+msgid "Blog"
+msgstr "Blog"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:20
+msgid "Affiliates"
+msgstr "Affiliés"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:29
+msgid "Latest Themes"
+msgstr "Derniers Thèmes"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:30
+msgid "Latest News"
+msgstr "Dernières Nouvelles"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:35
+msgid "Latest ThemeShift Themes"
+msgstr "Derniers ThemeShift Thèmes"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:54
+msgid "Theme Info"
+msgstr "Infos sur le Thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:54
+msgid "Theme Demo"
+msgstr "Thème Demo"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:64
+msgid "Latest ThemeShift News"
+msgstr "Dernières Nouvelles ThemeShift"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/news.php:85
+msgid "Continue Reading"
+msgstr "Lire la suite"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:40
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:115
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/options.php:114
+msgid "Reset Options"
+msgstr "Réinitialisation des Options"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/settings.php:18
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/settings.php:255
+msgid "Import"
+msgstr "importer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/admin_pages/settings.php:267
+msgid "Export"
+msgstr "Exporter"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/classes/subclasses/class-admin_views.php:736
+msgid "Add slide"
+msgstr "Ajouter une diapositive"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/classes/subclasses/class-admin_views.php:808
+msgid "Edit"
+msgstr "Modifier"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/classes/subclasses/class-admin_views.php:809
+msgid "Delete"
+msgstr "Effacer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/admin/classes/subclasses/class-admin_views.php:922
+msgid "Click text box to open color picker"
+msgstr "Cliquez sur la case de texte pour ouvrir sélecteur de couleur"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Ces paramètres sont facultatifs et doivent généralement être utilisés que "
+"sur une nouvelle installation"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:59
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:62
+msgid "Create static front page?"
+msgstr "Créer une page statique avant?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:64
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:76
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:88
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:100
+msgid "Yes"
+msgstr "Oui"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:65
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:77
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:89
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:101
+msgid "No"
+msgstr "Non"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Changer la structure de permalien?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Mettre à jour la structure de permalien?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:83
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Créer le menu de navigation?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:95
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Ajouter des pages au menu?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire sera publié après vérification"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:29
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:38
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:54
+msgid "Log out of this account"
+msgstr "Déconnectez-vous de ce compte"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:54
+msgid "Log out &raquo;"
+msgstr "Déconnexion »"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:58
+msgid "Name"
+msgstr "Nom"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:58
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:62
+msgid " (required)"
+msgstr " (Obligatoire)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:62
+msgid "Email (will not be published)"
+msgstr "Email (ne sera pas publié)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:71
+msgid "Comment"
+msgstr "Commentaire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/comments.php:74
+msgid "Submit Comment"
+msgstr "Laisser un commentaire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:40
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:34
+msgid "Sector "
+msgstr "Secteur "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:42
+msgid "Rent "
+msgstr "Loyer "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:43
+msgid "Load "
+msgstr "Charges "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:44
+msgid "Rent + load "
+msgstr "Loyer + charges "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:45
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:37
+msgid "Fees "
+msgstr "Honoraires "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:46
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:38
+msgid "Surface "
+msgstr "Surface "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:47
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:39
+msgid "Total surface "
+msgstr "Surface totale "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:48
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:40
+msgid "Floor "
+msgstr "Étage "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:49
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:41
+msgid "Rooms "
+msgstr "Chambres "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:50
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:42
+msgid "Baths "
+msgstr "Salles de bain "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:52
+msgid "Availability "
+msgstr "Disponibilité "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:60
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:51
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details.php:62
+msgid "Energy consumption "
+msgstr "Consommation énergétique  "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-rent.php:68
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:59
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details.php:70
+msgid "Greenhouse gas emission in kWh/m²/year"
+msgstr "émissions de gaz à effet de serre en kWh / m² / an"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/details-sale.php:36
+msgid "Price "
+msgstr "Prix"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/featured.php:4
+msgid "Best rent: "
+msgstr "Meilleures locations: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/featured.php:32
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/new-rent-galerie.php:31
+msgid "/Month"
+msgstr "/ Mois"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/new-rent-galerie.php:2
+msgid "New rent"
+msgstr "Nouveaux biens à loyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/new-rent-galerie.php:31
+msgid "Price: "
+msgstr "Prix: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/new-rent-galerie.php:33
+msgid "Rooms: "
+msgstr "Chambres: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/new-rent-galerie.php:34
+msgid "Bath: "
+msgstr "Salles de bain: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/request-mail.php:30
+msgid "Request showing"
+msgstr "Demander une visite"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/searchform.php:37
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/searchform.php:41
+msgid "Search"
+msgstr "Recherche"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/searchform.php:38
+msgid "Search for:"
+msgstr "Rechercher"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:4
+msgid "Send this property to a friend"
+msgstr "Envoyer cette annonce à un ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:9
+msgid "Name of your friend"
+msgstr "Nom de votre ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:14
+msgid "Email of your friend"
+msgstr "Email de votre ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:20
+msgid "Recommendation"
+msgstr "Recommandations"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/send-to-friend.php:28
+msgid "Clear"
+msgstr "Effacer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/slider-sidebar-rent.php:4
+msgid "Rent you may like"
+msgstr "Location que vous pouvez aimer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots/templates/slider-sidebar-sale.php:4
+msgid "Sales you may like"
+msgstr "Ventes que vous pouvez aimer"

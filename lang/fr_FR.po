@@ -1,0 +1,1958 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: roots-immo\n"
+"POT-Creation-Date: 2014-06-16 14:57+0100\n"
+"PO-Revision-Date: 2014-06-16 15:05+0100\n"
+"Last-Translator: marchal yoan <marchalyoan@gmail.com>\n"
+"Language-Team: Yoan Marchal <marchalyoan@gmail.com>\n"
+"Language: Francais\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;_n;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\begip-dev\\wp-content\\themes\\roots-"
+"immo\n"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/404.php:7
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/index.php:5
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/search.php:106
+msgid "Sorry, no results were found."
+msgstr "Désolé, aucun résultat n'a été trouvé."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Vous utilisez un navigateur <strong> dépassé </ strong> . S'il vous plaît <a "
+"href=\"http://browsehappy.com/\"> mettez à niveau de votre navigateur </ a> "
+"pour améliorer votre expérience."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/index.php:17
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/search.php:113
+msgid "&larr; Older posts"
+msgstr "&larr; Articles plus anciens"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/index.php:18
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/search.php:114
+msgid "Newer posts &rarr;"
+msgstr "Articles plus récents &rarr;"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:32
+msgid "One"
+msgstr "Un"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:33
+msgid "Two"
+msgstr "Deux"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:34
+msgid "Three"
+msgstr "Trois"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:35
+msgid "Four"
+msgstr "Quatre"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:36
+msgid "Five"
+msgstr "Cinq"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:41
+msgid "French Toast"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:42
+msgid "Pancake"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:43
+#, fuzzy
+msgid "Omelette"
+msgstr "Effacer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:44
+msgid "Crepe"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:45
+msgid "Waffle"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:106
+#, fuzzy
+msgid "Roots immo settings"
+msgstr "Paramétrage des options"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:119
+msgid "Facebook url"
+msgstr "Url de votre page facebook"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:120
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:127
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:134
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:141
+msgid "A text input field."
+msgstr "champ text"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:126
+msgid "Twitter url"
+msgstr "Url de votre page Twitter"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:133
+msgid "Google+ url"
+msgstr "Url de votre page Google plus"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:140
+msgid "Linkedin"
+msgstr "Url de votre page Linkedin"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:148
+msgid "Google analytics"
+msgstr "Google analyctics"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/options.php:149
+msgid "rentrez ici les codes google analytics."
+msgstr "rentrez ici les codes google analytics."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:13
+msgid "Reference"
+msgstr "Référence"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:17
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:16
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-sale.php:17
+msgid "Photos"
+msgstr "Photos"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:19
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:18
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-sale.php:18
+msgid "Video"
+msgstr "Vidéo"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:22
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:21
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/preview.php:79
+msgid "Map"
+msgstr "Carte"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:86
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:85
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-sale.php:69
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:41
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:31
+msgid "Summary "
+msgstr "Description "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:87
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:86
+msgid "Dossier locataire "
+msgstr "Dossier locataire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:88
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:87
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-sale.php:70
+msgid "Share on facebook"
+msgstr "Partager sur facebook"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-location.php:89
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-rent.php:88
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/single-sale.php:71
+msgid "Send to a friend"
+msgstr "Envoyer à un ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:15
+msgid "CONTACT FORM"
+msgstr "FORMULAIRE DE CONTACT"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:17
+msgid "Please feel free to send us a message if you have any cuestion"
+msgstr ""
+"S'il vous plaît, n'hésitez pas à nous envoyer un message si vous avez une "
+"question."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:23
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:24
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:14
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:15
+msgid "Your Name"
+msgstr "Votre prénom"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:27
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:28
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:31
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:32
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:71
+msgid "Email"
+msgstr "Email"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:35
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:36
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:66
+msgid "Website"
+msgstr "Site Web"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:39
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:40
+msgid "Message"
+msgstr "Message"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:43
+msgid "All the fields are required."
+msgstr "Tous les champs sont obligatoires."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:48
+msgid "Send"
+msgstr "Envoyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:59
+msgid "INFORMATION"
+msgstr "INFORMATIONS"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:69
+msgid "Phone"
+msgstr "Téléphone"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-contact.php:70
+msgid "Fax"
+msgstr "Fax"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:28
+msgid "All"
+msgstr "Tous"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:29
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:579
+msgid "Studio"
+msgstr "Studio"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:30
+msgid "Appartement"
+msgstr "Appartement"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:31
+msgid "House"
+msgstr "Maison"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:33
+msgid "Land"
+msgstr "Terrain"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:35
+msgid "Low price"
+msgstr "Petit prix"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:62
+msgid "previous"
+msgstr "Précédent"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/template-custom.php:62
+msgid "next"
+msgstr "Suivant"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-framework-admin.php:90
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-framework-admin.php:91
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-framework-admin.php:198
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-framework-admin.php:229
+msgid "Default options restored."
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-framework-admin.php:283
+msgid "Options saved."
+msgstr "Options sauvegardés"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "Pas de fichier choisi"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:66
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Envoyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:68
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Supprimer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Voir le fichier"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:241
+msgid "No Repeat"
+msgstr "Pas de répetition"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:242
+msgid "Repeat Horizontally"
+msgstr "Répetition horizontale"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:243
+msgid "Repeat Vertically"
+msgstr "Répetition vertical"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:244
+msgid "Repeat All"
+msgstr "Tout répeter"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:257
+#, fuzzy
+msgid "Top Left"
+msgstr "Pied de page gauche"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:258
+#, fuzzy
+msgid "Top Center"
+msgstr "Centre d'aide"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:259
+#, fuzzy
+msgid "Top Right"
+msgstr "Pied de page droit"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:260
+msgid "Middle Left"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:261
+#, fuzzy
+msgid "Middle Center"
+msgstr "Centre d'aide"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:262
+msgid "Middle Right"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:263
+#, fuzzy
+msgid "Bottom Left"
+msgstr "Pied de page gauche"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:264
+msgid "Bottom Center"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:265
+#, fuzzy
+msgid "Bottom Right"
+msgstr "Pied de page droit"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:278
+msgid "Scroll Normally"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:279
+msgid "Fixed in Place"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:353
+msgid "Normal"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:354
+msgid "Italic"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:355
+msgid "Bold"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/inc/includes/class-options-sanitization.php:356
+msgid "Bold Italic"
+msgstr ""
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:28
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:29
+#, fuzzy
+msgid "Theme Activation"
+msgstr "Options du thème"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:50
+#, php-format
+msgid "%s Theme Activation"
+msgstr "%s Theme Activation"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Ces paramètres sont facultatifs et doivent généralement être utilisés que "
+"sur une nouvelle installation"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:59
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:62
+msgid "Create static front page?"
+msgstr "Créer une page statique avant?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:64
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:76
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:88
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:100
+msgid "Yes"
+msgstr "Oui"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:65
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:77
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:89
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:101
+msgid "No"
+msgstr "Non"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr "Créer une page d'accueil et mis à être la page d'avant statique"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Changer la structure de permalien?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Mettre à jour la structure de permalien?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Changer la structure de permalien à /% postname% /"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:83
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Créer le menu de navigation?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "Créer le menu de navigation principal et définir l'emplacement"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:95
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Ajouter des pages au menu?"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr ""
+"Ajouter toutes les pages actuellement publiées à la navigation principale"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:126
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:147
+msgid "Home"
+msgstr "Accueil"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:173
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:176
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/activation.php:190
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/init.php:15
+msgid "Primary Navigation"
+msgstr "Navigation principale"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/cleanup.php:237
+msgid "Continued"
+msgstr "Lire la suite"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:368
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/preview.php:68
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:33
+msgid "Sales"
+msgstr "Vente"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:369
+msgid "Property (for Sale)"
+msgstr "Bien à vendre"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:370
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:406
+msgid "Add New"
+msgstr "Ajouter"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:371
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:407
+msgid "Add New Property"
+msgstr "Ajouter un nouveau bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:372
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:408
+msgid "Edit Property"
+msgstr "Editer le bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:373
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:409
+msgid "New Property"
+msgstr "Nouveau bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:374
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:410
+msgid "View Property"
+msgstr "Voir le bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:375
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:411
+msgid "Search Properties"
+msgstr "Rechercher un bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:376
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:412
+msgid "No properties found"
+msgstr "pas de bien trouvé"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:377
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:413
+msgid "No properties found in Trash"
+msgstr "pas de bien trouvé dans la corbeille"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:378
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:414
+msgid "Parent Property:"
+msgstr "Propriété parente"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:379
+msgid "For Sale"
+msgstr "à Vendre"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:404
+msgid "Properties (for Rent)"
+msgstr "Bien à louer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:405
+msgid "Property (for Rent)"
+msgstr "Bien à louer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:415
+msgid "For Rent"
+msgstr "À Louer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:480
+msgid "Standard Fields"
+msgstr "Les champs standard"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:498
+msgid "N° de porte"
+msgstr "N° de porte"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:503
+msgid "Mise en avant"
+msgstr "Mise en avant"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:511
+msgid "Petit prix"
+msgstr "Petit prix"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:519
+msgid "Loyer"
+msgstr "Loyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:527
+msgid "Charges"
+msgstr "Charges"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:535
+msgid "Honoraires"
+msgstr "Honoraires"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:542
+msgid "Disponibilité"
+msgstr "Disponibilité"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:548
+msgid "(dd-mm-yy)"
+msgstr "(Jj-mm-aa)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:549
+msgid "dd-mm-yy"
+msgstr "jj-mm-aa"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:557
+msgid "Surface du bien"
+msgstr "Surface du bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:566
+msgid "Surface du terrain"
+msgstr "Surface du terrain"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:574
+msgid "Type"
+msgstr "Type"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:580
+msgid "T1"
+msgstr "T1"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:581
+msgid "T1B"
+msgstr "T1 Bis"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:582
+msgid "T1D"
+msgstr "T1 Duplex"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:583
+msgid "T2"
+msgstr "T2"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:584
+msgid "T2B"
+msgstr "T2 Bis"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:585
+msgid "T2D"
+msgstr "T2 Duplex"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:586
+msgid "T3"
+msgstr "T3"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:587
+msgid "T3D"
+msgstr "T3 Duplex"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:588
+msgid "T4"
+msgstr "T4"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:589
+msgid "F1"
+msgstr "F1"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:590
+msgid "F1D"
+msgstr "F1 Duplex"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:591
+msgid "F2"
+msgstr "F2"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:592
+msgid "F3"
+msgstr "F3"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:593
+msgid "F4"
+msgstr "F4"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:594
+msgid "Maison"
+msgstr "Maison"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:595
+msgid "Terrain"
+msgstr "Terrain"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:596
+msgid "BAR"
+msgstr "BAR"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:597
+msgid "BUR"
+msgstr "BUR"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:598
+msgid "COM"
+msgstr ".COM"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:603
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:619
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:634
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:674
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:694
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:714
+msgid "Select an Item"
+msgstr "Sélectionnez un élément"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:607
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:50
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:52
+msgid "Heating"
+msgstr "Chauffage"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:612
+msgid "C/C"
+msgstr "C / C"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:613
+msgid "I/E"
+msgstr "I / E"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:614
+msgid "I/G"
+msgstr "I / G"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:623
+msgid "C/L"
+msgstr "C/L"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:628
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:685
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:705
+msgid "C"
+msgstr "C"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:629
+msgid "L"
+msgstr "L"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:638
+msgid "Nombre de chambres"
+msgstr "Nombre de chambres"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:647
+msgid "Nombre de salles de bain"
+msgstr "Nombre de salles de bain"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:656
+msgid "Etage"
+msgstr "Etage"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:661
+msgid "Rez-de-chaussée"
+msgstr "Rez-de-chaussée"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:662
+msgid "1"
+msgstr "1"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:663
+msgid "2"
+msgstr "2"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:664
+msgid "3"
+msgstr "3"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:665
+msgid "4"
+msgstr "4."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:666
+msgid "5"
+msgstr "5"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:667
+msgid "6"
+msgstr "6"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:668
+msgid "7"
+msgstr "7"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:669
+msgid "8"
+msgstr "8"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:678
+msgid "Consommation énergetique"
+msgstr "Consommation énergétique"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:683
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:703
+msgid "A"
+msgstr "A"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:684
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:704
+msgid "B"
+msgstr "B"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:686
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:706
+msgid "D"
+msgstr "D"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:687
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:707
+msgid "E"
+msgstr "E"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:688
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:708
+msgid "F"
+msgstr "F"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:689
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:709
+msgid "G"
+msgstr "G"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:698
+msgid "Emission de gaz à effet de serre "
+msgstr "Émissions de gaz à Effet de serre "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:719
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:721
+msgid "Adresse"
+msgstr "Adresse"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:725
+msgid "Location"
+msgstr "Emplacement"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:735
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:737
+msgid "Secteur"
+msgstr "Secteur "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:741
+msgid "A proximité de"
+msgstr "A proximité de"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1066
+msgid "Gallery"
+msgstr "Gallerie"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1083
+msgid "Gallery images"
+msgstr "Galerie d'image"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1096
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1115
+msgid "Ancien locataire"
+msgstr "Ancien Locataire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1119
+msgid "Nom du précédent locataire"
+msgstr "Nom du précédent locataire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1128
+msgid "Acc"
+msgstr "Acc"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/custom.php:1136
+msgid "Numéro du précédent locataire"
+msgstr "Numéro du précédent locataire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/init.php:16
+#, fuzzy
+msgid "Footer Navigation"
+msgstr "Poster navigation"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:10
+msgid "Latest Posts"
+msgstr "Dernières Nouvelles"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:19
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives quotidiennes : %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:21
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles : %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles : %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archives de l'auteur : %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:31
+#, php-format
+msgid "Search Results for %s"
+msgstr "Résultats de la recherche pour %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/titles.php:33
+msgid "Not Found"
+msgstr "Pas de résultats"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/widgets.php:8
+msgid "Primary"
+msgstr "Principal"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/widgets.php:17
+msgid "Footer"
+msgstr "Pied de page"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/widgets.php:45
+msgid "Use this widget to add a vCard"
+msgstr "Utilisez ce widget pour ajouter une vCard"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/widgets.php:47
+msgid "Roots: vCard"
+msgstr "Roots: vCard"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/lib/widgets.php:74
+msgid "vCard"
+msgstr "vCard"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comment.php:4
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comment.php:5
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:8
+#, php-format
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgstr "Un commentaire pour “%2$s”"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "← Commentaires ancien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "Commentaires récents →"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:29
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:38
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:45
+msgid "Leave a Reply"
+msgstr "Écrire une réponse"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:45
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laisser une réponse à %s"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:48
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Vous devez être <a href=\"%s\">connecté</a> pour poster un commentaire."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:53
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:54
+msgid "Log out of this account"
+msgstr "Déconnectez-vous de ce compte"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:54
+msgid "Log out &raquo;"
+msgstr "Déconnexion »"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:58
+msgid "Name"
+msgstr "Nom"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:58
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:62
+msgid " (required)"
+msgstr " (Obligatoire)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:62
+msgid "Email (will not be published)"
+msgstr "Email (ne sera pas publié)"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:71
+msgid "Comment"
+msgstr "Commentaire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/comments.php:74
+msgid "Submit Comment"
+msgstr "Laisser un commentaire"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/content-single.php:11
+msgid "Pages:"
+msgstr "Pages :"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:46
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:36
+msgid "Sector "
+msgstr "Secteur "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:49
+msgid "Rent "
+msgstr "Loyer "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:50
+msgid "Load "
+msgstr "Charges "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:51
+msgid "Rent + load "
+msgstr "Loyer + charges "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:52
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:39
+msgid "Fees "
+msgstr "Honoraires "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:53
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:40
+msgid "Surface "
+msgstr "Surface du bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:54
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:41
+msgid "Total surface "
+msgstr "Surface totale"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:55
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:42
+msgid "Floor "
+msgstr "Étage "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:57
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:44
+msgid "Rooms "
+msgstr "Chambres "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:58
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:45
+msgid "Baths "
+msgstr "Salles de bain "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:60
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:47
+msgid "Heating "
+msgstr "Chauffage"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:67
+msgid "Availability "
+msgstr "Disponibilité "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:76
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:56
+msgid "Energy consumption "
+msgstr "Consommation énergétique  "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:82
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:91
+msgid "blank"
+msgstr "Vide"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-rent.php:85
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:64
+msgid "Greenhouse gas emission in kWh/m²/year"
+msgstr "émissions de gaz à effet de serre en kWh / m² / an"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/details-sale.php:38
+msgid "Price "
+msgstr "Prix"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/entry-meta.php:2
+msgid "By"
+msgstr "Par"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/featured.php:4
+msgid "Best rent: "
+msgstr "Meilleures locations: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/featured.php:47
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/new-rent-galerie.php:41
+msgid "/Month"
+msgstr "/ Mois"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/header-top-navbar.php:16
+msgid "Follow us"
+msgstr "Suivez nous"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/module-social-page.php:4
+msgid "STAY IN CONTACT THROUGH OUR SOCIAL NETWORKS FOR UPDATES"
+msgstr "Ne manquez aucune nouveauté en vous connectant à nos réseaux"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/new-rent-galerie.php:2
+msgid "New rent"
+msgstr "Nouveaux biens à louer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/new-rent-galerie.php:41
+msgid "Price: "
+msgstr "Prix: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/new-rent-galerie.php:43
+msgid "Rooms: "
+msgstr "Chambres: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/new-rent-galerie.php:44
+msgid "Bath: "
+msgstr "Salles de bain: "
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/partenaires.php:7
+msgid "Ours partenaires"
+msgstr "Nos partenaires"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/preview.php:63
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:37
+msgid "Rent"
+msgstr "Location"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/preview.php:80
+msgid "Summary"
+msgstr "Description"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:9
+#, fuzzy
+msgid "Your text"
+msgstr "Votre prénom"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:18
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:19
+msgid "E-mail"
+msgstr "Email"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:22
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:23
+msgid "Your telephone"
+msgstr "Votre téléphone"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:26
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:27
+msgid "Showing date"
+msgstr "Date de visite souhaité"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/request-mail.php:35
+msgid "Request showing"
+msgstr "Demander une visite"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:25
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:64
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:68
+msgid "Search"
+msgstr "Recherche"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:30
+msgid "Type of property"
+msgstr "Type"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:41
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:43
+msgid "Size of property"
+msgstr "Type de bien"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:59
+msgid "Maximum price"
+msgstr "Budget Max"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/searchform.php:65
+msgid "Search for:"
+msgstr "Rechercher"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:6
+msgid "Send this property to a friend"
+msgstr "Envoyer cette annonce à un ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:11
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:12
+msgid "Name of your friend"
+msgstr "Nom de votre ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:16
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:18
+msgid "Email of your friend"
+msgstr "Email de votre ami"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:22
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:24
+msgid "Recommendation"
+msgstr "Recommandations"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:29
+msgid "Send it"
+msgstr "Envoyer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/send-mail-friend.php:32
+msgid "Clear"
+msgstr "Effacer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/slider-sidebar-rent.php:4
+msgid "Rent you may like"
+msgstr "Location que vous pouvez aimer"
+
+#: C:\wamp\www\begip-dev\wp-content\themes\roots-immo/templates/slider-sidebar-sale.php:4
+msgid "Sales you may like"
+msgstr "Ventes que vous pouvez aimer"
+
+#~ msgid "Sorry, but the page you were trying to view does not exist."
+#~ msgstr "Désolé, la page que vous essayez d'afficher n'existe pas."
+
+#~ msgid "It looks like this was the result of either:"
+#~ msgstr "Il ressemble à ceci est le résultat d'une ou l'autre:"
+
+#~ msgid "a mistyped address"
+#~ msgstr "l'adresse est erronée"
+
+#~ msgid "an out-of-date link"
+#~ msgstr "cette page n'existe plus"
+
+#~ msgid "Properties (for Sale)"
+#~ msgstr "Bien à vendre"
+
+#~ msgid "Identifiant"
+#~ msgstr "Identifiant"
+
+#~ msgid "Your name"
+#~ msgstr "Votre nom"
+
+#~ msgid "Advanced searches"
+#~ msgstr "Recherche avancé"
+
+#~ msgid "Minimum price"
+#~ msgstr "Budget Min"
+
+#~ msgid "<strong>RSS Error</strong>: %s"
+#~ msgstr "<strong>Erreur RSS :</strong> %s"
+
+#~ msgid "Image URL"
+#~ msgstr "URL de l'image"
+
+#~ msgid "Link URL"
+#~ msgstr "URL du lien"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Utilisation générale"
+
+#, fuzzy
+#~ msgid "Custom Logo"
+#~ msgstr "Logo personnalisé"
+
+#~ msgid "Please enter an URL or upload your custom logo."
+#~ msgstr ""
+#~ "S'il vous plaît entrer une URL ou télécharger votre logo personnalisé."
+
+#, fuzzy
+#~ msgid "Custom Favicon"
+#~ msgstr "Favicon personnalisée"
+
+#~ msgid "Please enter an URL or upload your custom favicon."
+#~ msgstr ""
+#~ "S'il vous plaît entrer une URL ou télécharger votre favicon personnalisé."
+
+#, fuzzy
+#~ msgid "Custom RSS"
+#~ msgstr "RSS personnalisé"
+
+#~ msgid "Please enter your custom RSS URL (e.g. Feedburner)."
+#~ msgstr ""
+#~ "S'il vous plaît entrez votre URL RSS personnalisé (par exemple "
+#~ "Feedburner)."
+
+#, fuzzy
+#~ msgid "Custom CSS"
+#~ msgstr "CSS personnalisé"
+
+#~ msgid "Easily add some custom css to the head of your theme."
+#~ msgstr "Ajouter facilement des css personnalisées à la tête de votre thème."
+
+#~ msgid "Tracking Code"
+#~ msgstr "Code de tracking"
+
+#~ msgid ""
+#~ "Insert your tracking code here (e.g. Google Analytics). This code will be "
+#~ "added to the footer of the theme."
+#~ msgstr ""
+#~ "Insérez ici votre code de suivi (par exemple Google Analytics). Ce code "
+#~ "sera ajouté au bas de ce thème."
+
+#~ msgid "Styling"
+#~ msgstr "Style"
+
+#, fuzzy
+#~ msgid "Custom Styling"
+#~ msgstr "Personnalisations"
+
+#~ msgid "Activate custom styling options"
+#~ msgstr "Activez les options de style personnalisée"
+
+#~ msgid ""
+#~ "<strong style=\"color:red;text-transform:uppercase\">Please notice!</"
+#~ "strong> Do not forget to activate the styling options. Otherwise they "
+#~ "will have no effect."
+#~ msgstr ""
+#~ "<strong style=\"color:red;text-transform:uppercase\">Attention !</strong> "
+#~ "Ne pas oublier d'activer les options de style. Sinon, ils n'auront aucun "
+#~ "effet."
+
+#~ msgid "Background Image"
+#~ msgstr "Image de fond"
+
+#~ msgid "Please enter a URL or upload a background image."
+#~ msgstr "S'il vous plaît entrer une URL ou charger une image de fond."
+
+#~ msgid "Background Image Repeat"
+#~ msgstr "Répétez l'image d'arrière-plan"
+
+#~ msgid "Please selete how you would like to repeat the background image."
+#~ msgstr ""
+#~ "S'il vous plaît sélectionnez comment vous voudriez répéter l'image de "
+#~ "fond."
+
+#~ msgid "Background Image Position"
+#~ msgstr "Image de fond Position"
+
+#~ msgid "Please select how you would like to position the background image."
+#~ msgstr ""
+#~ "S'il vous plaît choisir comment vous souhaitez positionner l'image de "
+#~ "fond."
+
+#~ msgid "Background Image Attachment"
+#~ msgstr "Pièce jointe Image de fond"
+
+#~ msgid "Background image fixed"
+#~ msgstr "L'image de fond fixe"
+
+#~ msgid "Background Color"
+#~ msgstr "Couleur d'arrière plan"
+
+#~ msgid "Please pick a custom background color of the theme."
+#~ msgstr "S'il vous plaît choisir une couleur du thème d'arrière-plan."
+
+#~ msgid "Button Color"
+#~ msgstr "Bouton Couleur"
+
+#~ msgid "Please pick a color for buttons."
+#~ msgstr "S'il vous plaît choisir une couleur pour les boutons."
+
+#~ msgid "Link Color"
+#~ msgstr "Couleur des liens"
+
+#~ msgid "Please pick a color for links."
+#~ msgstr "S'il vous plaît choisir une couleur pour les liens."
+
+#~ msgid "Link Color Hover"
+#~ msgstr "Couleur de lien Hover"
+
+#~ msgid "Please pick a color for links hover."
+#~ msgstr "S'il vous plaît choisir une couleur pour les liens hover."
+
+#~ msgid "Home Sidebar"
+#~ msgstr "Accueil Sidebar"
+
+#~ msgid "Display sidebar on home page"
+#~ msgstr "Affichage encadré à la page d'accueil"
+
+#~ msgid "Display sidebar on the left"
+#~ msgstr "Afficher la barre latérale sur la gauche"
+
+#~ msgid "Slider Size"
+#~ msgstr "Taille du slider"
+
+#~ msgid "Display small slider (no sidebar = large slider)"
+#~ msgstr "Afficher petit curseur (pas encadré = grand curseur)"
+
+#~ msgid "Slider Content"
+#~ msgstr "Contenu Slider"
+
+#, fuzzy
+#~ msgid "Property Category"
+#~ msgstr "Bien à vendre"
+
+#~ msgid "If property category selected for slider content."
+#~ msgstr "Si la catégorie de propriété sélectionné pour le contenu curseur."
+
+#~ msgid "Post Category"
+#~ msgstr "Poster Catégorie"
+
+#~ msgid "If post category selected for slider content."
+#~ msgstr "Si après la catégorie sélectionnée pour le slider du contenu"
+
+#~ msgid "Static Slides"
+#~ msgstr "Diapositives statiques"
+
+#~ msgid ""
+#~ "Add your static slides to the slider (overwrites slider content selected "
+#~ "above)."
+#~ msgstr ""
+#~ "Ajouter vos diapositives statiques pour le slider (écrase le contenu "
+#~ "slider sélectionné ci-dessus)."
+
+#~ msgid "Add slide"
+#~ msgstr "Ajouter une diapositive"
+
+#~ msgid "Slider Overlay"
+#~ msgstr "Slider Overlay"
+
+#~ msgid "Show slider overlay"
+#~ msgstr "Afficher le slider overlay"
+
+#~ msgid "Slider Navigation"
+#~ msgstr "Navigation du slider"
+
+#~ msgid "Display previous and next buttons"
+#~ msgstr "Afficher les boutons précédent et suivant"
+
+#~ msgid "Slider Effect"
+#~ msgstr "Effet du slider"
+
+#~ msgid "Slider Auto"
+#~ msgstr "Slider Auto"
+
+#~ msgid "Time between animations in seconds."
+#~ msgstr "Temps entre les animations en secondes."
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "Rechercher un bien"
+
+#~ msgid "Property Archive Layout"
+#~ msgstr "Archives de la propriété mise en page"
+
+#, fuzzy
+#~ msgid "Property Search"
+#~ msgstr "Bien à vendre"
+
+#~ msgid "Display search form on property archive pages"
+#~ msgstr ""
+#~ "Afficher un formulaire de recherche sur les pages de propriété "
+#~ "individuelle"
+
+#~ msgid "Display search form on single property pages"
+#~ msgstr ""
+#~ "Afficher un formulaire de recherche sur les pages de propriété "
+#~ "individuelle"
+
+#, fuzzy
+#~ msgid "Display advanced search"
+#~ msgstr "Recherche avancé"
+
+#, fuzzy
+#~ msgid "Property Sidebar"
+#~ msgstr "Sidebar de propriété"
+
+#~ msgid "Property Single Layout"
+#~ msgstr "Propriété unique Disposition"
+
+#~ msgid "Display sidebar (no sidebar = large image)"
+#~ msgstr "Affichage barre latérale (aucune barre latérale = grande image)"
+
+#~ msgid "Display large image"
+#~ msgstr "Afficher l'image en grand"
+
+#, fuzzy
+#~ msgid "Property Single Elements"
+#~ msgstr "Bien à louer"
+
+#~ msgid "Display favorites link"
+#~ msgstr "Afficher les liens favoris"
+
+#~ msgid "Display print link"
+#~ msgstr "Afficher le lien d'impression"
+
+#~ msgid "Display property ID"
+#~ msgstr "propriété Display Identification"
+
+#~ msgid "Display property type"
+#~ msgstr "Afficher le Type de propriété"
+
+#~ msgid "Display loaction"
+#~ msgstr "Localisation géographique"
+
+#~ msgid "Display price button"
+#~ msgstr "Afficher le bouton de prix"
+
+#~ msgid "Display date"
+#~ msgstr "Affichage de la date"
+
+#~ msgid "Price Button Link"
+#~ msgstr "Prix ​​Bouton Lien"
+
+#~ msgid "If empty, price button will be a jump link to contact widget."
+#~ msgstr ""
+#~ "Si vide, le bouton de prix sera un lien de saut à contacter le widget."
+
+#, fuzzy
+#~ msgid "Property Navigation"
+#~ msgstr "Créer le menu de navigation?"
+
+#~ msgid "Enable single property paging"
+#~ msgstr "Activer simple échange de biens"
+
+#~ msgid "Standard Feature #1"
+#~ msgstr "Caractéristique n° 1"
+
+#~ msgid "Standard Feature #2"
+#~ msgstr "Caractéristique n° 2"
+
+#~ msgid "Standard Feature #3"
+#~ msgstr "Caractéristique n ° 3"
+
+#~ msgid "Standard Feature #4"
+#~ msgstr "Caractéristique # 4"
+
+#~ msgid "Standard Feature #5"
+#~ msgstr "Caractéristique n ° 5"
+
+#~ msgid "Living Area"
+#~ msgstr "Superficie"
+
+#~ msgid "Terrace"
+#~ msgstr "Terrasse"
+
+#~ msgid "Parking"
+#~ msgstr "Parking"
+
+#~ msgid "Year Built"
+#~ msgstr "Année de construction"
+
+#~ msgid "Property ID Prefix"
+#~ msgstr "ID de Propriété Prefix"
+
+#~ msgid "The property ID will be this prefix plus post ID."
+#~ msgstr "L'ID de propriété sera ce préfixe et après ID."
+
+#~ msgid "Measurement Unit"
+#~ msgstr "Unité de mesure"
+
+#, fuzzy
+#~ msgid "Price Format"
+#~ msgstr "Prix"
+
+#~ msgid "dot"
+#~ msgstr "point"
+
+#~ msgid "comma"
+#~ msgstr "virgule"
+
+#~ msgid "Please select the thousands separator dot (1.000) or comma (1,000)."
+#~ msgstr ""
+#~ "S'il vous plaît sélectionner le point milliers de séparation (1.000) ou "
+#~ "des virgules (1000)."
+
+#~ msgid "Currency"
+#~ msgstr "Monnaie"
+
+#~ msgid "Currency Symbol"
+#~ msgstr "Symbole monétaire"
+
+#~ msgid "Display currency symbol after amount"
+#~ msgstr "symbole de la devise d'affichage après montant"
+
+#~ msgid "Rental Period #1"
+#~ msgstr "Période de location # 1"
+
+#~ msgid "Rental Period #2"
+#~ msgstr "Période de location # 2"
+
+#~ msgid "Rental Period #3"
+#~ msgstr "Période de location # 3"
+
+#, fuzzy
+#~ msgid "per Month"
+#~ msgstr "/ Mois"
+
+#~ msgid "per Week"
+#~ msgstr "par semaine"
+
+#~ msgid "per Year"
+#~ msgstr "par année"
+
+#~ msgid "Archive Layout"
+#~ msgstr "Archive Disposition"
+
+#~ msgid "Archive Sidebar"
+#~ msgstr "Archive Sidebar"
+
+#~ msgid ""
+#~ "This affects the sidebar on archive pages, single posts and static pages."
+#~ msgstr ""
+#~ "Cela affecte la barre latérale sur les pages d'archives, posts simples et "
+#~ "les pages statiques."
+
+#~ msgid "Archive Meta"
+#~ msgstr "Archive Meta"
+
+#~ msgid "Display post date"
+#~ msgstr "affichage de la date"
+
+#~ msgid "Display category"
+#~ msgstr "Afficher la catégorie"
+
+#~ msgid "Display post author"
+#~ msgstr "Afficher auteur du message"
+
+#~ msgid "Display comments number"
+#~ msgstr "Afficher le nombre de commentaires "
+
+#~ msgid "Enable single post paging"
+#~ msgstr "Activation de la pagination de propriété seule"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#~ msgid "Allow comments on posts"
+#~ msgstr "Disable comments on posts?"
+
+#~ msgid "Allow comments on pages"
+#~ msgstr "Autoriser les commentaires sur les pages"
+
+#~ msgid "Social"
+#~ msgstr "Social"
+
+#~ msgid "Header Top"
+#~ msgstr "Entête"
+
+#~ msgid "Need expert advice? <strong>Call us now - 555 555 555</strong>"
+#~ msgstr ""
+#~ "Besoin d'un conseil d'expert? <strong> Appelez-nous - 555 555 555 </ "
+#~ "strong>"
+
+#~ msgid "Social Icons"
+#~ msgstr "Icônes sociales"
+
+#~ msgid ""
+#~ "The following social icons will be displayed on the right side of the "
+#~ "header section."
+#~ msgstr ""
+#~ "Les icônes sociaux suivants seront affichés sur le côté droit de la "
+#~ "section d'en-tête."
+
+#~ msgid "Icon #1"
+#~ msgstr "Icône # 1"
+
+#~ msgid "Icon #2"
+#~ msgstr "Icône # 2"
+
+#~ msgid "Icon #3"
+#~ msgstr "Icône # 3"
+
+#~ msgid "Icon #4"
+#~ msgstr "Icône # 4"
+
+#~ msgid "Icon #5"
+#~ msgstr "Icône # 5"
+
+#~ msgid "Icon #6"
+#~ msgstr "Icône # 6"
+
+#~ msgid "URL #1"
+#~ msgstr "URL N ° 1"
+
+#~ msgid "URL #2"
+#~ msgstr "URL N ° 2"
+
+#~ msgid "URL #3"
+#~ msgstr "URL N ° 3"
+
+#~ msgid "URL #4"
+#~ msgstr "URL N ° 4"
+
+#~ msgid "URL #5"
+#~ msgstr "URL N ° 5"
+
+#~ msgid "URL #6"
+#~ msgstr "URL N ° 6"
+
+#~ msgid "Please enter the URL of your social icon."
+#~ msgstr "S'il vous plaît entrez l'URL de l'icône social."
+
+#~ msgid "Place your custom text in the left footer."
+#~ msgstr "Placez votre texte personnalisé dans le pied de page gauche."
+
+#~ msgid "Footer Left (disable)"
+#~ msgstr "Pied de page gauche (désactiver)"
+
+#~ msgid "Tick the box to hide the left footer"
+#~ msgstr "Cochez la case pour masquer le pied de page droit"
+
+#~ msgid "Place your custom text in the right footer."
+#~ msgstr "Placez votre texte personnalisé dans le pied de page droit."
+
+#~ msgid "Footer Right (disable)"
+#~ msgstr "Pied de page à droite (désactiver)"
+
+#~ msgid "Tick the box to hide the right footer"
+#~ msgstr "Cochez la case pour masquer le pied de page droite"
+
+#~ msgid "To Top"
+#~ msgstr "Haut de page"
+
+#~ msgid "Display scroll to top"
+#~ msgstr "Aller en haut"
+
+#~ msgid "Branding Options"
+#~ msgstr "Options de marque"
+
+#~ msgid ""
+#~ "<strong style=\"color:red;text-transform:uppercase\">Please notice!</"
+#~ "strong> You&#039;re seeing the branding options because you have "
+#~ "activated the developer mode in  the theme file <code>ts-config.php</"
+#~ "code>. They are useful if you are creating a site for a client and want "
+#~ "to put his branding or simply hide any ThemeShift related elements."
+#~ msgstr ""
+#~ "<strong style=\"color:red;text-transform:uppercase\">Attention !</strong> "
+#~ "Vous voyez les options de marque parce que vous avez activé le mode "
+#~ "développeur dans le fichier de thème <code>ts-config.php</code>. Ils sont "
+#~ "utiles si vous créez un site pour un client et que vous souhaitez mettre "
+#~ "sa marque ou tout simplement cacher les éléments ThemeShift connexes."
+
+#~ msgid "Hide Basic Questions / General Usage / Theme Docs / Forum etc."
+#~ msgstr ""
+#~ "Cacher les questions de base / Utilisation générale / Thème Docs / Forum "
+#~ "etc."
+
+#, fuzzy
+#~ msgid "Hide Themes &amp; News (menu)"
+#~ msgstr "Thèmes & News"
+
+#, fuzzy
+#~ msgid "Hide Help Center (menu)"
+#~ msgstr "Centre d'aide"
+
+#~ msgid "Options Panel Logo"
+#~ msgstr "Logo de panneau d'options"
+
+#~ msgid "Options Panel Icon"
+#~ msgstr "Icône Panneau Options"
+
+#~ msgid "Please enter an URL or upload your custom menu icon (16x16px)."
+#~ msgstr ""
+#~ "S'il vous plaît entrer une URL ou télécharger votre icône de menu "
+#~ "personnalisé (16x16px)."
+
+#~ msgid "WordPress Login Logo"
+#~ msgstr "WordPress Connexion Logo"
+
+#~ msgid "Profile Image"
+#~ msgstr "Image de profil"
+
+#~ msgid "Basic Questions"
+#~ msgstr "Questions de base"
+
+#~ msgid "General Usage"
+#~ msgstr "Utilisation générale"
+
+#~ msgid "Theme Docs"
+#~ msgstr "Docs sur le thème"
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
+
+#~ msgid "Login"
+#~ msgstr "Connexion "
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Affiliate Program"
+#~ msgstr "Programme d'affiliation"
+
+#~ msgid "Developer Mode"
+#~ msgstr "Mode développeur"
+
+#~ msgid ""
+#~ "ThemeShift theme packages inlcude support. That means that after "
+#~ "purchasing a theme from ThemeShift you can register and create an account "
+#~ "on the ThemeShift website. I will then manually upgrade your account. "
+#~ "Please bear with me on week ends."
+#~ msgstr ""
+#~ "Thème ThemeShift inclue la mise à jour des paquets. Cela signifie que, "
+#~ "après l'achat d'un thème à partir de ThemeShift vous pouvez vous inscrire "
+#~ "et créer un compte sur le site ThemeShift. Je vais ensuite mettre à jour "
+#~ "manuellement votre compte. S'il vous plaît garder avec moi le week-end."
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "Theme Support"
+#~ msgstr "Soutien thème"
+
+#~ msgid ""
+#~ "Once your account is upgraded you have access to extensive theme "
+#~ "documentation, tutorials, screencasts and the support forum. You can find "
+#~ "useful shortlinks in the top bar of the theme options page."
+#~ msgstr ""
+#~ "Une fois que votre compte est mis à niveau, vous avez accès à la "
+#~ "documentation thème vaste, des tutoriels, des screencasts et le forum de "
+#~ "support. Vous pouvez trouver shortlinks utiles dans la barre supérieure "
+#~ "de la page thématique options."
+
+#~ msgid "Customizations"
+#~ msgstr "Personnalisations"
+
+#~ msgid ""
+#~ "In the forum I try to cover minor theme modifications and tweaks. For "
+#~ "major customizations please check out the list of recommended co-workers."
+#~ msgstr ""
+#~ "Dans le forum, j'ai essayer de couvrir des modifications mineures à thème "
+#~ "et des réglages. Pour les personnalisations importantes s'il vous plaît "
+#~ "consulter la liste des recommandés collègues."
+
+#~ msgid "Custom Work"
+#~ msgstr "Travail sur mesure"
+
+#~ msgid "WordPress Support"
+#~ msgstr "Soutien WordPress"
+
+#~ msgid ""
+#~ "Please understand that I cannot provide support for general WordPress "
+#~ "questions. If your issue is not theme-related, please visit the Codex or "
+#~ "the official WordPress forum."
+#~ msgstr ""
+#~ "S'il vous plaît comprendre que je ne peux pas fournir un soutien pour les "
+#~ "questions générales de WordPress. Si votre problème n'est pas lié à "
+#~ "thème, s'il vous plaît visitez le Codex ou le forum officiel de WordPress."
+
+#~ msgid ""
+#~ "Signup to our affiliate program and generate some extra income. For every "
+#~ "theme package sold through one of your affiliate links you get "
+#~ "<strong>30% commision</strong>. Place a banner on your website and start "
+#~ "making serious cash."
+#~ msgstr ""
+#~ "Signup to our affiliate program and generate some extra income. For every "
+#~ "theme package sold through one of your affiliate links you get "
+#~ "<strong>30% commision</strong>. Place a banner on your website and start "
+#~ "making serious cash."
+
+#~ msgid "More info"
+#~ msgstr "Plus d'infos"
+
+#~ msgid "Banners"
+#~ msgstr "Bannières"
+
+#~ msgid "Themes &amp; News"
+#~ msgstr "Thèmes & News"
+
+#~ msgid "All Themes"
+#~ msgstr "Tous les thèmes"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Affiliates"
+#~ msgstr "Affiliés"
+
+#~ msgid "Latest Themes"
+#~ msgstr "Derniers Thèmes"
+
+#~ msgid "Latest News"
+#~ msgstr "Dernières Nouvelles"
+
+#~ msgid "Latest ThemeShift Themes"
+#~ msgstr "Derniers ThemeShift Thèmes"
+
+#~ msgid "Theme Info"
+#~ msgstr "Infos sur le Thème"
+
+#~ msgid "Theme Demo"
+#~ msgstr "Thème Demo"
+
+#~ msgid "Latest ThemeShift News"
+#~ msgstr "Dernières Nouvelles ThemeShift"
+
+#~ msgid "Continue Reading"
+#~ msgstr "Lire la suite"
+
+#~ msgid "Save Changes"
+#~ msgstr "Enregistrer les modifications"
+
+#~ msgid "Reset Options"
+#~ msgstr "Réinitialisation des Options"
+
+#~ msgid "Import"
+#~ msgstr "importer"
+
+#~ msgid "Export"
+#~ msgstr "Exporter"
+
+#~ msgid "Settings"
+#~ msgstr "Réglages"
+
+#~ msgid "Are you sure to import these settings?"
+#~ msgstr "Etes-vous sûr d'importer ces paramètres?"
+
+#~ msgid "Are you sure to delete all of the theme options?"
+#~ msgstr "Êtes-vous sûr de vouloir supprimer toutes les options de thème?"
+
+#, fuzzy
+#~ msgid "Theme Options not saved"
+#~ msgstr "Options du thème"
+
+#~ msgid "Please select"
+#~ msgstr "S'il vous plaît sélectionner"
+
+#, fuzzy
+#~ msgid "Theme Options deleted"
+#~ msgstr "Options du thème"
+
+#, fuzzy
+#~ msgid "Theme Options not deleted"
+#~ msgstr "Options du thème"
+
+#~ msgid "Please insert some data"
+#~ msgstr "S'il vous plaît insérer des données"
+
+#~ msgid "Theme Options successfully imported"
+#~ msgstr "Options du thème importées avec succès"
+
+#~ msgid "Theme Options could not be imported"
+#~ msgstr "Options du thème n'ont pas pu être importées"
+
+#~ msgid "No pages available"
+#~ msgstr "Pas de pages disponibles"
+
+#~ msgid "No posts available"
+#~ msgstr "Pas de postes disponibles"
+
+#~ msgid "No tags available"
+#~ msgstr "Aucun tag disponible"
+
+#~ msgid "No custom posts available"
+#~ msgstr "Pas de messages personnalisés disponibles"
+
+#~ msgid "No taxonomies available"
+#~ msgstr "Pas de taxonomies disponibles"
+
+#~ msgid "No categories available"
+#~ msgstr "Aucune catégorie disponible"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#~ msgid "Click text box to open color picker"
+#~ msgstr "Cliquez sur la case de texte pour ouvrir sélecteur de couleur"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "Réinitialisation des Options"
+
+#~ msgid "Somebody"
+#~ msgstr "Quelqu'un"
+
+#~ msgid "Warning: %s is currently editing the %s."
+#~ msgstr "Avertissement: %s est en train d'editer %s ."
+
+#~ msgid "(yyyy-mm-dd)"
+#~ msgstr "(yyyy-mm-dd)"
+
+#~ msgid "yy-mm-dd"
+#~ msgstr "aa-mm-jj"
+
+#~ msgid "Price"
+#~ msgstr "Prix"
+
+#~ msgid "Bath"
+#~ msgstr "Salles de bain "

@@ -1,0 +1,1415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-07 11:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Amit Tal\n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./templates\n"
+"X-Poedit-SearchPath-2: ./lib\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+#: 404.php:9
+msgid "a mistyped address"
+msgstr ""
+
+#: 404.php:10
+msgid "an out-of-date link"
+msgstr ""
+
+#: base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "מצטערים, לא נמצאו תוצאות."
+
+#: index.php:17
+msgid "&larr; Older posts"
+msgstr "&larr; לפוסטים קודמים"
+
+#: index.php:18
+msgid "Newer posts &rarr;"
+msgstr "לפוסטים הבאים &rarr;"
+
+#: admin/ts-functions.php:21
+#, php-format
+msgid "<strong>RSS Error</strong>: %s"
+msgstr ""
+
+#: admin/ts-functions.php:136
+#: admin/classes/subclasses/class-admin_views.php:781
+msgid "Image URL"
+msgstr ""
+
+#: admin/ts-functions.php:142
+#: admin/classes/subclasses/class-admin_views.php:787
+msgid "Link URL"
+msgstr ""
+
+#: admin/ts-functions.php:148
+#: admin/classes/subclasses/class-admin_views.php:793
+msgid "Description"
+msgstr ""
+
+#: admin/ts-functions.php:172
+msgid "General"
+msgstr ""
+
+#: admin/ts-functions.php:173
+msgid "Custom Logo"
+msgstr ""
+
+#: admin/ts-functions.php:174
+msgid "Please enter an URL or upload your custom logo."
+msgstr ""
+
+#: admin/ts-functions.php:175
+msgid "Custom Favicon"
+msgstr ""
+
+#: admin/ts-functions.php:176
+msgid "Please enter an URL or upload your custom favicon."
+msgstr ""
+
+#: admin/ts-functions.php:177
+msgid "Custom RSS"
+msgstr ""
+
+#: admin/ts-functions.php:178
+msgid "Please enter your custom RSS URL (e.g. Feedburner)."
+msgstr ""
+
+#: admin/ts-functions.php:179
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/ts-functions.php:180
+msgid "Easily add some custom css to the head of your theme."
+msgstr ""
+
+#: admin/ts-functions.php:181
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/ts-functions.php:182
+msgid ""
+"Insert your tracking code here (e.g. Google Analytics). This code will be "
+"added to the footer of the theme."
+msgstr ""
+
+#: admin/ts-functions.php:183
+msgid "Styling"
+msgstr ""
+
+#: admin/ts-functions.php:184
+msgid "Custom Styling"
+msgstr ""
+
+#: admin/ts-functions.php:185
+msgid "Activate custom styling options"
+msgstr ""
+
+#: admin/ts-functions.php:186
+msgid ""
+"<strong style=\"color:red;text-transform:uppercase\">Please notice!</strong> "
+"Do not forget to activate the styling options. Otherwise they will have no "
+"effect."
+msgstr ""
+
+#: admin/ts-functions.php:187
+msgid "Background Image"
+msgstr ""
+
+#: admin/ts-functions.php:188
+msgid "Please enter a URL or upload a background image."
+msgstr ""
+
+#: admin/ts-functions.php:189
+msgid "Background Image Repeat"
+msgstr ""
+
+#: admin/ts-functions.php:190
+msgid "Please selete how you would like to repeat the background image."
+msgstr ""
+
+#: admin/ts-functions.php:191
+msgid "Background Image Position"
+msgstr ""
+
+#: admin/ts-functions.php:192
+msgid "Please select how you would like to position the background image."
+msgstr ""
+
+#: admin/ts-functions.php:193
+msgid "Background Image Attachment"
+msgstr ""
+
+#: admin/ts-functions.php:194
+msgid "Background image fixed"
+msgstr ""
+
+#: admin/ts-functions.php:195
+msgid "Background Color"
+msgstr ""
+
+#: admin/ts-functions.php:196
+msgid "Please pick a custom background color of the theme."
+msgstr ""
+
+#: admin/ts-functions.php:197
+msgid "Button Color"
+msgstr ""
+
+#: admin/ts-functions.php:198
+msgid "Please pick a color for buttons."
+msgstr ""
+
+#: admin/ts-functions.php:199
+msgid "Link Color"
+msgstr ""
+
+#: admin/ts-functions.php:200
+msgid "Please pick a color for links."
+msgstr ""
+
+#: admin/ts-functions.php:201
+msgid "Link Color Hover"
+msgstr ""
+
+#: admin/ts-functions.php:202
+msgid "Please pick a color for links hover."
+msgstr ""
+
+#: admin/ts-functions.php:203 lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr ""
+
+#: admin/ts-functions.php:204
+#, fuzzy
+msgid "Home Sidebar"
+msgstr "סיידבר ראשי"
+
+#: admin/ts-functions.php:205
+msgid "Display sidebar on home page"
+msgstr ""
+
+#: admin/ts-functions.php:206 admin/ts-functions.php:231
+#: admin/ts-functions.php:275
+msgid "Display sidebar on the left"
+msgstr ""
+
+#: admin/ts-functions.php:207
+msgid "Slider Size"
+msgstr ""
+
+#: admin/ts-functions.php:208
+msgid "Display small slider (no sidebar = large slider)"
+msgstr ""
+
+#: admin/ts-functions.php:209
+msgid "Slider Content"
+msgstr ""
+
+#: admin/ts-functions.php:210
+msgid "Property Category"
+msgstr ""
+
+#: admin/ts-functions.php:211
+msgid "If property category selected for slider content."
+msgstr ""
+
+#: admin/ts-functions.php:212
+msgid "Post Category"
+msgstr ""
+
+#: admin/ts-functions.php:213
+msgid "If post category selected for slider content."
+msgstr ""
+
+#: admin/ts-functions.php:214
+msgid "Static Slides"
+msgstr ""
+
+#: admin/ts-functions.php:215
+msgid ""
+"Add your static slides to the slider (overwrites slider content selected "
+"above)."
+msgstr ""
+
+#: admin/ts-functions.php:216
+#: admin/classes/subclasses/class-admin_views.php:736
+msgid "Add slide"
+msgstr ""
+
+#: admin/ts-functions.php:217
+msgid "Slider Overlay"
+msgstr ""
+
+#: admin/ts-functions.php:218
+msgid "Show slider overlay"
+msgstr ""
+
+#: admin/ts-functions.php:219
+#, fuzzy
+msgid "Slider Navigation"
+msgstr "תפריט ניווט ראשי"
+
+#: admin/ts-functions.php:220
+msgid "Display previous and next buttons"
+msgstr ""
+
+#: admin/ts-functions.php:221
+msgid "Slider Effect"
+msgstr ""
+
+#: admin/ts-functions.php:222
+msgid "Slider Auto"
+msgstr ""
+
+#: admin/ts-functions.php:223
+msgid "Time between animations in seconds."
+msgstr ""
+
+#: admin/ts-functions.php:224
+msgid "Properties"
+msgstr ""
+
+#: admin/ts-functions.php:225
+msgid "Property Archive Layout"
+msgstr ""
+
+#: admin/ts-functions.php:226
+msgid "Property Search"
+msgstr ""
+
+#: admin/ts-functions.php:227
+msgid "Display search form on property archive pages"
+msgstr ""
+
+#: admin/ts-functions.php:228
+msgid "Display search form on single property pages"
+msgstr ""
+
+#: admin/ts-functions.php:229
+msgid "Display advanced search"
+msgstr ""
+
+#: admin/ts-functions.php:230
+#, fuzzy
+msgid "Property Sidebar"
+msgstr "סיידבר ראשי"
+
+#: admin/ts-functions.php:232
+msgid "Property Single Layout"
+msgstr ""
+
+#: admin/ts-functions.php:233
+msgid "Display sidebar (no sidebar = large image)"
+msgstr ""
+
+#: admin/ts-functions.php:234
+msgid "Display large image"
+msgstr ""
+
+#: admin/ts-functions.php:235
+msgid "Property Single Elements"
+msgstr ""
+
+#: admin/ts-functions.php:236
+msgid "Display favorites link"
+msgstr ""
+
+#: admin/ts-functions.php:237
+msgid "Display print link"
+msgstr ""
+
+#: admin/ts-functions.php:238
+msgid "Display property ID"
+msgstr ""
+
+#: admin/ts-functions.php:239
+msgid "Display property type"
+msgstr ""
+
+#: admin/ts-functions.php:240
+msgid "Display loaction"
+msgstr ""
+
+#: admin/ts-functions.php:241
+msgid "Display price button"
+msgstr ""
+
+#: admin/ts-functions.php:242
+msgid "Display date"
+msgstr ""
+
+#: admin/ts-functions.php:243
+msgid "Price Button Link"
+msgstr ""
+
+#: admin/ts-functions.php:244
+msgid "If empty, price button will be a jump link to contact widget."
+msgstr ""
+
+#: admin/ts-functions.php:245
+#, fuzzy
+msgid "Property Navigation"
+msgstr "תפריט ניווט ראשי"
+
+#: admin/ts-functions.php:246
+msgid "Enable single property paging"
+msgstr ""
+
+#: admin/ts-functions.php:247
+msgid "Standard Feature #1"
+msgstr ""
+
+#: admin/ts-functions.php:248
+msgid "Standard Feature #2"
+msgstr ""
+
+#: admin/ts-functions.php:249
+msgid "Standard Feature #3"
+msgstr ""
+
+#: admin/ts-functions.php:250
+msgid "Standard Feature #4"
+msgstr ""
+
+#: admin/ts-functions.php:251
+msgid "Standard Feature #5"
+msgstr ""
+
+#: admin/ts-functions.php:252 lib/custom.php:530
+msgid "Living Area"
+msgstr ""
+
+#: admin/ts-functions.php:253 lib/custom.php:531
+msgid "Terrace"
+msgstr ""
+
+#: admin/ts-functions.php:254 lib/custom.php:532
+msgid "Parking"
+msgstr ""
+
+#: admin/ts-functions.php:255 lib/custom.php:533
+msgid "Heating"
+msgstr ""
+
+#: admin/ts-functions.php:256 lib/custom.php:534
+msgid "Year Built"
+msgstr ""
+
+#: admin/ts-functions.php:257
+msgid "Property ID Prefix"
+msgstr ""
+
+#: admin/ts-functions.php:258
+msgid "The property ID will be this prefix plus post ID."
+msgstr ""
+
+#: admin/ts-functions.php:259
+msgid "Measurement Unit"
+msgstr ""
+
+#: admin/ts-functions.php:260
+msgid "Price Format"
+msgstr ""
+
+#: admin/ts-functions.php:261
+msgid "dot"
+msgstr ""
+
+#: admin/ts-functions.php:262
+msgid "comma"
+msgstr ""
+
+#: admin/ts-functions.php:263
+msgid "Please select the thousands separator dot (1.000) or comma (1,000)."
+msgstr ""
+
+#: admin/ts-functions.php:264
+msgid "Currency"
+msgstr ""
+
+#: admin/ts-functions.php:265
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/ts-functions.php:266
+msgid "Display currency symbol after amount"
+msgstr ""
+
+#: admin/ts-functions.php:267
+msgid "Rental Period #1"
+msgstr ""
+
+#: admin/ts-functions.php:268
+msgid "Rental Period #2"
+msgstr ""
+
+#: admin/ts-functions.php:269
+msgid "Rental Period #3"
+msgstr ""
+
+#: admin/ts-functions.php:270 lib/custom.php:463
+msgid "per Month"
+msgstr ""
+
+#: admin/ts-functions.php:271 lib/custom.php:464
+msgid "per Week"
+msgstr ""
+
+#: admin/ts-functions.php:272 lib/custom.php:465
+msgid "per Year"
+msgstr ""
+
+#: admin/ts-functions.php:273
+msgid "Archive Layout"
+msgstr ""
+
+#: admin/ts-functions.php:274
+#, fuzzy
+msgid "Archive Sidebar"
+msgstr "סיידבר ראשי"
+
+#: admin/ts-functions.php:276
+msgid ""
+"This affects the sidebar on archive pages, single posts and static pages."
+msgstr ""
+
+#: admin/ts-functions.php:277
+msgid "Archive Meta"
+msgstr ""
+
+#: admin/ts-functions.php:278
+msgid "Display post date"
+msgstr ""
+
+#: admin/ts-functions.php:279
+msgid "Display category"
+msgstr ""
+
+#: admin/ts-functions.php:280
+msgid "Display post author"
+msgstr ""
+
+#: admin/ts-functions.php:281
+msgid "Display comments number"
+msgstr ""
+
+#: admin/ts-functions.php:282
+#, fuzzy
+msgid "Post Navigation"
+msgstr "תפריט ניווט ראשי"
+
+#: admin/ts-functions.php:283
+msgid "Enable single post paging"
+msgstr ""
+
+#: admin/ts-functions.php:284
+#, fuzzy
+msgid "Comments"
+msgstr "תגובה"
+
+#: admin/ts-functions.php:285
+msgid "Allow comments on posts"
+msgstr ""
+
+#: admin/ts-functions.php:286
+msgid "Allow comments on pages"
+msgstr ""
+
+#: admin/ts-functions.php:287
+msgid "Social"
+msgstr ""
+
+#: admin/ts-functions.php:288
+msgid "Header Top"
+msgstr ""
+
+#: admin/ts-functions.php:289
+msgid "Need expert advice? <strong>Call us now - 555 555 555</strong>"
+msgstr ""
+
+#: admin/ts-functions.php:290
+msgid "Social Icons"
+msgstr ""
+
+#: admin/ts-functions.php:291
+msgid ""
+"The following social icons will be displayed on the right side of the header "
+"section."
+msgstr ""
+
+#: admin/ts-functions.php:292
+msgid "Icon #1"
+msgstr ""
+
+#: admin/ts-functions.php:293
+msgid "Icon #2"
+msgstr ""
+
+#: admin/ts-functions.php:294
+msgid "Icon #3"
+msgstr ""
+
+#: admin/ts-functions.php:295
+msgid "Icon #4"
+msgstr ""
+
+#: admin/ts-functions.php:296
+msgid "Icon #5"
+msgstr ""
+
+#: admin/ts-functions.php:297
+msgid "Icon #6"
+msgstr ""
+
+#: admin/ts-functions.php:298
+msgid "URL #1"
+msgstr ""
+
+#: admin/ts-functions.php:299
+msgid "URL #2"
+msgstr ""
+
+#: admin/ts-functions.php:300
+msgid "URL #3"
+msgstr ""
+
+#: admin/ts-functions.php:301
+msgid "URL #4"
+msgstr ""
+
+#: admin/ts-functions.php:302
+msgid "URL #5"
+msgstr ""
+
+#: admin/ts-functions.php:303
+msgid "URL #6"
+msgstr ""
+
+#: admin/ts-functions.php:304
+msgid "Please enter the URL of your social icon."
+msgstr ""
+
+#: admin/ts-functions.php:305
+#, fuzzy
+msgid "Footer Left"
+msgstr "פוטר"
+
+#: admin/ts-functions.php:306
+msgid "Place your custom text in the left footer."
+msgstr ""
+
+#: admin/ts-functions.php:307
+msgid "Footer Left (disable)"
+msgstr ""
+
+#: admin/ts-functions.php:308
+msgid "Tick the box to hide the left footer"
+msgstr ""
+
+#: admin/ts-functions.php:309
+#, fuzzy
+msgid "Footer Right"
+msgstr "פוטר"
+
+#: admin/ts-functions.php:310
+msgid "Place your custom text in the right footer."
+msgstr ""
+
+#: admin/ts-functions.php:311
+msgid "Footer Right (disable)"
+msgstr ""
+
+#: admin/ts-functions.php:312
+msgid "Tick the box to hide the right footer"
+msgstr ""
+
+#: admin/ts-functions.php:313
+msgid "To Top"
+msgstr ""
+
+#: admin/ts-functions.php:314
+msgid "Display scroll to top"
+msgstr ""
+
+#: admin/ts-functions.php:315
+msgid "Branding Options"
+msgstr ""
+
+#: admin/ts-functions.php:316
+msgid ""
+"<strong style=\"color:red;text-transform:uppercase\">Please notice!</strong> "
+"You&#039;re seeing the branding options because you have activated the "
+"developer mode in  the theme file <code>ts-config.php</code>. They are "
+"useful if you are creating a site for a client and want to put his branding "
+"or simply hide any ThemeShift related elements."
+msgstr ""
+
+#: admin/ts-functions.php:317
+msgid "Hide Basic Questions / General Usage / Theme Docs / Forum etc."
+msgstr ""
+
+#: admin/ts-functions.php:318
+msgid "Hide Themes &amp; News (menu)"
+msgstr ""
+
+#: admin/ts-functions.php:319
+msgid "Hide Help Center (menu)"
+msgstr ""
+
+#: admin/ts-functions.php:320
+msgid "Options Panel Logo"
+msgstr ""
+
+#: admin/ts-functions.php:321
+msgid "Options Panel Icon"
+msgstr ""
+
+#: admin/ts-functions.php:322
+msgid "Please enter an URL or upload your custom menu icon (16x16px)."
+msgstr ""
+
+#: admin/ts-functions.php:323
+msgid "WordPress Login Logo"
+msgstr ""
+
+#: admin/ts-functions.php:370
+msgid "Profile Image"
+msgstr ""
+
+#: admin/ts-functions.php:380
+msgid "Remove image"
+msgstr ""
+
+#: admin/admin_pages/docs.php:5 admin/admin_pages/docs.php:35
+#: admin/admin_pages/docs.php:46 admin/admin_pages/settings.php:20
+#: admin/classes/subclasses/class-admin_menu.php:40
+msgid "Help Center"
+msgstr ""
+
+#: admin/admin_pages/docs.php:18 admin/admin_pages/options.php:33
+msgid "Basic Questions"
+msgstr ""
+
+#: admin/admin_pages/docs.php:19 admin/admin_pages/options.php:34
+msgid "General Usage"
+msgstr ""
+
+#: admin/admin_pages/docs.php:20 admin/admin_pages/options.php:35
+msgid "Theme Docs"
+msgstr ""
+
+#: admin/admin_pages/docs.php:21 admin/admin_pages/options.php:36
+msgid "Forum"
+msgstr ""
+
+#: admin/admin_pages/docs.php:25 admin/admin_pages/docs.php:50
+msgid "Login"
+msgstr ""
+
+#: admin/admin_pages/docs.php:26
+msgid "Profile"
+msgstr ""
+
+#: admin/admin_pages/docs.php:36 admin/admin_pages/docs.php:72
+msgid "Affiliate Program"
+msgstr ""
+
+#: admin/admin_pages/docs.php:37 admin/admin_pages/docs.php:82
+msgid "Developer Mode"
+msgstr ""
+
+#: admin/admin_pages/docs.php:48
+msgid ""
+"ThemeShift theme packages inlcude support. That means that after purchasing "
+"a theme from ThemeShift you can register and create an account on the "
+"ThemeShift website. I will then manually upgrade your account. Please bear "
+"with me on week ends."
+msgstr ""
+
+#: admin/admin_pages/docs.php:50
+msgid "Register"
+msgstr ""
+
+#: admin/admin_pages/docs.php:50 admin/admin_pages/docs.php:66
+#: admin/admin_pages/docs.php:76
+msgid "or"
+msgstr ""
+
+#: admin/admin_pages/docs.php:52
+msgid "Theme Support"
+msgstr ""
+
+#: admin/admin_pages/docs.php:54
+msgid ""
+"Once your account is upgraded you have access to extensive theme "
+"documentation, tutorials, screencasts and the support forum. You can find "
+"useful shortlinks in the top bar of the theme options page."
+msgstr ""
+
+#: admin/admin_pages/docs.php:56
+msgid "Customizations"
+msgstr ""
+
+#: admin/admin_pages/docs.php:58
+msgid ""
+"In the forum I try to cover minor theme modifications and tweaks. For major "
+"customizations please check out the list of recommended co-workers."
+msgstr ""
+
+#: admin/admin_pages/docs.php:60
+msgid "Custom Work"
+msgstr ""
+
+#: admin/admin_pages/docs.php:62
+msgid "WordPress Support"
+msgstr ""
+
+#: admin/admin_pages/docs.php:64
+msgid ""
+"Please understand that I cannot provide support for general WordPress "
+"questions. If your issue is not theme-related, please visit the Codex or the "
+"official WordPress forum."
+msgstr ""
+
+#: admin/admin_pages/docs.php:74
+#, php-format
+msgid ""
+"Signup to our affiliate program and generate some extra income. For every "
+"theme package sold through one of your affiliate links you get "
+"<strong>30% commision</strong>. Place a banner on your website and start "
+"making serious cash."
+msgstr ""
+
+#: admin/admin_pages/docs.php:76
+msgid "More info"
+msgstr ""
+
+#: admin/admin_pages/docs.php:76
+msgid "Banners"
+msgstr ""
+
+#: admin/admin_pages/news.php:5 admin/admin_pages/settings.php:19
+#: admin/classes/subclasses/class-admin_menu.php:39
+msgid "Themes &amp; News"
+msgstr ""
+
+#: admin/admin_pages/news.php:18
+msgid "All Themes"
+msgstr ""
+
+#: admin/admin_pages/news.php:19
+msgid "Blog"
+msgstr ""
+
+#: admin/admin_pages/news.php:20
+msgid "Affiliates"
+msgstr ""
+
+#: admin/admin_pages/news.php:29
+#, fuzzy
+msgid "Latest Themes"
+msgstr "פוסטים אחרונים"
+
+#: admin/admin_pages/news.php:30
+#, fuzzy
+msgid "Latest News"
+msgstr "פוסטים אחרונים"
+
+#: admin/admin_pages/news.php:35
+msgid "Latest ThemeShift Themes"
+msgstr ""
+
+#: admin/admin_pages/news.php:54
+msgid "Theme Info"
+msgstr ""
+
+#: admin/admin_pages/news.php:54
+msgid "Theme Demo"
+msgstr ""
+
+#: admin/admin_pages/news.php:64
+msgid "Latest ThemeShift News"
+msgstr ""
+
+#: admin/admin_pages/news.php:85
+#, fuzzy
+msgid "Continue Reading"
+msgstr "המשך"
+
+#: admin/admin_pages/options.php:40 admin/admin_pages/options.php:115
+msgid "Save Changes"
+msgstr ""
+
+#: admin/admin_pages/options.php:114
+msgid "Reset Options"
+msgstr ""
+
+#: admin/admin_pages/settings.php:18
+#: admin/classes/subclasses/class-admin_menu.php:48
+#: admin/classes/subclasses/class-custom_post_type.php:158
+#, fuzzy
+msgid "Theme Options"
+msgstr "הפעלת העיצוב"
+
+#: admin/admin_pages/settings.php:255
+msgid "Import"
+msgstr ""
+
+#: admin/admin_pages/settings.php:267
+msgid "Export"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:44
+msgid "Option Settings"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:44
+#: admin/classes/subclasses/class-custom_post_type.php:158
+msgid "Settings"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:158
+msgid "Are you sure to import these settings?"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:159
+msgid "Are you sure to delete all of the theme options?"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:160
+msgid "Theme Options saved"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:161
+msgid "Theme Options not saved"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:162
+#: admin/classes/subclasses/class-admin_views.php:45
+#: admin/classes/subclasses/class-admin_views.php:129
+#: admin/classes/subclasses/class-admin_views.php:212
+#: admin/classes/subclasses/class-admin_views.php:295
+#: admin/classes/subclasses/class-admin_views.php:377
+#: admin/classes/subclasses/class-admin_views.php:461
+#: admin/classes/subclasses/class-admin_views.php:593
+msgid "Please select"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:163
+msgid "Theme Options deleted"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:164
+msgid "Theme Options not deleted"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:165
+msgid "Please insert some data"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:166
+msgid "Theme Options successfully imported"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_menu.php:167
+msgid "Theme Options could not be imported"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:58
+#: admin/classes/subclasses/class-admin_views.php:102
+msgid "No pages available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:142
+#: admin/classes/subclasses/class-admin_views.php:185
+msgid "No posts available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:225
+#: admin/classes/subclasses/class-admin_views.php:268
+msgid "No tags available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:308
+#: admin/classes/subclasses/class-admin_views.php:351
+msgid "No custom posts available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:390
+#: admin/classes/subclasses/class-admin_views.php:434
+msgid "No taxonomies available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:474
+#: admin/classes/subclasses/class-admin_views.php:517
+msgid "No categories available"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:771
+msgid "Title"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:808
+#, fuzzy
+msgid "Edit"
+msgstr "(עריכה)"
+
+#: admin/classes/subclasses/class-admin_views.php:809
+msgid "Delete"
+msgstr ""
+
+#: admin/classes/subclasses/class-admin_views.php:922
+msgid "Click text box to open color picker"
+msgstr ""
+
+#: admin/classes/subclasses/class-custom_post_type.php:36
+msgid "Options"
+msgstr ""
+
+#: admin/classes/subclasses/class-custom_post_type.php:157
+msgid "Somebody"
+msgstr ""
+
+#: admin/classes/subclasses/class-custom_post_type.php:160
+#, php-format
+msgid "Warning: %s is currently editing the %s."
+msgstr ""
+
+#: lib/activation.php:28 lib/activation.php:29
+msgid "Theme Activation"
+msgstr "הפעלת העיצוב"
+
+#: lib/activation.php:50
+#, php-format
+msgid "%s Theme Activation"
+msgstr "הפעלת עיצוב %s"
+
+#: lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+
+#: lib/activation.php:59 lib/activation.php:62
+msgid "Create static front page?"
+msgstr "ליצור עמוד סטטי לדף הבית?"
+
+#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
+#: lib/activation.php:100
+msgid "Yes"
+msgstr "כן"
+
+#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
+#: lib/activation.php:101
+msgid "No"
+msgstr "לא"
+
+#: lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr "ליצור עמוד בשם \"Home\" והגדר אותו כדף הבית?"
+
+#: lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "לשנות את מבנה הקישורים?"
+
+#: lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "לעדכן את מבנה הקישורים?"
+
+#: lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "לשנות את מבנה הקישורים ל /&#37;postname&#37;/"
+
+#: lib/activation.php:83 lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "ליצור תפריט ניווט?"
+
+#: lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "צור את התפריט הראשי והגדר את מיקומו"
+
+#: lib/activation.php:95 lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "להוסיף עמודים קיימים לתפריט?"
+
+#: lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "הוסף את כל העמודים הקיימים לתפריט"
+
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:11
+msgid "Primary Navigation"
+msgstr "תפריט ניווט ראשי"
+
+#: lib/cleanup.php:193
+msgid "Continued"
+msgstr "המשך"
+
+#: lib/custom.php:250
+msgid "Size"
+msgstr ""
+
+#: lib/custom.php:252 lib/custom.php:539
+msgid "Bedrooms"
+msgstr ""
+
+#: lib/custom.php:254 lib/custom.php:552
+msgid "Bathrooms"
+msgstr ""
+
+#: lib/custom.php:258
+msgid "Location"
+msgstr ""
+
+#: lib/custom.php:259
+msgid "Type"
+msgstr ""
+
+#: lib/custom.php:260
+msgid "Features"
+msgstr ""
+
+#: lib/custom.php:262
+msgid "Category"
+msgstr ""
+
+#: lib/custom.php:279
+msgid "not specified"
+msgstr ""
+
+#: lib/custom.php:284
+msgid "Sold"
+msgstr ""
+
+#: lib/custom.php:285
+msgid "For sale"
+msgstr ""
+
+#: lib/custom.php:288
+msgid "Rented"
+msgstr ""
+
+#: lib/custom.php:289
+msgid "For rent"
+msgstr ""
+
+#: lib/custom.php:291 lib/custom.php:437 lib/custom.php:496
+msgid "Status"
+msgstr ""
+
+#: lib/custom.php:422 lib/custom.php:460
+msgid "Property Price"
+msgstr ""
+
+#: lib/custom.php:428 lib/custom.php:470
+msgid "Price"
+msgstr ""
+
+#: lib/custom.php:441
+msgid "Property is sold"
+msgstr ""
+
+#: lib/custom.php:450 lib/custom.php:509 lib/custom.php:666
+msgid "Please notice!"
+msgstr ""
+
+#: lib/custom.php:479
+msgid "Period"
+msgstr ""
+
+#: lib/custom.php:500
+msgid "Property is rented"
+msgstr ""
+
+#: lib/custom.php:519
+msgid "Property Details"
+msgstr ""
+
+#: lib/custom.php:529
+msgid "Plot Size"
+msgstr ""
+
+#: lib/custom.php:620
+msgid "Property Location"
+msgstr ""
+
+#: lib/custom.php:627
+msgid "Enter property address"
+msgstr ""
+
+#: lib/custom.php:631
+msgid ""
+"e.g. <em>Marbella, Spain</em> or <em>Platz der Republik 1, 10557 Berlin</em>"
+msgstr ""
+
+#: lib/custom.php:640
+msgid "Enter latitude"
+msgstr ""
+
+#: lib/custom.php:644
+msgid "Geo code e.g. <em>36.509937</em>"
+msgstr ""
+
+#: lib/custom.php:653
+msgid "Enter longitude"
+msgstr ""
+
+#: lib/custom.php:657
+msgid "Geo code e.g. <em>-4.886352</em>"
+msgstr ""
+
+#: lib/custom.php:681
+msgid ""
+"Do not put currency symbols and thousands separators to make sure the "
+"advanced search for price works correctly."
+msgstr ""
+
+#: lib/custom.php:681
+msgid "You can change the price format on the theme settings page."
+msgstr ""
+
+#: lib/custom.php:688
+msgid "The geo code will overwrite any value given in the address field."
+msgstr ""
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr "פוסטים אחרונים"
+
+#: lib/titles.php:19
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "ארכיון יומי: %s"
+
+#: lib/titles.php:21
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Aארכיון חודשי: %s"
+
+#: lib/titles.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "ארכיון שנתי: %s"
+
+#: lib/titles.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr "ארכיון כותב %s"
+
+#: lib/titles.php:31
+#, php-format
+msgid "Search Results for %s"
+msgstr "תוצאות חיפוש עבור %s"
+
+#: lib/titles.php:33
+#, fuzzy
+msgid "Not Found"
+msgstr "הקובץ לא נמצא"
+
+#: lib/widgets.php:8
+#, fuzzy
+msgid "Primary"
+msgstr "סיידבר ראשי"
+
+#: lib/widgets.php:17
+msgid "Footer"
+msgstr "פוטר"
+
+#: lib/widgets.php:45
+msgid "Use this widget to add a vCard"
+msgstr "השתמש בווידג'ט זה כדי להוסיף vCard"
+
+#: lib/widgets.php:47
+msgid "Roots: vCard"
+msgstr "Roots: vCard"
+
+#: lib/widgets.php:74
+msgid "vCard"
+msgstr "vCard"
+
+#: templates/comment.php:4
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: templates/comment.php:5
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#: templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך ממתינה לאישור."
+
+#: templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "&larr; לתגובות קודמות"
+
+#: templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "לתגובות הבאות &rarr;"
+
+#: templates/comments.php:29 templates/comments.php:38
+msgid "Comments are closed."
+msgstr "לא ניתן להגיב."
+
+#: templates/comments.php:45
+msgid "Leave a Reply"
+msgstr "מה דעתך?"
+
+#: templates/comments.php:45
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "ספר לנו מה דעתך על %s"
+
+#: templates/comments.php:48
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "כדי להגיב, יש ל<a href=\"%s\">התחבר</a> למערכת."
+
+#: templates/comments.php:53
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "אתה מחובר למערכת כ <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: templates/comments.php:54
+msgid "Log out of this account"
+msgstr "התנתק מחשבון זה"
+
+#: templates/comments.php:54
+msgid "Log out &raquo;"
+msgstr "התנתק"
+
+#: templates/comments.php:58
+msgid "Name"
+msgstr "שם"
+
+#: templates/comments.php:58 templates/comments.php:62
+msgid " (required)"
+msgstr " (חובה)"
+
+#: templates/comments.php:62
+msgid "Email (will not be published)"
+msgstr "אימייל (לא יפורסם באתר)"
+
+#: templates/comments.php:66
+msgid "Website"
+msgstr "כתובת אתר"
+
+#: templates/comments.php:71
+msgid "Comment"
+msgstr "תגובה"
+
+#: templates/comments.php:74
+msgid "Submit Comment"
+msgstr "שליחה"
+
+#: templates/content-single.php:11
+msgid "Pages:"
+msgstr "דפים:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr ""
+
+#: templates/searchform.php:3 templates/searchform.php:6
+msgid "Search"
+msgstr "חיפוש"
+
+#: templates/searchform.php:4
+msgid "Search for:"
+msgstr "חיפוש עבור :"
+
+#~ msgid ""
+#~ "The page you are looking for might have been removed, had its name "
+#~ "changed, or is temporarily unavailable."
+#~ msgstr "העמוד שאתם מחפשים כנראה נמחק, הוחלף או שאינו זמין כרגע."
+
+#~ msgid "Please try the following:"
+#~ msgstr "נסו את אחת מהאפשרויות הבאות:"
+
+#~ msgid "Check your spelling"
+#~ msgstr "בדקו אם יש שגיאות כתיב"
+
+#~ msgid "Return to the <a href=\"%s\">home page</a>"
+#~ msgstr "חזרו אל <a href=\"%s\">דף הבית</a>"
+
+#~ msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
+#~ msgstr "לחצו על כפתור <a href=\"javascript:history.back()\">חזרה</a>"
+
+#~ msgid "Change uploads folder?"
+#~ msgstr "לשנות את תיקיית העלאות הקבצים?"
+
+#~ msgid "Update uploads folder?"
+#~ msgstr "לעדכן את תיקיית העלאות הקבצים?"
+
+#~ msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
+#~ msgstr ""
+#~ "החלף את תיקיית ההעלאות ל /assets/ במקום התיקייה /wp-content/uploads/"
+
+#~ msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
+#~ msgstr "וודאו שקובץ <a href=\"%s\">.htaccess</a> ניתן לכתיבה"
+
+#~ msgid "<cite class=\"fn\">%s</cite>"
+#~ msgstr "<cite class=\"fn\">%s</cite>"
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view comments."
+#~ msgstr "פוסט זה מוגן בסיסמה. יש להזין את הסיסמה כדי לצפות בתגובות."
+
+#~ msgid "One Response to &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "תגובה אחת ל &ldquo;%2$s&rdquo;"
+#~ msgstr[1] "%1$s תגובות ל &ldquo;%2$s&rdquo;"
+
+#~ msgid "Posted on %s at %s."
+#~ msgstr "פורסם בקטגוריה %s ב %s."
+
+#~ msgid "Written by"
+#~ msgstr "נכתב בידי"
+
+#~ msgid "Title (optional):"
+#~ msgstr "תואר (לא חובה) :"
+
+#~ msgid "Street Address:"
+#~ msgstr "רחוב :"
+
+#~ msgid "City/Locality:"
+#~ msgstr "עיר :"
+
+#~ msgid "State/Region:"
+#~ msgstr "מדינה/איזור :"
+
+#~ msgid "Zipcode/Postal Code:"
+#~ msgstr "מיקוד :"
+
+#~ msgid "Telephone:"
+#~ msgstr "טלפון :"
+
+#~ msgid "Email:"
+#~ msgstr "אימייל :"
