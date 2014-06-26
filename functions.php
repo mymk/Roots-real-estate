@@ -6,7 +6,7 @@ global $surface_unit;
 global $types_array;
 global $logo_Url;
 
-$logo_Url= 'http://yoanmarchal.com/lab/roots-immo/wp-content/themes/roots-immo/assets/img/root-immo.jpg';
+$logo_Url= 'https://github.com/mymk/Roots-real-estate/blob/master/assets/img/logo.jpg';
 
 $prefix = 'roots_immo';
 $currency = '€';

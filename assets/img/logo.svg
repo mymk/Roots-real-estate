@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="580px" height="371px" viewBox="0 0 580 371" enable-background="new 0 0 580 371" xml:space="preserve">
+<symbol  id="Nouveau_symbole" viewBox="-307 -203 614 406">
+	<polygon fill="#3A539B" points="307,-203 -307,-203 -307,203 307,203 	"/>
+	<g>
+		<text transform="matrix(1 0 0 -1 -126.2896 16.4141)"><tspan x="0" y="0" fill="#BDCCD4" font-family="'Lato-Hairline'" font-size="79.2857" letter-spacing="1">Roots</tspan><tspan x="-110.76" y="95.143" fill="#BDCCD4" font-family="'Lato-Hairline'" font-size="79.2857" letter-spacing="1">Real Estate</tspan></text>
+		<text transform="matrix(1 0 0 -1 -126.2896 16.4141)"><tspan x="0" y="0" fill="#BDCCD4" font-family="'Lato-Hairline'" font-size="79.2857" letter-spacing="1">Roots</tspan><tspan x="-110.76" y="95.143" fill="#BDCCD4" font-family="'Lato-Hairline'" font-size="79.2857" letter-spacing="1">Real Estate</tspan></text>
+	</g>
+	<polygon display="none" fill="none" points="-307,203 307,203 307,-203 -307,-203 	"/>
+</symbol>
+<use xlink:href="#Nouveau_symbole"  width="614" height="406" x="-307" y="-203" transform="matrix(1 0 0 -1 294.5 182)" overflow="visible"/>
+</svg>
