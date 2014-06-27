@@ -1,5 +1,6 @@
 <?php
   global $prefix;
+  global $logo_url;
 
   $nb_posts = 5;
 
@@ -31,13 +32,7 @@
           <div class="item <?php if($first) echo 'active'; ?>">
             <a class="thumbnail" href="<?php the_permalink(); ?>">
             <?php 
-              if(has_post_thumbnail()){
-                the_post_thumbnail( 'full');
-              } else {
-                ?>
-                <img src="<?php bloginfo('template_directory' ); ?>/assets/img/begip-agence-immobiliere.svg" class="scale-with-grid" alt="">
-                <?php
-              }
+              get_the_main_image('single-item');
             ?>
             </a>
             <div class="carousel-caption">

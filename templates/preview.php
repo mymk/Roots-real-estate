@@ -32,14 +32,13 @@
     $details .= $surface.'m²';
 
 ?>
-<div class="item  col-xs-4 col-lg-4 prop-type all <?php echo $class; ?>">
+<div class="item col-xs-4 col-lg-4<?php echo $class; ?>">
     <div class="thumbnail">
-        <?php get_the_main_image('single-item'); ?>
+        <a href="<?php the_permalink(); ?>"><?php get_the_main_image('single-item'); ?></a>
     </div>        
     
     <div class="caption">
-        <h4 class="">
-            <?php the_title(); 	?></h4>
+        <h4 class=""><?php the_title(); ?></h4>
         <p class="">
             Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -62,16 +61,16 @@
 					    break;
 					} ?>
 				</p>
-				<ul class="prop-data">
-					<li class="price"><?php echo $rent.$currency; ?></li>
-					<li class="new"><?php echo $type; ?></li>
+				<ul>
+					<li><?php echo $rent.$currency; ?></li>
+					<li><?php echo $type; ?></li>
 				</ul>
 				<p class="propr-details"><?php echo $details; ?></p>
 				<p class="prop-heat">Chauffage: <?php echo $heating; ?></p>
 				
-                <a class="btn btn-success" href="<?php the_permalink(); ?>#map"><?php _e('Map', 'roots-immo'); ?></a>
+                <a class="btn btn-primary" href="<?php the_permalink(); ?>#map"><?php _e('Map', 'roots-immo'); ?></a>
             
-                <a class="btn btn-success" href="<?php the_permalink(); ?>"><?php _e('Summary', 'roots-immo'); ?></a>
+                <a class="btn btn-primary" href="<?php the_permalink(); ?>"><?php _e('Summary', 'roots-immo'); ?></a>
             
             </div>
         </div>

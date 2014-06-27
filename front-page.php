@@ -1,13 +1,13 @@
 
 
 	<!-- Section: Office -->
-	<section class="row add-bottom row dark">
+	<section class="row">
 
-		<div class="col-md-8 point-slider main-slider">
+		<div class="col-md-8">
 			<?php get_template_part('templates/home-slider'); ?>
 		</div>
 
-		<div class="col-md-4 alpha omega gray">
+		<div class="col-md-4">
 
 			<?php get_template_part('templates/searchform'); ?>
 
@@ -19,11 +19,11 @@
 			
 	<?php get_template_part('templates/new-rent-galerie'); ?>
 
-	<div class="row">
+	<section class="row">
 		<figure class="col-sm-12 advertising add-bottom ">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/advertise.png" width="940" height="350" class="scale-with-grid" alt="Advertise here">
 		</figure>
-	</div>
+	</section>
 
 
 	<?php get_template_part('templates/module-social-page'); ?>

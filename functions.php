@@ -4,9 +4,9 @@ global $prefix;
 global $currency;
 global $surface_unit;
 global $types_array;
-global $logo_Url;
+global $logo_url;
 
-$logo_Url= 'https://github.com/mymk/Roots-real-estate/blob/master/assets/img/logo.jpg';
+$logo_url = get_template_directory_uri().'/assets/img/logo.jpg';
 
 $prefix = 'roots_immo';
 $currency = '€';

@@ -180,15 +180,17 @@ var Roots = {
     $('#list').click(
       function(e){
         e.preventDefault();
-        $('#products .item').removeClass('grid-group-item');
-        $('#products .item').addClass('list-group-item');
+        $('.items .item').removeClass('col-xs-4 col-lg-4');
+        $('.items .item').addClass('col-xs-12 col-lg-12');
+        $('.items .item .thumbnail, .items .item .caption').addClass('col-xs-6 col-lg-6');
       }
     );
     $('#grid').click(
       function(e){
         e.preventDefault();
-        $('#products .item').removeClass('list-group-item');
-        $('#products .item').addClass('grid-group-item');
+        $('.items .item').removeClass('col-xs-12 col-lg-12');
+        $('.items .item .thumbnail, .items .item .caption').removeClass('col-xs-6 col-lg-6');
+        $('.items .item').addClass('col-xs-4 col-lg-4');
       }
     );
 
@@ -196,23 +198,23 @@ var Roots = {
       //Filtres d'articles
       var newSelection = "";
 
-      $(".filter-list a").click(function() {
+      $('.filter-list a').click(function() {
 
-        $("#property-list").fadeTo(200, 0.10);
+        $('.items').fadeTo(200, 0.10);
 
-        $(".filter-list a").removeClass("current");
-        $(this).addClass("current");
+        $('.filter-list a').removeClass('active');
+        $(this).addClass('active');
 
-        newSelection = $(this).attr("data-rel");
+        newSelection = $(this).attr('data-rel');
 
-        $(".prop-type").appendTo("#hidden-list");
-        $("." + newSelection).appendTo("#property-list");
+        $('item').appendTo('.hidden-items');
+        $('.' + newSelection).appendTo('items');
 
-        $("#property-list").fadeTo(600, 1);
+        $('.items').fadeTo(600, 1);
 
-        $("div.holder").jPages("destroy");
-        $("div.holder").jPages({
-            containerID : "property-list",
+        $('div.holder').jPages('destroy');
+        $('div.holder').jPages({
+            containerID : 'items',
             perPage : 6
         });
 

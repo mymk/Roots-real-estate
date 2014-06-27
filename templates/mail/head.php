@@ -1,6 +1,6 @@
 <?php 
 /* head mailphp */ 
-global $logo_Url;
+global $logo_url;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -44,7 +44,7 @@ global $logo_Url;
                         <table class="twelve columns">
                           <tr>
                             <td class="six sub-columns">
-                              <img src="<?php echo $logo_Url ?>" height="60" >
+                              <img src="<?php echo $logo_url ?>" height="60" >
                             </td>
                             <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
                               <span class="template-label">contact@begip.fr</span>

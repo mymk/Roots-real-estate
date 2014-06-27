@@ -46,22 +46,25 @@ else if(is_page('ventes')) {
             class="glyphicon glyphicon-th"></span>Grid</a>
     </div>
 </div>
-<div class="col-xs-12">
-	<div id="products" class=" list-group row">
+<div id="items" class="items row">
 	<?php						
 		foreach ( $myposts as $post ) : setup_postdata( $post );
 
-		get_template_part('templates/preview');
+			get_template_part('templates/preview');
 
 		endforeach; 
 		wp_reset_postdata();
 	?>
 </div>
 
-<ul id="hidden-list" style="display: none">
+<div class="hidden-items" style="display: none">
 
-</ul>	
-<div class="clear"></div>
-<div class="holder"><a class="jp-previous jp-disabled">←<?php _e('previous', 'roots-immo'); ?></a><a class="jp-current">1</a><span class="jp-hidden">...</span><a href="#" class="">2</a><a href="#" class="">3</a><a href="#" class="">4</a><span class="jp-hidden">...</span><a>5</a><a class="jp-next"><?php _e('next', 'roots-immo'); ?>→</a></div>
+</div>	
 
+<div class="holder">
+	<a class="jp-previous jp-disabled">←<?php _e('previous', 'roots-immo'); ?></a>
+	<a class="jp-current">1</a><span class="jp-hidden">...</span>
+	<a href="#" class="">2</a><a href="#" class="">3</a>
+	<a href="#" class="">4</a><span class="jp-hidden">...</span><a>5</a>
+	<a class="jp-next"><?php _e('next', 'roots-immo'); ?>→</a>
 </div>

@@ -51,17 +51,7 @@
 							?>
 								<div class="col-md-3">
 									<a class="thumbnail" href="<?php the_permalink(); ?>">
-									<?php 
-
-									if(has_post_thumbnail( )){
-										the_post_thumbnail( 'featured-item', array('class' => 'img-preview scale-with-grid'));
-									} else {
-										?>
-										<img src="<?php bloginfo('template_directory' ); ?>/assets/img/begip-agence-immobiliere.svg" class="scale-with-grid" alt="">
-										<?php
-									}
-									
-									?>
+										<?php get_the_main_image('single-item'); ?>
 									</a>
 									<div class="details">
 										<h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>

@@ -16,8 +16,6 @@
 
 	if(isset($_GET['heating_select'])) $heating_select = $_GET['heating_select'];
 
-	if(isset($_GET['min_price'])) $min_price = $_GET['min_price'];
-
 	if(isset($_GET['max_price'])) $max_price = $_GET['max_price'];
 ?>
 
@@ -27,8 +25,8 @@
 	<form role="search" method="get" class="search-form  remove-bottom" action="<?php echo home_url('/'); ?>" role="form">
 	  
 		<div class="form-group form-inline custom-input">
-			<label for="type-sale" class="screen-reader-text"><?php _e('Type of property', 'roots-immo'); ?></label>
-				<span>
+			<label for="type-sale" class="sr-only"><?php _e('Type of property', 'roots-immo'); ?></label>
+			<span>
 				<input id="type-sale" class="form-control" type="radio" name="post_type" data-price-step="1000" value="sale" <?php if($sale) echo "checked"; ?>>
 				<label for="type-sale"><?php _e('Sales', 'roots-immo'); ?></label>
 			</span>
