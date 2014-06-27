@@ -21,7 +21,7 @@ function qt_custom_breadcrumbs() {
   $delimiter = ''; // delimiter between crumbs
   $home = 'Home'; // text for the 'Home' link
   $showCurrent = 1; // 1 - show current post/page title in breadcrumbs, 0 - don't show
-  $before = '<div class="btn btn-default">'; // tag before the current crumb
+  $before = '<div class="btn btn-default active">'; // tag before the current crumb
   $after = '</div>'; // tag after the current crumb
   
   global $post;
@@ -123,12 +123,12 @@ function qt_custom_breadcrumbs() {
 
 
 function my_custom_login_logo() {
-
+global $logo_Url;
     echo '<style type="text/css">
 
         h1 a { 
 
-          background-image:url('.get_bloginfo('template_url').'/assets/img/begip-agence-immobiliere.svg) !important;
+          background-image:url('.$logo_Url.') !important;
 
           background-size: 200px 100px !important;
 
@@ -146,13 +146,13 @@ add_action('login_head', 'my_custom_login_logo');
 
 function get_the_main_image($classe){
   global $post;
-  global $logo_Url;
+  global $logo_url;
 
-  if(has_post_thumbnail( )){
-    the_post_thumbnail( $classe, array('class' => 'img-preview scale-with-grid'));
-  } else {
-    echo '<img src="'.$logo_Url.'" class="scale-with-grid" alt="">';
-  }
+  // if(has_post_thumbnail()){
+  //   the_post_thumbnail( $classe, array('class' => 'img-preview scale-with-grid'));
+  // } else {
+    echo '<img src="'.$logo_url.'" class="scale-with-grid" alt="">';
+  // }
 }
 
   
@@ -596,16 +596,16 @@ function get_gallery() {
   $images = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
 
   if ($images) :
-      $nb_img = count($images);
+      $nb_img = count($images)-1;
 
-      echo '<div class="carousel slide">';
+      echo '<div id="gallery" class="carousel slide">';
 
       echo'<ol class="carousel-indicators">';
-        for($i = 1 ; $i <= $nb_img ; $i++) :
+        for($i = 0 ; $i <= $nb_img ; $i++) :
 
           $active = ($i === 0 ? 'active' : '');
 
-          echo' <li data-target="#Carousel" data-slide-to="'.$i.'" class="'.$active.'"></li>';
+          echo' <li data-target="#gallery" data-slide-to="'.$i.'" class="'.$active.'"></li>';
 
         endfor;
       echo'</ol>';
@@ -826,6 +826,7 @@ function ts_get_option($key) {
  *
 
  */
+
 
 
 

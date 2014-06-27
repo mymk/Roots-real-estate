@@ -46,7 +46,8 @@ else if(is_page('ventes')) {
             class="glyphicon glyphicon-th"></span>Grid</a>
     </div>
 </div>
-<div id="products" class="row list-group">
+<div class="col-xs-12">
+	<div id="products" class=" list-group row">
 	<?php						
 		foreach ( $myposts as $post ) : setup_postdata( $post );
 
@@ -62,3 +63,5 @@ else if(is_page('ventes')) {
 </ul>	
 <div class="clear"></div>
 <div class="holder"><a class="jp-previous jp-disabled">←<?php _e('previous', 'roots-immo'); ?></a><a class="jp-current">1</a><span class="jp-hidden">...</span><a href="#" class="">2</a><a href="#" class="">3</a><a href="#" class="">4</a><span class="jp-hidden">...</span><a>5</a><a class="jp-next"><?php _e('next', 'roots-immo'); ?>→</a></div>
+
+</div>

@@ -22,6 +22,7 @@
     	$class.=' low-price';
     }
 
+
     $details = '';
     
     if($class == 'appartement' || $class == 'maison') {
@@ -37,9 +38,9 @@
     </div>        
     
     <div class="caption">
-        <h4 class="group inner list-group-item-heading">
+        <h4 class="">
             <?php the_title(); 	?></h4>
-        <p class="group inner list-group-item-text">
+        <p class="">
             Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         <div class="row">
