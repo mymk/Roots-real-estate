@@ -148,11 +148,11 @@ function get_the_main_image($classe){
   global $post;
   global $logo_url;
 
-  // if(has_post_thumbnail()){
-  //   the_post_thumbnail( $classe, array('class' => 'img-preview scale-with-grid'));
-  // } else {
+  if(has_post_thumbnail()){
+     the_post_thumbnail( $classe, array('class' => 'img-preview scale-with-grid'));
+   } else {
     echo '<img src="'.$logo_url.'" class="scale-with-grid" alt="">';
-  // }
+   }
 }
 
   
@@ -340,6 +340,8 @@ function my_column_action( $column ) {
   }
 
 }
+
+
 
 
 
