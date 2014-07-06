@@ -173,54 +173,27 @@ var Roots = {
     }
   },
   // Home page
-  page_template_template_custom_php: {
+  archive: {
     init: function() {
 
       // change list style
-    $('#list').click(
-      function(e){
-        e.preventDefault();
-        $('.items .item').removeClass('col-xs-4 col-lg-4');
-        $('.items .item').addClass('col-xs-12 col-lg-12');
-        $('.items .item .thumbnail, .items .item .caption').addClass('col-xs-6 col-lg-6');
-      }
-    );
-    $('#grid').click(
-      function(e){
-        e.preventDefault();
-        $('.items .item').removeClass('col-xs-12 col-lg-12');
-        $('.items .item .thumbnail, .items .item .caption').removeClass('col-xs-6 col-lg-6');
-        $('.items .item').addClass('col-xs-4 col-lg-4');
-      }
-    );
-
-
-      //Filtres d'articles
-      var newSelection = "";
-
-      $('.filter-list a').click(function() {
-
-        $('.items').fadeTo(200, 0.10);
-
-        $('.filter-list a').removeClass('active');
-        $(this).addClass('active');
-
-        newSelection = $(this).attr('data-rel');
-
-        $('item').appendTo('.hidden-items');
-        $('.' + newSelection).appendTo('items');
-
-        $('.items').fadeTo(600, 1);
-
-        $('div.holder').jPages('destroy');
-        $('div.holder').jPages({
-            containerID : 'items',
-            perPage : 6
-        });
-
-      });
-
-    
+      $('#list').click(
+        function(e){
+          e.preventDefault();
+          $('.items .item').removeClass('col-xs-4 col-lg-4');
+          $('.items .item').addClass('col-xs-12 col-lg-12');
+          $('.items .item .thumbnail, .items .item .caption').addClass('col-xs-6 col-lg-6');
+        }
+      );
+      $('#grid').click(
+        function(e){
+          e.preventDefault();
+          $('.items .item').removeClass('col-xs-12 col-lg-12');
+          $('.items .item .thumbnail, .items .item .caption').removeClass('col-xs-6 col-lg-6');
+          $('.items .item').addClass('col-xs-4 col-lg-4');
+        }
+      );
+  
     }
   },
 

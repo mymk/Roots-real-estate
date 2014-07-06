@@ -167,6 +167,13 @@ function optionsframework_options() {
 		'id' => 'google_analytics',
 		'std' => '',
 		'type' => 'editor');
+
+	$options[] = array(
+		'name' => __('More infos for  customers', 'options_framework_theme'),
+		'desc' => __('List of document to give. rents sales', 'options_framework_theme'),
+		'id' => 'more_infos_for_customers',
+		'std' => '',
+		'type' => 'editor');
 /*
 	$options[] = array(
 		'name' => __('Input Select Small', 'options_framework_theme'),

@@ -53,7 +53,7 @@
 									<a class="thumbnail" href="<?php the_permalink(); ?>">
 										<?php get_the_main_image('single-item'); ?>
 									</a>
-									<div class="details">
+									<div>
 										<h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>
 										<p class="text"> <?php echo $type; ?> | <span> <?php echo $rent . $currency; ?><?php _e('/Month', 'roots-immo'); ?></span></p>
 									</div>

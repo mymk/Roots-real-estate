@@ -19,7 +19,7 @@
     $class = get_main_type($type);
 
     if(is_low_price()) {
-    	$class.=' low-price';
+    	$class.='low-price';
     }
 
 
@@ -32,7 +32,7 @@
     $details .= $surface.'m²';
 
 ?>
-<div class="item col-xs-4 col-lg-4<?php echo $class; ?>">
+<div class="item <?php echo $class; ?> col-xs-4 col-lg-4 add-bottom">
     <div class="thumbnail">
         <a href="<?php the_permalink(); ?>"><?php get_the_main_image('single-item'); ?></a>
     </div>        

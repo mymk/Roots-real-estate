@@ -123,12 +123,12 @@ function qt_custom_breadcrumbs() {
 
 
 function my_custom_login_logo() {
-global $logo_Url;
+
     echo '<style type="text/css">
 
         h1 a { 
 
-          background-image:url('.$logo_Url.') !important;
+          background-image:url('.get_bloginfo('template_url').'/assets/img/begip-agence-immobiliere.svg) !important;
 
           background-size: 200px 100px !important;
 
@@ -826,7 +826,6 @@ function ts_get_option($key) {
  *
 
  */
-
 
 
 
@@ -2475,15 +2474,12 @@ function has_Video(){
 function get_type($key){
 
   global $types_array;
+  
+  $type = '';
 
-
-
-  $type = $types_array[$key];
-
-
+  if($key) $type = $types_array[$key];
 
   return $type;
-
 }
 
 
@@ -2914,7 +2910,95 @@ function get_all_posts($post_type='post') {
 
 }
 
+function pagination($pages = '', $range = 3)
+{  
+     $showitems = ($range * 2)+1;  
+
+     global $paged;
+     if(empty($paged)) $paged = 1;
+
+     if($pages == '')
+     {
+         global $wp_query;
+         $pages = $wp_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }   
+
+     if(1 != $pages)
+     {
+         echo '<ul class="pagination">';
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo '<li><a href="'.get_pagenum_link(1).'">&laquo; First</a></li>';
+         if($paged > 1 && $showitems < $pages) echo '<li><a href="'.get_pagenum_link($paged - 1).'">&lsaquo; Previous</a></li>';
+
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i) ? '<li class="active"><span>'.$i.'</span></li>' : '<li><a href="'.get_pagenum_link($i).'">'.$i.'</a></li>';
+             }
+         }
+
+         if ($paged < $pages && $showitems < $pages) echo '<li><a href="'.get_pagenum_link($paged + 1).'">Next &rsaquo;</a></li>';  
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo '<li><a href="'.get_pagenum_link($pages).'">Last &raquo;</a></li>';
+         echo '</ul>';
+     }
+}
 
 
+//Add custom post type links to menu builder
+add_action('admin_head-nav-menus.php', 'wpclean_add_metabox_menu_posttype_archive');
+ 
+function wpclean_add_metabox_menu_posttype_archive() {
+    add_meta_box('wpclean-metabox-nav-menu-posttype', 'Custom Post Type Archives', 'wpclean_metabox_menu_posttype_archive', 'nav-menus', 'side', 'default');
+}
+ 
+function wpclean_metabox_menu_posttype_archive() {
+    $post_types = get_post_types(array('show_in_nav_menus' => true, 'has_archive' => true), 'object');
+ 
+    if ($post_types) :
+        $items = array();
+        $loop_index = 999999;
+ 
+        foreach ($post_types as $post_type) {
+            $item = new stdClass();
+            $loop_index++;
+ 
+            $item->object_id = $loop_index;
+            $item->db_id = 0;
+            $item->object = 'post_type_' . $post_type->query_var;
+            $item->menu_item_parent = 0;
+            $item->type = 'custom';
+            $item->title = $post_type->labels->name;
+            $item->url = get_post_type_archive_link($post_type->query_var);
+            $item->target = '';
+            $item->attr_title = '';
+            $item->classes = array();
+            $item->xfn = '';
+ 
+            $items[] = $item;
+        }
+ 
+        $walker = new Walker_Nav_Menu_Checklist(array());
+ 
+        echo '<div id="posttype-archive" class="posttypediv">';
+        echo '<div id="tabs-panel-posttype-archive" class="tabs-panel tabs-panel-active">';
+        echo '<ul id="posttype-archive-checklist" class="categorychecklist form-no-clear">';
+        echo walk_nav_menu_tree(array_map('wp_setup_nav_menu_item', $items), 0, (object) array('walker' => $walker));
+        echo '</ul>';
+        echo '</div>';
+        echo '</div>';
+ 
+        echo '<p class="button-controls">';
+        echo '<span class="add-to-menu">';
+        echo '<input type="submit"' . disabled(1, 0) . ' class="button-secondary submit-add-to-menu right" value="' . __('Add to Menu', 'andromedamedia') . '" name="add-posttype-archive-menu-item" id="submit-posttype-archive" />';
+        echo '<span class="spinner"></span>';
+        echo '</span>';
+        echo '</p>';
+ 
+    endif;
+}
 
 

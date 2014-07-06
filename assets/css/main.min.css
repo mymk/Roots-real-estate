@@ -8,6 +8,14 @@ img {
 	display: block;
 }
 
+/* Helpers */
+.add-top {
+	margin-top: 20px;
+}
+.add-bottom {
+	margin-bottom: 20px;
+}
+
 /* Latest posts */
 .new-posts .item {
 	min-height: 500px;

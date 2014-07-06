@@ -19,8 +19,8 @@
 <div id="home-slider" class="home-slider carousel slide">
 
   <ol class="carousel-indicators">
-    <?php for($i = 0; $i <= $nb_posts; $i++): ?>
-      <li data-target="#home-slider" data-slide-to="<?php echo $i; ?>" <?php if($i === 0) echo 'class="active"'; ?>></li>
+    <?php for($i = 0; $i <= $nb_posts-1; $i++): ?>
+      <li data-target="#home-slider" data-slide-to="<?php echo $i; ?>" <?php if($i == 0) echo 'class="active"'; ?>></li>
     <?php endfor; ?>
   </ol>
 

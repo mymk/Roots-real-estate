@@ -20,7 +20,7 @@
 		$baths = rwmb_meta( $prefix . '_nb_sdb' );
 	?>
 
-	<div class="item col-sm-6 col-md-3">
+	<div class="item col-sm-6 col-md-3 add-bottom">
 		<div class="thumbnail">
 			<a href="<?php the_permalink(); ?>">
 				<?php get_the_main_image('single-item'); ?>
