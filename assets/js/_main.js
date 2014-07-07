@@ -39,7 +39,7 @@ var Roots = {
         return false;
       });
       
-
+      $('.new-posts, .items').find('.item').matchHeight(true);
 
       //Custom Checkbox/Radio
       $('.custom-input').customInput('radio');
@@ -199,15 +199,10 @@ var Roots = {
 
   single: {
     init: function() {
-      //Easy tabs
-      
 
       //FitVids
       $('#video').fitVids();
 
-
-
-      
     }
   }
 };

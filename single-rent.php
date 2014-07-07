@@ -12,7 +12,7 @@ Template Name: single location Template
       <?php get_template_part('templates/entry-meta'); ?>
     </header>
     	<!-- Section: slider -->
-	<section class="row">
+	<section class="row add-bottom">
 
 		<div class="col-md-8">
 				
@@ -29,26 +29,24 @@ Template Name: single location Template
 			<div class="tab-content">
 				<div class="tab-pane active" id="photos">
 
-				<?php 
-				 if(has_gallery()){
-				 	get_gallery(); 
-				 } else if (has_post_thumbnail( )){
-				  	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
-					?>
-						<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0] ;?>">
-							<?php the_post_thumbnail('single-item', array('class' => 'img-preview scale-with-grid')); ?>
-						</a>
-					<?php
+					<?php 
+					 if(has_gallery()){
+					 	get_gallery(); 
+					 } else if (has_post_thumbnail( )){
+					  	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
+						?>
+							<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0] ;?>">
+								<?php the_post_thumbnail('single-item', array('class' => 'img-preview scale-with-grid')); ?>
+							</a>
+						<?php
 
-				} else {
+					} else {
+						?>
+						<img src="<?php bloginfo('template_directory' ); ?>/assets/img/logo.jpg" alt="placeholder+image">
+							
+						<?php
+					}		 
 					?>
-					<div class="svg-container">
-						<object type="image/svg+xml" data="<?php bloginfo('template_directory' ); ?>/assets/img/begip-agence-immobiliere.svg" width="100%" height="100%" class="svg-content">
-						</object>
-					</div>
-					<?php
-				}		 
-				?>
 
 				</div>
 
@@ -86,7 +84,9 @@ Template Name: single location Template
 	</section>
 
 	<!-- Section: Property tabs -->
-	<section class="row">
+	<section class="row ">
+
+		<div class="col-md-12 add-top">
 
 			<ul class="nav nav-tabs">
 		    	<li class="active"><a href="#description" data-toggle="tab"><?php _e('Summary ', 'roots-immo'); ?></a></li>
@@ -134,6 +134,12 @@ Template Name: single location Template
 			  	<?php get_template_part('templates/send-mail-friend'); ?>
 			  </div>
 			</div>
+
+
+
+		</div>
+
+		
 
 	</section>
 	<!-- /section: tagline -->

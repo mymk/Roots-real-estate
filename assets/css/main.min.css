@@ -16,11 +16,6 @@ img {
 	margin-bottom: 20px;
 }
 
-/* Latest posts */
-.new-posts .item {
-	min-height: 500px;
-}
-
 /* Carousels */
 .home-slider {
 	margin-bottom: 0;
@@ -60,7 +55,7 @@ img {
 .carousel-indicators {
 	right: 50%;
 	top: auto;
-	bottom: -10px;
+	bottom: -25px;
 	margin-right: -19px;
 }
 .carousel-indicators li {

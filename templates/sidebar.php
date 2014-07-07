@@ -1,14 +1,14 @@
 <?php dynamic_sidebar('sidebar-primary'); ?>
 <!-- follow us -->
-<div class="follow">
+<div class="follow add-bottom">
   
-  <h6 class="half-bottom"><span><?php _e('Follow us', 'roots-immo'); ?></span></h6>
+  <h4 class="half-bottom"><span><?php _e('Follow us', 'roots-immo'); ?></span></h4>
   
-  <ul class="menu social">
-    <li><a href="<?php echo of_get_option( 'facebook_url', '#' ); ?>"><i class="glyphicon glyphicon-facebook"></i></a></li>
-    <li><a href="<?php echo of_get_option( 'googleplus_url', '#' ); ?>"><i class="glyphicon glyphicon-gplus-1"></i></a></li>
-    <li><a href="<?php echo of_get_option( 'twitter_url', '#' ); ?>"><i class="glyphicon glyphicon-twitter"></i></a></li>
-    <li><a href="<?php echo of_get_option( 'linkedin_url', '#' ); ?>"><i class="glyphicon glyphicon-linkedin"></i></a></li>
+  <ul class="menu social nav nav-pills nav-justified">
+      <li><a href="<?php echo of_get_option( 'facebook_url', '#' ); ?>"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="<?php echo of_get_option( 'googleplus_url', '#' ); ?>"><i class="fa fa-google"></i></a></li>
+      <li><a href="<?php echo of_get_option( 'twitter_url', '#' ); ?>"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="<?php echo of_get_option( 'linkedin_url', '#' ); ?>"><i class="fa fa-linkedin"></i></a></li>
   </ul>
 
 </div>

@@ -1,6 +1,6 @@
 <footer class="content-info" role="contentinfo">
   <div class="container">
-  	&copy; coryright 
+  	&copy; copyright 
     <?php dynamic_sidebar('sidebar-footer'); ?>
   </div>
 </footer>

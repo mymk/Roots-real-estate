@@ -51,7 +51,7 @@
 							?>
 								<div class="col-md-3">
 									<a class="thumbnail" href="<?php the_permalink(); ?>">
-										<?php get_the_main_image('single-item'); ?>
+										<?php get_the_main_image('best-item'); ?>
 									</a>
 									<div>
 										<h6><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h6>

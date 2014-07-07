@@ -8,7 +8,8 @@
     'post_type' => 'rent',
     'posts_per_page' => $nb_posts,
     'meta_key' => $prefix . '_featured',
-    'meta_value' => '1'
+    'meta_value' => '1',
+    'post_status'      => 'publish',
   ); 
 
   $myposts = get_posts($args);
@@ -35,10 +36,9 @@
               get_the_main_image('single-item');
             ?>
             </a>
-            <div class="carousel-caption">
-              <h4><?php the_title();?></h4>
+            <div>
+              <h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
               <p><?php the_excerpt();?></p>
-              <?php the_permalink(); ?>
             </div>
           </div>
         <?php

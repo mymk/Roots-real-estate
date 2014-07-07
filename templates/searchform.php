@@ -19,7 +19,7 @@
 	if(isset($_GET['max_price'])) $max_price = $_GET['max_price'];
 ?>
 
-<div class="shadded boxed">
+<div class="shadded boxed add-top">
 	<h4 class="remove-top add-bottom"><?php _e('Search', 'roots-immo'); ?></h4>
 	
 	<form role="search" method="get" class="search-form  remove-bottom" action="<?php echo home_url('/'); ?>" role="form">
@@ -62,8 +62,9 @@
 		</div>
 
 		<div class="form-group">
-			<input id="s" name="s" type="search" value="<?php if (is_search()) { echo get_search_query(); } ?>" class="search-field form-control" placeholder="<?php _e('Search', 'roots-immo'); ?> <?php bloginfo('name'); ?>" autocomplete="off">
 			<label class="screen-reader-text"><?php _e('Search for:', 'roots-immo'); ?></label>
+			<input id="s" name="s" type="search" value="<?php if (is_search()) { echo get_search_query(); } ?>" class="search-field form-control" placeholder="<?php _e('Search', 'roots-immo'); ?> <?php bloginfo('name'); ?>" autocomplete="off">
+			
 		</div>
 	
 	    <button type="submit" class="btn btn-default"><?php _e('Search', 'roots-immo'); ?></button>

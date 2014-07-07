@@ -112,7 +112,7 @@ function qt_custom_breadcrumbs() {
   
     if ( get_query_var('paged') ) {
       if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
-      echo __('Page') . ' ' . get_query_var('paged');
+      echo $before . __('Page') . ' ' . get_query_var('paged') . $after;
       if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
     }
   
