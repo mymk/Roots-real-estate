@@ -1,6 +1,6 @@
 <?php
 ?>
-<form id="send-to-friend" action="#" method="post" role="form" class="col-sm-12">
+<form id="send-to-friend" action="#" method="post" role="form">
 
 	<h4 class="section-titling">
 		<?php _e('Send this property to a friend', 'roots-immo'); ?>

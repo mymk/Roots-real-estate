@@ -56,9 +56,9 @@ Template Name: single location Template
 						<iframe src="http://player.vimeo.com/video/12158329" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid317791"></iframe>
 					</div>
 				</div>
-			   <?php endif; ?>
+			    <?php endif; ?>
 
-			   <?php if(has_Map()): ?>
+			    <?php if(has_Map()): ?>
 			  	<div class="tab-pane" id="map">
 			  		<?php 
 				  		$mapAdresse = rwmb_meta( $prefix.'_adresse' );
@@ -91,7 +91,6 @@ Template Name: single location Template
 			<ul class="nav nav-tabs">
 		    	<li class="active"><a href="#description" data-toggle="tab"><?php _e('Summary ', 'roots-immo'); ?></a></li>
 		    	<li><a href="#dossierlocataire" data-toggle="tab"><?php _e('Dossier locataire ', 'roots-immo'); ?></a></li>
-		    	<li><a href="#share-on-fb" data-toggle="tab"><?php _e('Share on facebook', 'roots-immo'); ?></a></li>
 		    	<li><a href="#send-to-friend" data-toggle="tab"><?php _e('Send to a friend', 'roots-immo'); ?></a></li>
 			</ul>
 				
@@ -99,47 +98,50 @@ Template Name: single location Template
 			<div class="tab-content">
 			  <div class="tab-pane active" id="description">
 			  	<?php get_template_part('templates/details-rent'); ?>
-			  </div>
-			  <div class="tab-pane" id="dossierlocataire">
-			  	<h3>LISTE DES PIÈCES À FOURNIR POUR UNE LOCATION</h3>
-				
-				<section>
-					<h4>Par le locataire :</h4>
-					<ul>
-						<li>Copie de carte d’identité (ou équivalence)</li>
-						<li>Copie du dernier bulletin de salaire et contrat de travail *</li>
-						<li>Attestation d’emploi au jour de la remise des clés *</li>
-						<li>Copie du dernier avertissement fiscal *</li>
-						<li>Attestation de paiement complété par le précédent propriétaire *</li>
-						<li>Attestation d’assurance  » Risques locatifs  » : Obligatoire pour la remise des clés, au nom du preneur, avec l’adresse précise de l’appartement et prenant effet le jour de la remise des clés.</li>
-						<li>Relevé d’identité bancaire</li>
-					</ul>
-				</section>
-
-				<section>
-					<h4>Par la caution solidaire ** :</h4>
-					<ul>
-						<li>Copie de carte d’identité (ou équivalence)</li>
-						<li>Copie des 3 derniers bulletins de salaire</li>
-						<li>Copie du dernier avertissement fiscal</li>
-						<li>Imprimé de cautionnement, à compléter impérativement par le cautionnaire, document fourni à l’agence</li>
-						<li>Relevé d’identité bancaire</li>
-					</ul>
-				</section>
-			  </div>
-			  <div class="tab-pane" id="share-on-fb">
 			  	<?php get_template_part('templates/send-to-facebook'); ?>
 			  </div>
-			  <div class="tab-pane" id="send-to-friend">
-			  	<?php get_template_part('templates/send-mail-friend'); ?>
+
+			  <div class="tab-pane" id="dossierlocataire">
+			  	<div class="col-md-12">
+			  		<h3>LISTE DES PIÈCES À FOURNIR POUR UNE LOCATION</h3>
+				
+					<section>
+						<h4>Par le locataire :</h4>
+						<ul>
+							<li>Copie de carte d’identité (ou équivalence)</li>
+							<li>Copie du dernier bulletin de salaire et contrat de travail *</li>
+							<li>Attestation d’emploi au jour de la remise des clés *</li>
+							<li>Copie du dernier avertissement fiscal *</li>
+							<li>Attestation de paiement complété par le précédent propriétaire *</li>
+							<li>Attestation d’assurance  » Risques locatifs  » : Obligatoire pour la remise des clés, au nom du preneur, avec l’adresse précise de l’appartement et prenant effet le jour de la remise des clés.</li>
+							<li>Relevé d’identité bancaire</li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>Par la caution solidaire ** :</h4>
+						<ul>
+							<li>Copie de carte d’identité (ou équivalence)</li>
+							<li>Copie des 3 derniers bulletins de salaire</li>
+							<li>Copie du dernier avertissement fiscal</li>
+							<li>Imprimé de cautionnement, à compléter impérativement par le cautionnaire, document fourni à l’agence</li>
+							<li>Relevé d’identité bancaire</li>
+						</ul>
+					</section>
+
+			  	</div>
+			  	
 			  </div>
+
+			  <div class="tab-pane" id="send-to-friend">
+			  	<div class="col-md-12">
+			  		<?php get_template_part('templates/send-mail-friend'); ?>
+			  	</div>
+			  </div>
+
 			</div>
 
-
-
 		</div>
-
-		
 
 	</section>
 	<!-- /section: tagline -->
@@ -149,7 +151,3 @@ Template Name: single location Template
 </article>
 
 <?php endwhile; ?>
-
-
-
-
