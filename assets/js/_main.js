@@ -39,7 +39,7 @@ var Roots = {
         return false;
       });
       
-      $('.new-posts, .items').find('.item').matchHeight(true);
+      $('.items').find('.item').matchHeight(true);
 
       //Custom Checkbox/Radio
       $('.custom-input').customInput('radio');

@@ -1,6 +1,6 @@
 <!-- Section: new development -->
 
-<section class="row new-posts">
+<section class="items row">
 	<h2 class="col-sm-12"><?php _e('New rent', 'roots-immo'); ?></h2>
 	<?php
 	global $prefix, $currency;

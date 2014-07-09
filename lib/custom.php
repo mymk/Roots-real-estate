@@ -111,9 +111,7 @@ function qt_custom_breadcrumbs() {
     }
   
     if ( get_query_var('paged') ) {
-      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
       echo $before . __('Page') . ' ' . get_query_var('paged') . $after;
-      if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
     }
   
     echo '</div>';
@@ -2912,22 +2910,27 @@ function get_all_posts($post_type='post') {
 
 }
 
-function pagination($pages = '', $range = 3)
+function pagination($pages = '', $range = 3, $custom_query = null)
 {  
-     $showitems = ($range * 2)+1;  
+    global $wp_query;
+    global $paged;
 
-     global $paged;
-     if(empty($paged)) $paged = 1;
+    $query = $wp_query;
 
-     if($pages == '')
-     {
-         global $wp_query;
-         $pages = $wp_query->max_num_pages;
-         if(!$pages)
-         {
-             $pages = 1;
-         }
-     }   
+    $showitems = ($range * 2)+1;  
+
+    if($custom_query) $query = $custom_query;
+    
+    if(empty($paged)) $paged = 1;
+
+    if($pages == '')
+    {
+       $pages = $query->max_num_pages;
+       if(!$pages)
+       {
+           $pages = 1;
+       }
+    }   
 
      if(1 != $pages)
      {

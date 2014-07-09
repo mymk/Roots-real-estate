@@ -1,5 +1,5 @@
 <?php get_template_part('templates/page', 'header'); ?>
-<section class="eleven columns">
+<section class="row">
 <?php   
       // get all gets   
       foreach($_GET as $name=>$value) {
@@ -57,6 +57,7 @@
           'post_type' => $post_type,
           's' => $search_get['s'],
           'paged' => get_query_var('paged'),
+          'posts_per_page' => 9,
           'meta_key' => $prefix.'_loyer',
           'orderby' => 'meta_value_num',
           'order' => 'ASC'
@@ -90,11 +91,11 @@
   <!-- pagination here -->
 
   <!-- the loop -->
-  <ul id="property-list" class="list-grid-gallery list">
+  <div class="items clearfix">
   <?php while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
     <?php get_template_part('templates/preview');  ?>
   <?php endwhile; ?>
-  </ul>
+  </div>
   <!-- end of the loop -->
 
   <!-- pagination here -->
@@ -108,11 +109,6 @@
   <?php endif; ?>
 
   <?php if ($wp_query->max_num_pages > 1) : ?>
-    <nav class="post-nav">
-      <ul class="pager">
-        <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots-immo')); ?></li>
-        <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots-immo')); ?></li>
-      </ul>
-    </nav>
+    <?php pagination(); ?>
   <?php endif; ?>
 </section>
