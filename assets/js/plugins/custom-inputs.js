@@ -1,20 +1,20 @@
-	$.fn.customInput = function(){
+	$.fn.customInput = function() {
 
 		//Walk through each container
-		$(this).each(function(){
+		$(this).each(function() {
 			var container = $(this),
 				labels = container.find('label'),
 				inputs = container.find('input'),
 				type = inputs.attr('type'),
 
 				triggerSelector = '.'+type,
-				triggerHTML = '<i class="ci-'+type+'"></i>',
+				triggerHTML = '<i class="'+type+'"></i>',
 				inputSelector = 'input[type="'+type+'"]';
 
 			inputs.hide();
 
 			//Change icon state based on input type
-			function check(trigger){
+			function check(trigger) {
 				var neighbors =  null,
 					type = trigger.siblings('input').attr('type');
 

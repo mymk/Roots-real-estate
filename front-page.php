@@ -1,18 +1,3 @@
-<!-- Section: Office -->
-<section class="row">
-
-	<div class="col-md-8">
-		<?php get_template_part('templates/home-slider'); ?>
-	</div>
-
-	<div class="col-md-4">
-		<?php get_template_part('templates/searchform'); ?>
-	</div>
-
-</section>
-<!-- /section: Office -->
-
-		
 <?php get_template_part('templates/new-rent-galerie'); ?>
 
 <section class="row">

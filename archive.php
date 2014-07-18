@@ -29,6 +29,7 @@
 		$key_id = $prefix.'_type';
 
 		$key_value = $_GET['t'];
+
 	}
 
 	if(isset($_GET['lp'])) {
@@ -65,24 +66,23 @@
 				<span class="caret"></span>
 			</button>		
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-				<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $archive_url; ?>">Tous</a></li>
 				<?php 
 					foreach($types_array as $key => $type): 
 					$url = $archive_url.'?t='.$key;
 				?>
-		    	<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $url; ?>"><?php echo $type; ?></a></li>
+			    	<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $url; ?>"><?php echo $type; ?></a></li>
 				<?php endforeach; ?>
 			</ul>
 		</div>
 		<a class="btn btn-default" href="<?php echo $archive_url; ?>?lp=1">Low price</a>
 	</div>
 
-    <div class="layout btn-group pull-right">
-        <button class="grid btn btn-default btn-sm active">
-        	<span class="glyphicon glyphicon-th"></span>Grid
-        </button>    	
-        <button class="list btn btn-default btn-sm">
+    <div class="btn-group pull-right">
+        <button href="#" id="list" class="btn btn-default btn-sm">
         	<span class="glyphicon glyphicon-th-list"></span>List
+        </button>
+        <button href="#" id="grid" class="btn btn-default btn-sm">
+        	<span class="glyphicon glyphicon-th"></span>Grid
         </button>
     </div>
 

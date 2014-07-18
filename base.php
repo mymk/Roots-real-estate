@@ -16,7 +16,26 @@
       get_template_part('templates/header');
     }
   ?>
+  <?php if (is_home()) : ?>
+  <div class="backhome">
+      <div class="wrap container" role="slider">
+        <!-- Section: Office -->
+        <section class="row">
 
+          <div class="col-md-8">
+            <?php get_template_part('templates/home-slider'); ?>
+          </div>
+
+          <div class="col-md-4">
+            <?php get_template_part('templates/searchform'); ?>
+          </div>
+
+        </section>
+        <!-- /section: Office -->
+      </div>
+  </div>
+
+  <?php endif; ?>
   <div class="wrap container" role="document">
     <div class="row">
       <?php get_template_part('templates/breadcrumb'); ?>
