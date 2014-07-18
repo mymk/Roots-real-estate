@@ -3,14 +3,6 @@ Root - immo
 
 ---------------------
 
-ajout des options de recherche
-mise en avant de la galerie -> home page
-better footer
-alignement des reseaux sociaux 
-tag -> type  prix ex http://aprilzero.com/sport/
-
-
-
 location "post_type" 
 ok	-Loyer (int)ttc*
 ok	-Charges (int)*
