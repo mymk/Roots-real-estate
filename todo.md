@@ -8,7 +8,7 @@ mise en avant de la galerie -> home page
 better footer
 alignement des reseaux sociaux 
 tag -> type  prix ex http://aprilzero.com/sport/
-ajouter les transients sur toute les boucles pour economiser des requetes
+
 
 
 location "post_type" 
