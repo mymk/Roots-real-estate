@@ -598,7 +598,7 @@ function get_gallery() {
   if ($images) :
       $nb_img = count($images)-1;
 
-      echo '<div id="gallery" class="carousel slide">';
+      echo '<div id="post-slider" class="post-slider carousel slide">';
 
       echo'<ol class="carousel-indicators">';
         for($i = 0 ; $i <= $nb_img ; $i++) :

@@ -42,7 +42,7 @@ var Roots = {
       $('.items').find('.item').matchHeight(true);
 
       //Custom Checkbox/Radio
-      $('.custom-input').customInput('radio');
+      $('.custom-input').customInput();
 
       $("textarea").click(function() {
          $(this).height(100);
@@ -176,24 +176,54 @@ var Roots = {
   archive: {
     init: function() {
 
-      // change list style
-      $('#list').click(
-        function(e){
-          e.preventDefault();
-          $('.items .item').removeClass('col-xs-4 col-lg-4');
-          $('.items .item').addClass('col-xs-12 col-lg-12');
-          $('.items .item .thumbnail, .items .item .caption').addClass('col-xs-6 col-lg-6');
+      function setListItems() {
+        $('.items .item').removeClass('col-xs-4 col-lg-4');
+        $('.items .item').addClass('col-xs-12 col-lg-12');
+        $('.items .item .thumbnail, .items .item .caption').addClass('col-xs-6 col-lg-6');
+      }
+
+      function setGridItems() {
+        $('.items .item').removeClass('col-xs-12 col-lg-12');
+        $('.items .item .thumbnail, .items .item .caption').removeClass('col-xs-6 col-lg-6');
+        $('.items .item').addClass('col-xs-4 col-lg-4');
+      }
+
+
+      //Set memorized layout
+      if ($.cookie('item_layout') === 'grid') {
+        setGridItems();
+
+        $('.grid').siblings().removeClass('active');
+        $('.grid').addClass('active');
+      }
+      else if($.cookie('item_layout') === 'list') {
+        setListItems();
+
+        $('.list').siblings().removeClass('active');
+        $('.list').addClass('active');
+      }
+
+      //Change layout
+      $('.layout button').click(function(){
+        var button = $(this),
+            layout = 'grid';
+
+        if(button.hasClass('grid')) {
+          setGridItems();
         }
-      );
-      $('#grid').click(
-        function(e){
-          e.preventDefault();
-          $('.items .item').removeClass('col-xs-12 col-lg-12');
-          $('.items .item .thumbnail, .items .item .caption').removeClass('col-xs-6 col-lg-6');
-          $('.items .item').addClass('col-xs-4 col-lg-4');
+        else if(button.hasClass('list')) {
+          setListItems();
+
+          layout = 'list';
         }
-      );
-  
+
+        button.siblings().removeClass('active');
+        button.addClass('active');
+
+        $('.items').find('.item').matchHeight(true);
+
+        $.cookie('item_layout', layout, { expires: 60, path: '/' });
+      });
     }
   },
 

@@ -1,5 +1,5 @@
 <?php 
-global $logo_Url;
+global $logo_url;
 
 $emogrifier = new \Pelago\Emogrifier();
 
