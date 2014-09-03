@@ -53,7 +53,7 @@ Vente "post_type"
 
 
 loop location 
-	type postclass
+	type postclass ok
 	img max 280*165
 
 
