@@ -41,9 +41,6 @@ var Roots = {
       
       $('.items').find('.item').matchHeight(true);
 
-      //Custom Checkbox/Radio
-      $('.custom-input').customInput();
-
       $("textarea").click(function() {
          $(this).height(100);
       });

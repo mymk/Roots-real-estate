@@ -24,7 +24,7 @@
 	
 	<form role="search" method="get" class="search-form  remove-bottom" action="<?php echo home_url('/'); ?>" role="form">
 	  
-		<div class="form-group form-inline custom-input">
+		<div class="form-group form-inline">
 			<label for="type-sale" class="sr-only"><?php _e('Type of property', 'roots-immo'); ?></label>
 			<span>
 				<input id="type-sale" class="form-control" type="radio" name="post_type" data-price-step="1000" value="sale" <?php if($sale) echo "checked"; ?>>
