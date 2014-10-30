@@ -587,63 +587,63 @@ add_filter('pre_get_posts','SearchFilter');
 
 
 
-function get_gallery() {
+// function get_gallery() {
 
-  global $post;
+//   global $post;
 
-  $thumbnail_ID = get_post_thumbnail_id();
+//   $thumbnail_ID = get_post_thumbnail_id();
 
-  $images = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
+//   $images = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
 
-  if ($images) :
-      $nb_img = count($images)-1;
+//   if ($images) :
+//       $nb_img = count($images)-1;
 
-      echo '<div id="post-slider" class="post-slider carousel slide">';
+//       echo '<div id="post-slider" class="post-slider carousel slide">';
 
-      echo'<ol class="carousel-indicators">';
-        for($i = 0 ; $i <= $nb_img ; $i++) :
+//       echo'<ol class="carousel-indicators">';
+//         for($i = 0 ; $i <= $nb_img ; $i++) :
 
-          $active = ($i === 0 ? 'active' : '');
+//           $active = ($i === 0 ? 'active' : '');
 
-          echo' <li data-target="#gallery" data-slide-to="'.$i.'" class="'.$active.'"></li>';
+//           echo' <li data-target="#gallery" data-slide-to="'.$i.'" class="'.$active.'"></li>';
 
-        endfor;
-      echo'</ol>';
+//         endfor;
+//       echo'</ol>';
 
-      echo '<div class="carousel-inner">';
+//       echo '<div class="carousel-inner">';
 
-      $first = true;
+//       $first = true;
 
-      foreach ($images as $attachment_id => $image) :
-        $active = ($first ? 'active' : '');
+//       foreach ($images as $attachment_id => $image) :
+//         $active = ($first ? 'active' : '');
 
-        $first = false;
+//         $first = false;
 
-        $large_image_big_array = image_downsize( $image->ID, 'full' );
+//         $large_image_big_array = image_downsize( $image->ID, 'full' );
 
-        $large_image_img_url = $large_image_big_array[0];
+//         $large_image_img_url = $large_image_big_array[0];
 
-        $img_alt = get_post_meta($attachment_id, '_wp_attachment_image_alt', true); //alt
+//         $img_alt = get_post_meta($attachment_id, '_wp_attachment_image_alt', true); //alt
 
-        if ($img_alt == '') : $img_alt = $image->post_title; endif;
+//         if ($img_alt == '') : $img_alt = $image->post_title; endif;
 
-        $big_array = image_downsize( $image->ID, 'single-item' );
+//         $big_array = image_downsize( $image->ID, 'single-item' );
 
-        $img_url = $big_array[0];
+//         $img_url = $big_array[0];
 
-        echo '<div class="item '.$active.'"><a href="'. $large_image_img_url .'" class="fancybox" rel="gallery1">';
+//         echo '<div class="item '.$active.'"><a href="'. $large_image_img_url .'" class="fancybox" rel="gallery1">';
 
-        echo '<img src="'.$img_url.'" alt="'.$img_alt.'" class="img-preview scale-with-grid"/>';
+//         echo '<img src="'.$img_url.'" alt="'.$img_alt.'" class="img-preview scale-with-grid"/>';
 
-        echo '</a></div><!--end slide-->';
+//         echo '</a></div><!--end slide-->';
 
-      endforeach; 
+//       endforeach; 
 
-  echo '</div>';
-  echo '</div>';
+//   echo '</div>';
+//   echo '</div>';
 
-  endif;
-}
+//   endif;
+// }
 
 
 

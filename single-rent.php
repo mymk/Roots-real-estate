@@ -31,7 +31,7 @@ Template Name: single location Template
 
 					<?php 
 					 if(has_gallery()){
-					 	get_gallery(); 
+					 	get_template_part('templates/post-slider');
 					 } else if (has_post_thumbnail( )){
 					  	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
 						?>

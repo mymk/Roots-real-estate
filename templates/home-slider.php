@@ -2,6 +2,8 @@
   global $prefix;
   global $logo_url;
 
+  $nb_posts = 5;
+
   $args = array( 
     'post_type' => 'rent',
     'posts_per_page' => $nb_posts,
@@ -12,15 +14,14 @@
 
   $myposts = get_posts($args);
 
-
 ?>
 
 <div id="home-slider" class="home-slider carousel slide">
 
   <ol class="carousel-indicators">
-    <?php foreach($myposts as $key => $post): ?>
-      <li data-target="#home-slider" data-slide-to="<?php echo $key; ?>" <?php if($key == 0) echo 'class="active"'; ?>></li>
-    <?php endforeach; ?>
+    <?php for ($i = 0; $i <= $nb_posts-1; $i++): ?>
+      <li data-target="#home-slider" data-slide-to="<?php echo $i; ?>" <?php if($i == 0) echo 'class="active"'; ?>></li>
+    <?php endfor; ?>
   </ol>
 
   <div class="carousel-inner">
