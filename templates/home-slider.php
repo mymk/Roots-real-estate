@@ -20,7 +20,7 @@
   <ol class="carousel-indicators">
     <?php foreach($myposts as $key => $post): ?>
       <li data-target="#home-slider" data-slide-to="<?php echo $key; ?>" <?php if($key == 0) echo 'class="active"'; ?>></li>
-    <?php endfor; ?>
+    <?php endforeach; ?>
   </ol>
 
   <div class="carousel-inner">
