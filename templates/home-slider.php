@@ -2,33 +2,31 @@
   global $prefix;
   global $logo_url;
 
-  $nb_posts = 5;
-
   $args = array( 
     'post_type' => 'rent',
     'posts_per_page' => $nb_posts,
     'meta_key' => $prefix . '_featured',
     'meta_value' => '1',
-    'post_status'      => 'publish',
+    'post_status' => 'publish',
   ); 
 
   $myposts = get_posts($args);
 
-  $first = true;
+
 ?>
 
 <div id="home-slider" class="home-slider carousel slide">
 
   <ol class="carousel-indicators">
-    <?php for($i = 0; $i <= $nb_posts-1; $i++): ?>
-      <li data-target="#home-slider" data-slide-to="<?php echo $i; ?>" <?php if($i == 0) echo 'class="active"'; ?>></li>
+    <?php foreach($myposts as $key => $post): ?>
+      <li data-target="#home-slider" data-slide-to="<?php echo $key; ?>" <?php if($key == 0) echo 'class="active"'; ?>></li>
     <?php endfor; ?>
   </ol>
 
   <div class="carousel-inner">
-        <?php 
+        <?php
+          $first = true;        
           foreach($myposts as $post): setup_postdata($post);
-
         ?>
           <div class="item <?php if($first) echo 'active'; ?>">
             <a class="thumbnail" href="<?php the_permalink(); ?>">
