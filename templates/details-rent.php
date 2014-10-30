@@ -67,7 +67,7 @@
         </ul>
         
         <?php if(!empty($near)): ?>
-            <p>A proximité de: <?php echo $near; ?></p>
+            <p><?php _e('A proximité de: ', 'roots-immo'); ?><?php echo $near; ?></p>
         <?php endif; ?>
 
         <p>
