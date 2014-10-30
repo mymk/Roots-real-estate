@@ -3,6 +3,9 @@
 Template Name: contact Template
 */
 ?>
+<header>
+  <h1 class="entry-title"><?php the_title(); ?></h1>
+</header>
 <!-- Section: map -->
 <section class="">
 	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=22 Avenue Georges Dumas, 87000 Limoges, France&amp;aq=3&amp;sll=45.8268507,1.2645989999999756&amp;ie=UTF8&amp;t=m&amp;ll=45.8268507,1.2645989999999756amp;z=13&amp;output=embed"></iframe>
