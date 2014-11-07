@@ -46,7 +46,7 @@
 							$items = get_posts($new_args);
 
 							foreach ( $items as $post ) : setup_postdata( $post );
-								$rent = rwmb_meta( $prefix . '_loyer' );
+								$rent = rwmb_meta( $prefix . '_rent' );
 								$type = get_type(rwmb_meta( $prefix.'_type' ));
 							?>
 							<div class="col-md-3">

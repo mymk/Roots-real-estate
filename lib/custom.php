@@ -293,7 +293,7 @@ function my_column_action( $column ) {
 
     case 'loyer':
 
-      echo rwmb_meta( $prefix . '_loyer' ). $currency;
+      echo rwmb_meta( $prefix . '_rent' ). $currency;
 
       break;
 
@@ -319,7 +319,7 @@ function my_column_action( $column ) {
 
     case 'consumption':
 
-      echo rwmb_meta( $prefix . '_conso_energetique' );
+      echo rwmb_meta( $prefix . '_energy_consumption' );
 
       break;
 
@@ -331,7 +331,7 @@ function my_column_action( $column ) {
 
     case 'address':
 
-      echo rwmb_meta( $prefix . '_adresse' );
+      echo rwmb_meta( $prefix . '_address' );
 
       break;
 
@@ -359,7 +359,7 @@ function column_orderby ( $vars ) {
 
     if ( isset( $vars['orderby'] ) && 'address' == $vars['orderby'] ) {
 
-        $vars = array_merge( $vars, array( 'meta_key' => 'roots_immo_adresse', 'orderby' => 'meta_value' ) );
+        $vars = array_merge( $vars, array( 'meta_key' => 'roots_immo_address', 'orderby' => 'meta_value' ) );
 
     }
 
@@ -376,278 +376,6 @@ function column_orderby ( $vars ) {
     return $vars;
 
 }
-
-
-
-/**
-
- * Property search
-
- *
-
- */
-
-
-
-
-
-// Add support for searching sale and change query 
-
-/*
-
-function mySearchFilterSale($query) {
-
-    $post_type = isset($_GET['post_type']);
-
-    if (!$post_type) {
-
-      $post_type = 'type-sale';
-
-    }
-
-      if ($query->is_search) {
-
-          $query->set('post_type', $post_type);
-
-      };
-
-      return $query;
-
-};
-
- 
-
-add_filter('pre_get_posts','mySearchFilterSale');
-
-
-
-// Add support for searching by custom post types. 
-
-function mySearchFilterRent($query) {
-
-    $post_type = isset($_GET['post_type']);
-
-    if (!$post_type) {
-
-      $post_type = 'type-rent';
-
-    }
-
-      if ($query->is_search) {
-
-          $query->set('post_type', $post_type);
-
-      };
-
-      return $query;
-
-};
-
- 
-
-add_filter('pre_get_posts','mySearchFilterRent');
-
-*/
-
-
-
-/*
-
-function SearchFilter($query) {
-
-  //ajout des post-type rent + sale 
-
-  if ($query->is_search) {
-
-
-
-    // set custom post type
-
-      $selected_radio = $_GET['post-type'];
-
-      if ($selected_radio == 'type-sale') {
-
-        $query->set('post_type', array('sale'));
-
-      }
-
-      else if ($selected_radio == 'type-rent') {
-
-        $query->set('post_type', array('rent'));
-
-      }
-
-      else  $query->set('post_type', array('rent', 'sale'));
-
-
-
-  }
-
-
-
-  return $query;
-
-}
-
-add_filter('pre_get_posts','SearchFilter');
-
-
-
-*/
-
-
-
-// add_filter('pre_get_posts', 'gkp_search_size');
-
-// function gkp_search_size( $query ) {
-
-//   global $prefix;
-
-
-
-  // if (!is_admin() && $query->is_search()   &&  $query->get('room_select')) { 
-
-
-
-  //   $query->set('meta_key', $prefix.'_nb_chambres');
-
-  //   $query->set('meta_value', $query->query_vars['room_select']);
-
-    
-
-  // }
-
-  // if (!is_admin() && $query->is_search()   &&  $query->get('type_select')) { 
-
-
-
-  //   $query->set('meta_key', $prefix.'_type');
-
-  //   $query->set('meta_value', $query->query_vars['type_select']);
-
-    
-
-  // }
-
-  // if (!is_admin() && $query->is_search()   &&  $query->get('min_price')) { 
-
-
-
-  //    $meta_query = $query->get('meta_query');
-
-
-
-  //    $meta_query[] = array(
-
-  //       'key' => $prefix.'_loyer',
-
-  //       'value' => $query->query_vars['min_price'],
-
-  //       'type' => 'NUMERIC',
-
-  //       'compare' => '>='
-
-  //    );
-
-
-
-  //    $query->set('meta_query',$meta_query);    
-
-  // }
-
-
-
-  // if (!is_admin() && $query->is_search()   &&  $query->get('max_price')) { 
-
-
-
-  //    $meta_query = $query->get('meta_query');
-
-
-
-  //    $meta_query[] = array(
-
-  //       'key' => $prefix.'_loyer',
-
-  //       'value' => $query->query_vars['max_price'],
-
-  //       'type' => 'NUMERIC',
-
-  //       'compare' => '<='
-
-  //    );
-
-
-
-  //    $query->set('meta_query',$meta_query);  
-
-  // }
-
-// }
-
-
-
-// function get_gallery() {
-
-//   global $post;
-
-//   $thumbnail_ID = get_post_thumbnail_id();
-
-//   $images = get_children( array('post_parent' => $post->ID, 'post_status' => 'inherit', 'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID') );
-
-//   if ($images) :
-//       $nb_img = count($images)-1;
-
-//       echo '<div id="post-slider" class="post-slider carousel slide">';
-
-//       echo'<ol class="carousel-indicators">';
-//         for($i = 0 ; $i <= $nb_img ; $i++) :
-
-//           $active = ($i === 0 ? 'active' : '');
-
-//           echo' <li data-target="#gallery" data-slide-to="'.$i.'" class="'.$active.'"></li>';
-
-//         endfor;
-//       echo'</ol>';
-
-//       echo '<div class="carousel-inner">';
-
-//       $first = true;
-
-//       foreach ($images as $attachment_id => $image) :
-//         $active = ($first ? 'active' : '');
-
-//         $first = false;
-
-//         $large_image_big_array = image_downsize( $image->ID, 'full' );
-
-//         $large_image_img_url = $large_image_big_array[0];
-
-//         $img_alt = get_post_meta($attachment_id, '_wp_attachment_image_alt', true); //alt
-
-//         if ($img_alt == '') : $img_alt = $image->post_title; endif;
-
-//         $big_array = image_downsize( $image->ID, 'single-item' );
-
-//         $img_url = $big_array[0];
-
-//         echo '<div class="item '.$active.'"><a href="'. $large_image_img_url .'" class="fancybox" rel="gallery1">';
-
-//         echo '<img src="'.$img_url.'" alt="'.$img_alt.'" class="img-preview scale-with-grid"/>';
-
-//         echo '</a></div><!--end slide-->';
-
-//       endforeach; 
-
-//   echo '</div>';
-//   echo '</div>';
-
-//   endif;
-// }
-
-
-
-
 
 function get_gallery_thumb() {
 
@@ -1151,7 +879,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Loyer', 'rwmb' ),
 
-        'id'   => "{$prefix}_loyer",
+        'id'   => "{$prefix}_rent",
 
         'type' => 'number',
 
@@ -1167,7 +895,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Charges', 'rwmb' ),
 
-        'id'   => "{$prefix}_charges",
+        'id'   => "{$prefix}_service_charge",
 
         'type' => 'number',
 
@@ -1183,7 +911,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Honoraires', 'rwmb' ),
 
-        'id'   => "{$prefix}_honoraires",
+        'id'   => "{$prefix}_fee",
 
         'type' => 'number',
 
@@ -1197,7 +925,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Disponibilité', 'rwmb' ),
 
-        'id'   => "{$prefix}_disponibilite",
+        'id'   => "{$prefix}_disponibility",
 
         'type' => 'date',
 
@@ -1327,7 +1055,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name'     => __( 'Heating', 'rwmb' ),
 
-        'id'       => "{$prefix}_heating",
+        'id'       => "{$prefix}_heating_type",
 
         'type'     => 'select',
 
@@ -1389,7 +1117,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Nombre de chambres', 'rwmb' ),
 
-        'id'   => "{$prefix}_nb_chambres",
+        'id'   => "{$prefix}_rooms",
 
         'type' => 'number',
 
@@ -1407,7 +1135,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name' => __( 'Nombre de salles de bain', 'rwmb' ),
 
-        'id'   => "{$prefix}_nb_sdb",
+        'id'   => "{$prefix}_bathrooms",
 
         'type' => 'number',
 
@@ -1425,7 +1153,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name'     => __( 'Etage', 'rwmb' ),
 
-        'id'       => "{$prefix}_etage",
+        'id'       => "{$prefix}_floor",
 
         'type'     => 'select',
 
@@ -1469,7 +1197,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name'     => __( 'Consommation énergetique', 'rwmb' ),
 
-        'id'       => "{$prefix}_conso_energetique",
+        'id'       => "{$prefix}_energy_consumption",
 
         'type'     => 'select',
 
@@ -1509,7 +1237,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'name'     => __( 'Emission de gaz à effet de serre ', 'rwmb' ),
 
-        'id'       => "{$prefix}_emission_gaz",
+        'id'       => "{$prefix}_gas_emissions",
 
         'type'     => 'select',
 
@@ -1547,7 +1275,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
       array(
 
-        'id'            => "{$prefix}_adresse",
+        'id'            => "{$prefix}_address",
 
         'name'          => __( 'Adresse', 'rwmb' ),
 
@@ -1571,7 +1299,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'style'         => 'width: 500px; height: 500px',
 
-        'address_field' => "{$prefix}_adresse",                     
+        'address_field' => "{$prefix}_address",                     
 
         // Name of text field where address is entered. Can be list of text fields, separated by commas (for ex. city, state)
 
@@ -1579,7 +1307,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
       array(
 
-        'id'            => "{$prefix}_secteur",
+        'id'            => "{$prefix}_area",
 
         'name'          => __( 'Secteur', 'rwmb' ),
 
@@ -1591,7 +1319,7 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
       array(
 
-        'id' => "{$prefix}_near",
+        'id' => "{$prefix}_nearby",
 
         'name' => __( 'A proximité de', 'rwmb' ),
 
@@ -1601,633 +1329,9 @@ function roots_immo_register_meta_boxes( $meta_boxes )
 
         'rows' => 3,
 
-      ),        
-
-/*
-
-      // TEXT
-
-      array(
-
-        // Field name - Will be used as label
-
-        'name'  => __( 'Text', 'rwmb' ),
-
-        // Field ID, i.e. the meta key
-
-        'id'    => "{$prefix}text",
-
-        // Field description (optional)
-
-        'desc'  => __( 'Text description', 'rwmb' ),
-
-        'type'  => 'text',
-
-        // Default value (optional)
-
-        'std'   => __( 'Default text value', 'rwmb' ),
-
-        // CLONES: Add to make the field cloneable (i.e. have multiple value)
-
-        'clone' => true,
-
-      ),
-
-      // CHECKBOX
-
-      array(
-
-        'name' => __( 'Checkbox', 'rwmb' ),
-
-        'id'   => "{$prefix}checkbox",
-
-        'type' => 'checkbox',
-
-        // Value can be 0 or 1
-
-        'std'  => 1,
-
-      ),
-
-      // RADIO BUTTONS
-
-      array(
-
-        'name'    => __( 'Radio', 'rwmb' ),
-
-        'id'      => "{$prefix}radio",
-
-        'type'    => 'radio',
-
-        // Array of 'value' => 'Label' pairs for radio options.
-
-        // Note: the 'value' is stored in meta field, not the 'Label'
-
-        'options' => array(
-
-          'value1' => __( 'Label1', 'rwmb' ),
-
-          'value2' => __( 'Label2', 'rwmb' ),
-
-        ),
-
-      ),
-
-      // SELECT BOX
-
-      array(
-
-        'name'     => __( 'Select', 'rwmb' ),
-
-        'id'       => "{$prefix}select",
-
-        'type'     => 'select',
-
-        // Array of 'value' => 'Label' pairs for select box
-
-        'options'  => array(
-
-          'value1' => __( 'Label1', 'rwmb' ),
-
-          'value2' => __( 'Label2', 'rwmb' ),
-
-        ),
-
-        // Select multiple values, optional. Default is false.
-
-        'multiple'    => false,
-
-        'std'         => 'value2',
-
-        'placeholder' => __( 'Select an Item', 'rwmb' ),
-
-      ),
-
-      // HIDDEN
-
-      array(
-
-        'id'   => "{$prefix}hidden",
-
-        'type' => 'hidden',
-
-        // Hidden field must have predefined value
-
-        'std'  => __( 'Hidden value', 'rwmb' ),
-
-      ),
-
-      // PASSWORD
-
-      array(
-
-        'name' => __( 'Password', 'rwmb' ),
-
-        'id'   => "{$prefix}password",
-
-        'type' => 'password',
-
-      ),
-
-      // TEXTAREA
-
-      array(
-
-        'name' => __( 'Textarea', 'rwmb' ),
-
-        'desc' => __( 'Textarea description', 'rwmb' ),
-
-        'id'   => "{$prefix}textarea",
-
-        'type' => 'textarea',
-
-        'cols' => 20,
-
-        'rows' => 3,
-
-      ),
-
-      // HEADING
-
-      array(
-
-        'type' => 'heading',
-
-        'name' => __( 'Heading', 'rwmb' ),
-
-        'id'   => 'fake_id', // Not used but needed for plugin
-
-      ),
-
-      // SLIDER
-
-      array(
-
-        'name' => __( 'Slider', 'rwmb' ),
-
-        'id'   => "{$prefix}slider",
-
-        'type' => 'slider',
-
-
-
-        // Text labels displayed before and after value
-
-        'prefix' => __( '$', 'rwmb' ),
-
-        'suffix' => __( ' USD', 'rwmb' ),
-
-
-
-        // jQuery UI slider options. See here http://api.jqueryui.com/slider/
-
-        'js_options' => array(
-
-          'min'   => 10,
-
-          'max'   => 255,
-
-          'step'  => 5,
-
-        ),
-
-      ),
-
-      // NUMBER
-
-      array(
-
-        'name' => __( 'Number', 'rwmb' ),
-
-        'id'   => "{$prefix}number",
-
-        'type' => 'number',
-
-
-
-        'min'  => 0,
-
-        'step' => 5,
-
-      ),
-
-      // DATE
-
-      array(
-
-        'name' => __( 'Date picker', 'rwmb' ),
-
-        'id'   => "{$prefix}date",
-
-        'type' => 'date',
-
-
-
-        // jQuery date picker options. See here http://api.jqueryui.com/datepicker
-
-        'js_options' => array(
-
-          'appendText'      => __( '(yyyy-mm-dd)', 'rwmb' ),
-
-          'dateFormat'      => __( 'yy-mm-dd', 'rwmb' ),
-
-          'changeMonth'     => true,
-
-          'changeYear'      => true,
-
-          'showButtonPanel' => true,
-
-        ),
-
-      ),
-
-      // DATETIME
-
-      array(
-
-        'name' => __( 'Datetime picker', 'rwmb' ),
-
-        'id'   => $prefix . 'datetime',
-
-        'type' => 'datetime',
-
-
-
-        // jQuery datetime picker options.
-
-        // For date options, see here http://api.jqueryui.com/datepicker
-
-        // For time options, see here http://trentrichardson.com/examples/timepicker/
-
-        'js_options' => array(
-
-          'stepMinute'     => 15,
-
-          'showTimepicker' => true,
-
-        ),
-
-      ),
-
-      // TIME
-
-      array(
-
-        'name' => __( 'Time picker', 'rwmb' ),
-
-        'id'   => $prefix . 'time',
-
-        'type' => 'time',
-
-
-
-        // jQuery datetime picker options.
-
-        // For date options, see here http://api.jqueryui.com/datepicker
-
-        // For time options, see here http://trentrichardson.com/examples/timepicker/
-
-        'js_options' => array(
-
-          'stepMinute' => 5,
-
-          'showSecond' => true,
-
-          'stepSecond' => 10,
-
-        ),
-
-      ),
-
-      // COLOR
-
-      array(
-
-        'name' => __( 'Color picker', 'rwmb' ),
-
-        'id'   => "{$prefix}color",
-
-        'type' => 'color',
-
-      ),
-
-      // CHECKBOX LIST
-
-      array(
-
-        'name' => __( 'Checkbox list', 'rwmb' ),
-
-        'id'   => "{$prefix}checkbox_list",
-
-        'type' => 'checkbox_list',
-
-        // Options of checkboxes, in format 'value' => 'Label'
-
-        'options' => array(
-
-          'value1' => __( 'Label1', 'rwmb' ),
-
-          'value2' => __( 'Label2', 'rwmb' ),
-
-        ),
-
-      ),
-
-      // EMAIL
-
-      array(
-
-        'name'  => __( 'Email', 'rwmb' ),
-
-        'id'    => "{$prefix}email",
-
-        'desc'  => __( 'Email description', 'rwmb' ),
-
-        'type'  => 'email',
-
-        'std'   => 'name@email.com',
-
-      ),
-
-      // RANGE
-
-      array(
-
-        'name'  => __( 'Range', 'rwmb' ),
-
-        'id'    => "{$prefix}range",
-
-        'desc'  => __( 'Range description', 'rwmb' ),
-
-        'type'  => 'range',
-
-        'min'   => 0,
-
-        'max'   => 100,
-
-        'step'  => 5,
-
-        'std'   => 0,
-
-      ),
-
-      // URL
-
-      array(
-
-        'name'  => __( 'URL', 'rwmb' ),
-
-        'id'    => "{$prefix}url",
-
-        'desc'  => __( 'URL description', 'rwmb' ),
-
-        'type'  => 'url',
-
-        'std'   => 'http://google.com',
-
-      ),
-
-      // OEMBED
-
-      array(
-
-        'name'  => __( 'oEmbed', 'rwmb' ),
-
-        'id'    => "{$prefix}oembed",
-
-        'desc'  => __( 'oEmbed description', 'rwmb' ),
-
-        'type'  => 'oembed',
-
-      ),
-
-      // SELECT ADVANCED BOX
-
-      array(
-
-        'name'     => __( 'Select', 'rwmb' ),
-
-        'id'       => "{$prefix}select_advanced",
-
-        'type'     => 'select_advanced',
-
-        // Array of 'value' => 'Label' pairs for select box
-
-        'options'  => array(
-
-          'value1' => __( 'Label1', 'rwmb' ),
-
-          'value2' => __( 'Label2', 'rwmb' ),
-
-        ),
-
-        // Select multiple values, optional. Default is false.
-
-        'multiple'    => false,
-
-        // 'std'         => 'value2', // Default value, optional
-
-        'placeholder' => __( 'Select an Item', 'rwmb' ),
-
-      ),
-
-      // TAXONOMY
-
-      array(
-
-        'name'    => __( 'Taxonomy', 'rwmb' ),
-
-        'id'      => "{$prefix}taxonomy",
-
-        'type'    => 'taxonomy',
-
-        'options' => array(
-
-          // Taxonomy name
-
-          'taxonomy' => 'category',
-
-          // How to show taxonomy: 'checkbox_list' (default) or 'checkbox_tree', 'select_tree', select_advanced or 'select'. Optional
-
-          'type' => 'checkbox_list',
-
-          // Additional arguments for get_terms() function. Optional
-
-          'args' => array()
-
-        ),
-
-      ),
-
-      // POST
-
-      array(
-
-        'name'    => __( 'Posts (Pages)', 'rwmb' ),
-
-        'id'      => "{$prefix}pages",
-
-        'type'    => 'post',
-
-
-
-        // Post type
-
-        'post_type' => 'page',
-
-        // Field type, either 'select' or 'select_advanced' (default)
-
-        'field_type' => 'select_advanced',
-
-        // Query arguments (optional). No settings means get all published posts
-
-        'query_args' => array(
-
-          'post_status' => 'publish',
-
-          'posts_per_page' => '-1',
-
-        )
-
-      ),
-
-      // WYSIWYG/RICH TEXT EDITOR
-
-      array(
-
-        'name' => __( 'WYSIWYG / Rich Text Editor', 'rwmb' ),
-
-        'id'   => "{$prefix}wysiwyg",
-
-        'type' => 'wysiwyg',
-
-        // Set the 'raw' parameter to TRUE to prevent data being passed through wpautop() on save
-
-        'raw'  => false,
-
-        'std'  => __( 'WYSIWYG default value', 'rwmb' ),
-
-
-
-        // Editor settings, see wp_editor() function: look4wp.com/wp_editor
-
-        'options' => array(
-
-          'textarea_rows' => 4,
-
-          'teeny'         => true,
-
-          'media_buttons' => false,
-
-        ),
-
-      ),
-
-      // DIVIDER
-
-      array(
-
-        'type' => 'divider',
-
-        'id'   => 'fake_divider_id', // Not used, but needed
-
-      ),
-
-      // FILE UPLOAD
-
-      array(
-
-        'name' => __( 'File Upload', 'rwmb' ),
-
-        'id'   => "{$prefix}file",
-
-        'type' => 'file',
-
-      ),
-
-      // FILE ADVANCED (WP 3.5+)
-
-      array(
-
-        'name' => __( 'File Advanced Upload', 'rwmb' ),
-
-        'id'   => "{$prefix}file_advanced",
-
-        'type' => 'file_advanced',
-
-        'max_file_uploads' => 4,
-
-        'mime_type' => 'application,audio,video', // Leave blank for all file types
-
-      ),
-
-      // IMAGE UPLOAD
-
-      array(
-
-        'name' => __( 'Image Upload', 'rwmb' ),
-
-        'id'   => "{$prefix}image",
-
-        'type' => 'image',
-
-      ),
-
-      // THICKBOX IMAGE UPLOAD (WP 3.3+)
-
-      array(
-
-        'name' => __( 'Thickbox Image Upload', 'rwmb' ),
-
-        'id'   => "{$prefix}thickbox",
-
-        'type' => 'thickbox_image',
-
-      ),
-
-      // PLUPLOAD IMAGE UPLOAD (WP 3.3+)
-
-      array(
-
-        'name'             => __( 'Plupload Image Upload', 'rwmb' ),
-
-        'id'               => "{$prefix}plupload",
-
-        'type'             => 'plupload_image',
-
-        'max_file_uploads' => 4,
-
       )
 
-      // IMAGE ADVANCED (WP 3.5+)
-
-      array(
-
-        'name'             => __( 'Image Advanced Upload', 'rwmb' ),
-
-        'id'               => "{$prefix}imgadv",
-
-        'type'             => 'image_advanced',
-
-        'max_file_uploads' => 4,
-
-      ),
-
-      // BUTTON
-
-      array(
-
-        'id'   => "{$prefix}button",
-
-        'type' => 'button',
-
-        'name' => ' ', // Empty name will "align" the button to all field inputs
-
-      ),
-
-      */
-
-    ),
+    )
 
   );
 
@@ -2423,7 +1527,7 @@ function has_map(){
 
   $prefix = 'roots_immo';
 
-  $map_address = rwmb_meta( $prefix.'_adresse' );
+  $map_address = rwmb_meta( $prefix.'_address' );
 
 
 
@@ -2540,7 +1644,7 @@ function get_floor() {
 
 
 
-    $floors = rwmb_meta( $prefix . '_etage' );
+    $floors = rwmb_meta( $prefix . '_floor' );
 
     switch ($floors) {
 
@@ -2632,7 +1736,7 @@ function get_consumption() {
 
 
 
-    $consumptions = rwmb_meta( $prefix . '_conso_energetique' );
+    $consumptions = rwmb_meta( $prefix . '_energy_consumption' );
 
     switch ($consumptions) {
 
@@ -2708,7 +1812,7 @@ function get_emission() {
 
 
 
-    $emissions = rwmb_meta( $prefix . '_emission_gaz' );
+    $emissions = rwmb_meta( $prefix . '_gas_emissions' );
 
     switch ($emissions) {
 
@@ -2784,7 +1888,7 @@ function get_heating() {
 
 
 
-  $heating_types = rwmb_meta( $prefix . '_heating' );
+  $heating_types = rwmb_meta( $prefix . '_heating_type' );
 
   switch($heating_types) {
 

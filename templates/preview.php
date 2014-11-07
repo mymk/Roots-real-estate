@@ -2,17 +2,17 @@
 	global $prefix;
 	global $currency;
 
-	$rent = rwmb_meta( $prefix . '_loyer' );
-	$charge = rwmb_meta( $prefix.'_charges' );
+	$rent = rwmb_meta( $prefix . '_rent' );
+	$charge = rwmb_meta( $prefix.'_service_charge' );
 
 	$rent_ci = $rent + $charge;
 		
     $surface = rwmb_meta( $prefix.'_surface' );
-    $rooms = rwmb_meta( $prefix . '_nb_chambres' );
+    $rooms = rwmb_meta( $prefix . '_rooms' );
 
     $heating = get_heating();
 
-    $baths = rwmb_meta( $prefix . '_nb_sdb' );
+    $baths = rwmb_meta( $prefix . '_bathrooms' );
 
     $type = get_type(rwmb_meta( $prefix . '_type' ));
 

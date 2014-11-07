@@ -13,11 +13,11 @@
 
 	$myposts = get_posts( $args );
 	foreach ( $myposts as $post ) : setup_postdata( $post );
-		$rent = rwmb_meta( $prefix . '_loyer' );
-		$charge = rwmb_meta( $prefix.'_charges' );
+		$rent = rwmb_meta( $prefix . '_rent' );
+		$charge = rwmb_meta( $prefix.'_service_charge' );
 		$rent_ci = $rent + $charge;
-		$rooms = rwmb_meta( $prefix . '_nb_chambres' );
-		$baths = rwmb_meta( $prefix . '_nb_sdb' );
+		$rooms = rwmb_meta( $prefix . '_rooms' );
+		$baths = rwmb_meta( $prefix . '_bathrooms' );
 	?>
 
 	<div class="item col-sm-6 col-md-3 add-bottom">
