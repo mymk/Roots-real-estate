@@ -20,20 +20,12 @@
           'value' => $_GET['type_select'],
           'compare' => '=',
           'type' => 'string'
-      );
-
-      // if(isset($_GET['heating_select']) && $_GET['heating_select'] != '0')
-      // $meta_query_heating = array(
-      //     'key' => $prefix.'_heating',
-      //     'value' => $_GET['heating_select'],
-      //     'compare' => '=',
-      //     'type' => 'string'
-      // );    
+      );  
         
       // check price custom fields  
       if(isset($_GET['max_price']) && $_GET['max_price'] != '0')
       $meta_query_price_in = array(
-        'key' => $prefix.'_loyer',
+        'key' => $prefix.'_rent',
         'value' => intval($_GET['max_price']),
         'compare' => '<=',
         'type' => 'NUMERIC'
@@ -46,8 +38,6 @@
       
       if(!empty($meta_query_type))
         array_push($meta_query, $meta_query_type);
-      if(!empty($meta_query_heating))
-        array_push($meta_query, $meta_query_heating);
       if(!empty($meta_query_price_in))
         array_push($meta_query, $meta_query_price_in); 
 
@@ -58,7 +48,7 @@
           's' => $search_get['s'],
           'paged' => get_query_var('paged'),
           'posts_per_page' => 9,
-          'meta_key' => $prefix.'_loyer',
+          'meta_key' => $prefix.'_rent',
           'orderby' => 'meta_value_num',
           'order' => 'ASC'
         );
@@ -67,12 +57,6 @@
         // add meta query
         if(!empty($meta_query))
           $args = array_merge($args, array('meta_query' => $meta_query));
-
-        /* debuging query */
-        // echo '<pre>';
-        // var_dump($args);
-        // echo '</pre>';    
-
         
         // query_posts($args);
 

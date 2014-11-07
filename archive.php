@@ -20,7 +20,7 @@
 		'post_status' => 'publish',
 		'paged' => $paged,
 		'posts_per_page' => 9,
-		'meta_key' => $prefix.'_loyer',
+		'meta_key' => $prefix.'_rent',
 		'order_by' => 'meta_value_num',
 		'order' => 'ASC'
 	);

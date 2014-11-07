@@ -48,8 +48,8 @@ Template Name: single vente Template
 			   	<?php if(has_Map()): ?>
 			  	<div class="tab-pane" id="map">
 			  		<?php 
-				  		$mapAdresse = rwmb_meta( $prefix.'_adresse' );
-						$mapPoint = rwmb_meta( $prefix.'_loc' );
+				  		$mapAdresse = rwmb_meta( $prefix.'_address' );
+						$mapPoint = rwmb_meta( $prefix.'_location' );
 							
 						if(!empty($mapAdresse)) :
 					?>

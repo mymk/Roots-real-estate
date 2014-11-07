@@ -3,14 +3,14 @@
     global $currency;
     global $surface_unit;
 
-    $rent = rwmb_meta( $prefix . '_loyer' );
+    $rent = rwmb_meta( $prefix . '_rent' );
 
-    $fees = rwmb_meta( $prefix . '_honoraires' );
+    $fees = rwmb_meta( $prefix . '_fee' );
 
     $surface = rwmb_meta( $prefix.'_surface' );
     $total_surface = rwmb_meta( $prefix.'_total_surface' );
 
-    $sector = rwmb_meta( $prefix . '_secteur' );
+    $sector = rwmb_meta( $prefix . '_area' );
 
     $type = get_type(rwmb_meta( $prefix . '_type' ));
 
@@ -18,9 +18,9 @@
 
     $heating = get_heating();
 
-    $rooms = rwmb_meta( $prefix . '_nb_chambres' );
+    $rooms = rwmb_meta( $prefix . '_rooms' );
 
-    $baths = rwmb_meta( $prefix . '_nb_sdb' );
+    $baths = rwmb_meta( $prefix . '_bathrooms' );
 
     $consumption = get_consumption();
 

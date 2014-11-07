@@ -3,22 +3,23 @@
     global $currency;
     global $surface_unit;
 
-    $rent = rwmb_meta( $prefix . '_loyer' );
-    $charge = rwmb_meta( $prefix.'_charges' );
+    $rent = rwmb_meta( $prefix . '_rent' );
+
+    $charge = rwmb_meta( $prefix.'_service_charge' );
 
     $rent_ci = $rent + $charge;
 
-    $fees = rwmb_meta( $prefix . '_honoraires' );
-
-
+    $fees = rwmb_meta( $prefix . '_fee' );
 
     $surface = rwmb_meta( $prefix.'_surface' );
+
     $total_surface = rwmb_meta( $prefix.'_total_surface' );
 
-    $availability = rwmb_meta( $prefix . '_disponibilite' );
+    $availability = rwmb_meta( $prefix . '_disponibility' );
+
     $availability_format = date('d/m/Y', strtotime($availability));
 
-    $sector = rwmb_meta( $prefix . '_secteur' );
+    $sector = rwmb_meta( $prefix . '_area' );
 
     $type = get_type(rwmb_meta( $prefix . '_type' ));
 
@@ -26,15 +27,15 @@
 
     $floor = get_floor();
 
-    $rooms = rwmb_meta( $prefix . '_nb_chambres' );
+    $rooms = rwmb_meta( $prefix . '_rooms' );
 
-    $baths = rwmb_meta( $prefix . '_nb_sdb' );
-
-    $near = rwmb_meta( $prefix . '_near' );
-
+    $baths = rwmb_meta( $prefix . '_bathrooms' );
+    
+    $near = rwmb_meta( $prefix . '_nearby' );
+    
     $consumption = get_consumption();
-
-    $emission = get_emission();
+    
+    $emission = get_emission();   
 ?>
 <div class="col-md-8">
                     

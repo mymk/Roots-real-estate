@@ -30,7 +30,7 @@
 		<?php
 			foreach ( $myposts as $post ) : setup_postdata( $post );
 
-				$rent = rwmb_meta( $prefix . '_loyer' );
+				$rent = rwmb_meta( $prefix . '_rent' );
 		?>
 			<div class="item <?php if($first) echo 'active'; ?>">
 				<a href="<?php the_permalink(); ?>">
