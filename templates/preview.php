@@ -1,77 +1,79 @@
 <?php
-	global $prefix;
-	global $currency;
+global $prefix;
+global $currency;
 
-	$rent = rwmb_meta( $prefix . '_rent' );
-	$charge = rwmb_meta( $prefix.'_service_charge' );
+$rent = rwmb_meta($prefix . '_rent');
+$charge = rwmb_meta($prefix . '_service_charge');
 
-	$rent_ci = $rent + $charge;
-		
-    $surface = rwmb_meta( $prefix.'_surface' );
-    $rooms = rwmb_meta( $prefix . '_rooms' );
+$rent_ci = $rent + $charge;
 
-    $heating = get_heating();
+$surface = rwmb_meta($prefix . '_surface');
+$rooms = rwmb_meta($prefix . '_rooms');
 
-    $baths = rwmb_meta( $prefix . '_bathrooms' );
+$heating = get_heating();
 
-    $type = get_type(rwmb_meta( $prefix . '_type' ));
+$baths = rwmb_meta($prefix . '_bathrooms');
 
-    $class = get_main_type($type);
+$type = get_type(rwmb_meta($prefix . '_type'));
 
-    if(is_low_price()) {
-    	$class.='low-price';
-    }
+$class = get_main_type($type);
+
+if (is_low_price()) {
+    $class .= 'low-price';
+}
 
 
-    $details = '';
-    
-    if($class == 'appartement' || $class == 'maison') {
-    	$details = $rooms.' chambres / '.$baths.' salles de bain / ';
-    }
+$details = '';
 
-    $details .= $surface.'m²';
+if ($class == 'appartement' || $class == 'maison') {
+    $details = $rooms . ' chambres / ' . $baths . ' salles de bain / ';
+}
+
+$details .= $surface . 'm²';
 
 ?>
 <div class="item <?php echo $class; ?> col-xs-4 col-lg-4 add-bottom">
     <div class="thumbnail">
         <a href="<?php the_permalink(); ?>"><?php get_the_main_image('single-item'); ?></a>
-    </div>        
-    
+    </div>
+
     <div class="caption">
         <h4 class=""><?php the_title(); ?></h4>
+
         <p class="">
             Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
         <div class="row">
             <div class="col-xs-12">
                 <p class="lead">
-                    <?php 			
-					$post_type = get_post_type();
+                    <?php
+                    $post_type = get_post_type();
 
-					switch( $post_type )
-					{
-					    case 'rent':
-					         // do code for task post type
-					    	echo _e('Rent','roots-immo');
-					    break;
+                    switch ($post_type) {
+                        case 'rent':
+                            // do code for task post type
+                            echo _e('Rent', 'roots-immo');
+                            break;
 
-					    case 'sale':
-					         // do code for task post type
-					    	echo _e('Sales','roots-immo');
-					    break;
-					} ?>
-				</p>
-				<ul>
-					<li><?php echo $rent.$currency; ?></li>
-					<li><?php echo $type; ?></li>
-				</ul>
-				<p class="propr-details"><?php echo $details; ?></p>
-				<p class="prop-heat">Chauffage: <?php echo $heating; ?></p>
-				
+                        case 'sale':
+                            // do code for task post type
+                            echo _e('Sales', 'roots-immo');
+                            break;
+                    } ?>
+                </p>
+                <ul>
+                    <li><?php echo $rent . $currency; ?></li>
+                    <li><?php echo $type; ?></li>
+                </ul>
+                <p class="propr-details"><?php echo $details; ?></p>
+
+                <p class="prop-heat">Chauffage: <?php echo $heating; ?></p>
+
                 <a class="btn btn-primary" href="<?php the_permalink(); ?>#map"><?php _e('Map', 'roots-immo'); ?></a>
-            
+
                 <a class="btn btn-primary" href="<?php the_permalink(); ?>"><?php _e('Summary', 'roots-immo'); ?></a>
-            
+
             </div>
         </div>
     </div>

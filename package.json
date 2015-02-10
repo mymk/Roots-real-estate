@@ -8,12 +8,14 @@
     "url": "git://github.com/roots/roots.git"
   },
   "bugs": {
-    "url" : "https://github.com/roots/roots/issues"
+    "url": "https://github.com/roots/roots/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
   "engines": {
     "node": ">= 0.10.0"
   },

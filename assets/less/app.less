@@ -1,170 +1,288 @@
 /*!
  * Roots 6.5.2
  */
-
 @import "bootstrap/bootstrap.less";
 
 /* ==========================================================================
    Base
    ========================================================================== */
 
-body { }
-
-@padding:40px;
-.add-top{
-   padding-top: @padding;
+body {
 }
-.add-bottom{
-   padding-bottom: @padding;
+
+@padding: 40px;
+.add-top {
+  padding-top: @padding;
+}
+
+.add-bottom {
+  padding-bottom: @padding;
 }
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
-.banner { }
-
-
+.banner {
+}
 
 /* ==========================================================================
    Content
    ========================================================================== */
 
-.content { }
-
-
+.content {
+}
 
 /* ==========================================================================
    Primary Content
    ========================================================================== */
 
-.main { }
+.main {
+}
 
 /* Gallery Shortcode */
-.gallery-row { padding: 15px 0; }
-
-
+.gallery-row {
+  padding: 15px 0;
+}
 
 /* ==========================================================================
    Sidebar
    ========================================================================== */
 
-.sidebar { }
-
-
+.sidebar {
+}
 
 /* ==========================================================================
    Posts
    ========================================================================== */
 
-.hentry header { }
-.hentry time { }
-.hentry .byline { }
-.hentry .entry-content { }
-.hentry footer { }
+.hentry header {
+}
 
+.hentry time {
+}
 
+.hentry .byline {
+}
+
+.hentry .entry-content {
+}
+
+.hentry footer {
+}
 
 /* ==========================================================================
    Energy
    ========================================================================== */
 
 .progressbar {
-   height: 45px;
-   margin-bottom: 44px;
-   background-color: #EBEDF1;
-   overflow: hidden;
+  height: 45px;
+  margin-bottom: 44px;
+  background-color: #EBEDF1;
+  overflow: hidden;
 }
+
 .progress-label {
-   height: 45px;
-   text-transform: uppercase;
-   line-height: 45px;
-   text-indent: 10px;
-   position: relative;
+  height: 45px;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-indent: 10px;
+  position: relative;
 }
+
 .progress-label span {
-   
 
-   position: absolute;
+  position: absolute;
 
-   margin-top: 45px;
+  margin-top: 45px;
 
 }
-.progress-label.A { width: 14.28%; }
-.progress-label.B { width: 28.56%; }
-.progress-label.C { width: 42.84%; }
-.progress-label.D { width: 57.12%; }
-.progress-label.E { width: 71.4%; }
-.progress-label.F { width: 85.68%; }
-.progress-label.G { width: 100%; }
 
-.consommation .progress-label.A { background-color:#009036  }
-.consommation .progress-label.B { background-color:#57ab27  }
-.consommation .progress-label.C { background-color:#c9d200  }
-.consommation .progress-label.D { background-color:#ffed00  }
-.consommation .progress-label.E { background-color:#fbbb00  }
-.consommation .progress-label.F { background-color:#eb690b  }
-.consommation .progress-label.G { background-color:#e3001a  }
-
-.progress-label:before{
-   content:"";
-   position: absolute;
-   left: 0;
+.progress-label.A {
+  width: 14.28%;
 }
 
-.consommation .progress-label.A:before { content:"A: < 50";  }
-.consommation .progress-label.B:before { content:"B: 51 > 90";  }
-.consommation .progress-label.C:before { content:"C: 90 > 150";  }
-.consommation .progress-label.D:before{ content:"D: 151 > 230";   }
-.consommation .progress-label.E:before { content:"E: 231 > 330";  }
-.consommation .progress-label.F:before{ content:"F: 331 > 450";  }
-.consommation .progress-label.G:before{ content:"G: > 450";  }
+.progress-label.B {
+  width: 28.56%;
+}
 
+.progress-label.C {
+  width: 42.84%;
+}
 
-.emission .progress-label.A { background-color:#f6edfd  }
-.emission .progress-label.B { background-color:#e1c2f8  }
-.emission .progress-label.C { background-color:#d4a9f5 }
-.emission .progress-label.D { background-color:#cb95f3  }
-.emission .progress-label.E { background-color:#ba72ef  }
-.emission .progress-label.F { background-color:#a74deb  }
-.emission .progress-label.G { background-color:#8a19df  }
+.progress-label.D {
+  width: 57.12%;
+}
 
-.emission .progress-label.A:before { content:"A: < 5";  }
-.emission .progress-label.B:before { content:"B: 5 > 10";  }
-.emission .progress-label.C:before { content:"C: 11 > 20";  }
-.emission .progress-label.D:before{ content:"D: 21 > 35";   }
-.emission .progress-label.E:before { content:"E: 36 > 55";  }
-.emission .progress-label.F:before{ content:"F: 56 > 80";  }
-.emission .progress-label.G:before{ content:"G: > 80";  }
+.progress-label.E {
+  width: 71.4%;
+}
 
+.progress-label.F {
+  width: 85.68%;
+}
 
+.progress-label.G {
+  width: 100%;
+}
+
+.consommation .progress-label.A {
+  background-color: #009036
+}
+
+.consommation .progress-label.B {
+  background-color: #57ab27
+}
+
+.consommation .progress-label.C {
+  background-color: #c9d200
+}
+
+.consommation .progress-label.D {
+  background-color: #ffed00
+}
+
+.consommation .progress-label.E {
+  background-color: #fbbb00
+}
+
+.consommation .progress-label.F {
+  background-color: #eb690b
+}
+
+.consommation .progress-label.G {
+  background-color: #e3001a
+}
+
+.progress-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.consommation .progress-label.A:before {
+  content: "A: < 50";
+}
+
+.consommation .progress-label.B:before {
+  content: "B: 51 > 90";
+}
+
+.consommation .progress-label.C:before {
+  content: "C: 90 > 150";
+}
+
+.consommation .progress-label.D:before {
+  content: "D: 151 > 230";
+}
+
+.consommation .progress-label.E:before {
+  content: "E: 231 > 330";
+}
+
+.consommation .progress-label.F:before {
+  content: "F: 331 > 450";
+}
+
+.consommation .progress-label.G:before {
+  content: "G: > 450";
+}
+
+.emission .progress-label.A {
+  background-color: #f6edfd
+}
+
+.emission .progress-label.B {
+  background-color: #e1c2f8
+}
+
+.emission .progress-label.C {
+  background-color: #d4a9f5
+}
+
+.emission .progress-label.D {
+  background-color: #cb95f3
+}
+
+.emission .progress-label.E {
+  background-color: #ba72ef
+}
+
+.emission .progress-label.F {
+  background-color: #a74deb
+}
+
+.emission .progress-label.G {
+  background-color: #8a19df
+}
+
+.emission .progress-label.A:before {
+  content: "A: < 5";
+}
+
+.emission .progress-label.B:before {
+  content: "B: 5 > 10";
+}
+
+.emission .progress-label.C:before {
+  content: "C: 11 > 20";
+}
+
+.emission .progress-label.D:before {
+  content: "D: 21 > 35";
+}
+
+.emission .progress-label.E:before {
+  content: "E: 36 > 55";
+}
+
+.emission .progress-label.F:before {
+  content: "F: 56 > 80";
+}
+
+.emission .progress-label.G:before {
+  content: "G: > 80";
+}
 
 /* ==========================================================================
    Footer
    ========================================================================== */
 
-.content-info { }
-
-
+.content-info {
+}
 
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
    ========================================================================== */
 
-.aligncenter { display: block; margin: 0 auto; }
-.alignleft { float: left; }
-.alignright { float: right; }
-figure.alignnone { margin-left: 0; margin-right: 0; }
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
 
+.alignleft {
+  float: left;
+}
 
+.alignright {
+  float: right;
+}
+
+figure.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media (min-width: @screen-sm-min) { }
+@media (min-width: @screen-sm-min) {
+}
 
-@media (min-width: @screen-md-min) { }
+@media (min-width: @screen-md-min) {
+}
 
-@media (min-width: @screen-lg-min) { }
+@media (min-width: @screen-lg-min) {
+}

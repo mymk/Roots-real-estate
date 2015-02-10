@@ -1,4 +1,4 @@
-<?php 
+<?php
 global $logo_url;
 
 $emogrifier = new \Pelago\Emogrifier();
