@@ -1,56 +1,58 @@
 <?php
-	global $post;
-	global $prefix;
-	global $types_array;
+    global $post;
+    global $prefix;
+    global $types_array;
 
-	$meta_query = null;
+    $meta_query = null;
 
-	$post_type = get_post_type();
+    $post_type = get_post_type();
 
-	if(is_post_type_archive('rent')) {
-		unset($types_array['value17']); //remove "Land" type
-	}
+    if (is_post_type_archive('rent')) {
+        unset($types_array['value17']); //remove "Land" type
+    }
 
-	$archive_url = get_post_type_archive_link($post_type);
+    $archive_url = get_post_type_archive_link($post_type);
 
-	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-	$args = array(
-		'post_type' => $post_type,
-		'post_status' => 'publish',
-		'paged' => $paged,
-		'posts_per_page' => 9,
-		'meta_key' => $prefix.'_rent',
-		'order_by' => 'meta_value_num',
-		'order' => 'ASC'
-	);
+    $args = [
+        'post_type'      => $post_type,
+        'post_status'    => 'publish',
+        'paged'          => $paged,
+        'posts_per_page' => 9,
+        'meta_key'       => $prefix.'_rent',
+        'order_by'       => 'meta_value_num',
+        'order'          => 'ASC',
+    ];
 
-	if(isset($_GET['t'])) {
-		$key_id = $prefix.'_type';
+    if (isset($_GET['t'])) {
+        $key_id = $prefix.'_type';
 
-		$key_value = $_GET['t'];
-	}
+        $key_value = $_GET['t'];
+    }
 
-	if(isset($_GET['lp'])) {
-		$key_id = $prefix.'_low_price';
+    if (isset($_GET['lp'])) {
+        $key_id = $prefix.'_low_price';
 
-		$key_value = $_GET['lp'];
-	}
+        $key_value = $_GET['lp'];
+    }
 
-	if($key_id) {
-		$meta_query = array(
-			array(
-				'key' => $key_id,
-				'value' =>$key_value,
-				'compare' => '=',
-				'type' => 'string'
-			)
-		);
-	}
-		
-	if(is_array($meta_query)) $args = array_merge($args, array('meta_query' => $meta_query));
+    if ($key_id) {
+        $meta_query = [
+            [
+                'key'     => $key_id,
+                'value'   => $key_value,
+                'compare' => '=',
+                'type'    => 'string',
+            ],
+        ];
+    }
 
-	$custom_query = new WP_Query($args);	
+    if (is_array($meta_query)) {
+        $args = array_merge($args, ['meta_query' => $meta_query]);
+    }
+
+    $custom_query = new WP_Query($args);
 ?>
 		
 <h2><?php echo roots_title(); ?></h2>
@@ -67,9 +69,9 @@
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 				<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $archive_url; ?>">Tous</a></li>
 				<?php 
-					foreach($types_array as $key => $type): 
-					$url = $archive_url.'?t='.$key;
-				?>
+                    foreach ($types_array as $key => $type):
+                    $url = $archive_url.'?t='.$key;
+                ?>
 		    	<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo $url; ?>"><?php echo $type; ?></a></li>
 				<?php endforeach; ?>
 			</ul>
@@ -90,15 +92,15 @@
 
 <div id="items" class="items row">
 	<?php
-		if($custom_query->have_posts()):				
-			while ($custom_query->have_posts()): $custom_query->the_post();
+        if ($custom_query->have_posts()):
+            while ($custom_query->have_posts()): $custom_query->the_post();
 
-				get_template_part('templates/preview');
+                get_template_part('templates/preview');
 
-			endwhile;
-			wp_reset_postdata();
-		endif;
-	?>
+            endwhile;
+            wp_reset_postdata();
+        endif;
+    ?>
 </div>
 
 <?php pagination('', 3, $custom_query); ?>

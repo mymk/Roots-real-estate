@@ -1,32 +1,31 @@
 <?php
-	global $prefix;
-	global $currency;
+    global $prefix;
+    global $currency;
 
-	$rent = rwmb_meta( $prefix . '_rent' );
-	$charge = rwmb_meta( $prefix.'_service_charge' );
+    $rent = rwmb_meta($prefix.'_rent');
+    $charge = rwmb_meta($prefix.'_service_charge');
 
-	$rent_ci = $rent + $charge;
-		
-    $surface = rwmb_meta( $prefix.'_surface' );
-    $rooms = rwmb_meta( $prefix . '_rooms' );
+    $rent_ci = $rent + $charge;
+
+    $surface = rwmb_meta($prefix.'_surface');
+    $rooms = rwmb_meta($prefix.'_rooms');
 
     $heating = get_heating();
 
-    $baths = rwmb_meta( $prefix . '_bathrooms' );
+    $baths = rwmb_meta($prefix.'_bathrooms');
 
-    $type = get_type(rwmb_meta( $prefix . '_type' ));
+    $type = get_type(rwmb_meta($prefix.'_type'));
 
     $class = get_main_type($type);
 
-    if(is_low_price()) {
-    	$class.='low-price';
+    if (is_low_price()) {
+        $class .= 'low-price';
     }
 
-
     $details = '';
-    
-    if($class == 'appartement' || $class == 'maison') {
-    	$details = $rooms.' chambres / '.$baths.' salles de bain / ';
+
+    if ($class == 'appartement' || $class == 'maison') {
+        $details = $rooms.' chambres / '.$baths.' salles de bain / ';
     }
 
     $details .= $surface.'m²';
@@ -45,21 +44,20 @@
         <div class="row">
             <div class="col-xs-12">
                 <p class="lead">
-                    <?php 			
-					$post_type = get_post_type();
+                    <?php 
+                    $post_type = get_post_type();
 
-					switch( $post_type )
-					{
-					    case 'rent':
-					         // do code for task post type
-					    	echo _e('Rent','roots-immo');
-					    break;
+                    switch ($post_type) {
+                        case 'rent':
+                             // do code for task post type
+                            echo _e('Rent', 'roots-immo');
+                        break;
 
-					    case 'sale':
-					         // do code for task post type
-					    	echo _e('Sales','roots-immo');
-					    break;
-					} ?>
+                        case 'sale':
+                             // do code for task post type
+                            echo _e('Sales', 'roots-immo');
+                        break;
+                    } ?>
 				</p>
 				<ul>
 					<li><?php echo $rent.$currency; ?></li>

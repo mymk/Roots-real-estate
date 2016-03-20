@@ -29,7 +29,7 @@
 
 	<div class="form-group">
 		<input type="hidden" name="action" value="send_mail_friend">
-			<?php wp_nonce_field( 'ajax_send_mail_friend_nonce', 'security' ); ?>
+			<?php wp_nonce_field('ajax_send_mail_friend_nonce', 'security'); ?>
 		<input type="submit" value="<?php _e('Send it', 'roots-immo'); ?>" class="send-message">
 		<input type="submit" value="<?php _e('Clear', 'roots-immo'); ?>">
 	</div> 

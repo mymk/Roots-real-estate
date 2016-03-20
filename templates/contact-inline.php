@@ -360,15 +360,22 @@ background: #CC0000 !important;
                             <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Email :<?php echo $sender; ?></p>
                             <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Tel : <?php echo $tel; ?></p>
 
-                            <?php if(isset($title)){
-                            ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">titre du bien à louer ou à visiter : <?php echo $title; ?></p>
-                            <?php }
-                            ?><?php if(isset($url)){
-                            ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">url  : <a href="<?php echo $url; ?>" title="" style="color: #2ba6cb; text-decoration: none;"><?php echo $title; ?></a></p>
-                            <?php }
-                            ?><?php if(isset($date)){
-                            ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Date de visite souhaité  : <?php echo $date; ?></p>
-                            <?php }
+                            <?php if (isset($title)) {
+    ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">titre du bien à louer ou à visiter : <?php echo $title;
+    ?></p>
+                            <?php 
+}
+                            ?><?php if (isset($url)) {
+    ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">url  : <a href="<?php echo $url;
+    ?>" title="" style="color: #2ba6cb; text-decoration: none;"><?php echo $title;
+    ?></a></p>
+                            <?php 
+}
+                            ?><?php if (isset($date)) {
+    ?><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Date de visite souhaité  : <?php echo $date;
+    ?></p>
+                            <?php 
+}
                             ?><p style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0 0 10px; padding: 0;" align="left"></p>
                           </td>
                           <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>

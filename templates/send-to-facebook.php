@@ -25,5 +25,5 @@ function curPageURL() {
 */
 ?>
 
-<div class="fb-send" data-href="<?php // echo curPageURL();   ?>"></div>
+<div class="fb-send" data-href="<?php // echo curPageURL();?>"></div>
 <p>Share this article on Facebook</p>

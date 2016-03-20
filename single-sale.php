@@ -2,7 +2,7 @@
 /*
 Template Name: single vente Template
 */
-	global $prefix;
+    global $prefix;
 ?>
 <?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
@@ -23,36 +23,40 @@ Template Name: single vente Template
 				<div class="tab-pane active" id="photos">
 
 				<?php 
-				 if(has_gallery()){
-				 	get_template_part('templates/post-slider');; 
-				 } else if (has_post_thumbnail( )){
-				  	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
-					?>
-						<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0] ;?>">
-							<?php the_post_thumbnail('single-item', array('class' => 'img-preview scale-with-grid')); ?>
+                 if (has_gallery()) {
+                     get_template_part('templates/post-slider');
+                 } elseif (has_post_thumbnail()) {
+                     $large_image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
+                     ?>
+						<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0];
+                     ?>">
+							<?php the_post_thumbnail('single-item', ['class' => 'img-preview scale-with-grid']);
+                     ?>
 						</a>
 					<?php
 
-				} else {
-					?>
+                 } else {
+                     ?>
 					<div class="svg-container">
-						<object type="image/svg+xml" data="<?php bloginfo('template_directory' ); ?>/assets/img/begip-agence-immobiliere.svg" width="100%" height="100%" class="svg-content">
+						<object type="image/svg+xml" data="<?php bloginfo('template_directory');
+                     ?>/assets/img/begip-agence-immobiliere.svg" width="100%" height="100%" class="svg-content">
 						</object>
 					</div>
 					<?php
-				}		 
-				?>
+
+                 }
+                ?>
 
 				</div>
 
-			   	<?php if(has_Map()): ?>
+			   	<?php if (has_Map()): ?>
 			  	<div class="tab-pane" id="map">
 			  		<?php 
-				  		$mapAdresse = rwmb_meta( $prefix.'_address' );
-						$mapPoint = rwmb_meta( $prefix.'_location' );
-							
-						if(!empty($mapAdresse)) :
-					?>
+                        $mapAdresse = rwmb_meta($prefix.'_address');
+                        $mapPoint = rwmb_meta($prefix.'_location');
+
+                        if (!empty($mapAdresse)) :
+                    ?>
 
 						<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=<?php echo $mapAdresse; ?>&amp;aq=3&amp;sll=<?php echo $mapPoint; ?>&amp;ie=UTF8&amp;t=m&amp;ll=<?php echo $mapPoint; ?>amp;z=13&amp;output=embed"></iframe>
 

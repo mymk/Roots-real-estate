@@ -1,6 +1,6 @@
 <?php
   if (post_password_required()) {
-    return;
+      return;
   }
 
  if (have_comments()) : ?>
@@ -8,7 +8,7 @@
     <h3><?php printf(_n('One Response to &ldquo;%2$s&rdquo;', '%1$s Responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'roots-immo'), number_format_i18n(get_comments_number()), get_the_title()); ?></h3>
 
     <ol class="media-list">
-      <?php wp_list_comments(array('walker' => new Roots_Walker_Comment)); ?>
+      <?php wp_list_comments(['walker' => new Roots_Walker_Comment()]); ?>
     </ol>
 
     <?php if (get_comment_pages_count() > 1 && get_option('page_comments')) : ?>
@@ -55,12 +55,20 @@
           </p>
         <?php else : ?>
           <div class="form-group">
-            <label for="author"><?php _e('Name', 'roots-immo'); if ($req) _e(' (required)', 'roots-immo'); ?></label>
-            <input type="text" class="form-control" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" <?php if ($req) echo 'aria-required="true"'; ?>>
+            <label for="author"><?php _e('Name', 'roots-immo'); if ($req) {
+     _e(' (required)', 'roots-immo');
+ } ?></label>
+            <input type="text" class="form-control" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" <?php if ($req) {
+    echo 'aria-required="true"';
+} ?>>
           </div>
           <div class="form-group">
-            <label for="email"><?php _e('Email (will not be published)', 'roots-immo'); if ($req) _e(' (required)', 'roots-immo'); ?></label>
-            <input type="email" class="form-control" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" <?php if ($req) echo 'aria-required="true"'; ?>>
+            <label for="email"><?php _e('Email (will not be published)', 'roots-immo'); if ($req) {
+     _e(' (required)', 'roots-immo');
+ } ?></label>
+            <input type="email" class="form-control" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" <?php if ($req) {
+    echo 'aria-required="true"';
+} ?>>
           </div>
           <div class="form-group">
             <label for="url"><?php _e('Website', 'roots-immo'); ?></label>

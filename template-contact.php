@@ -53,7 +53,7 @@ Template Name: contact Template
 
 			
 			<input type="hidden" name="action" value="contact">
-			<?php wp_nonce_field( 'ajax_contact_nonce', 'security' ); ?>
+			<?php wp_nonce_field('ajax_contact_nonce', 'security'); ?>
 			<input type="submit" class="full-width tall" value="<?php _e('Send', 'roots-immo'); ?>" id="send-message">
 	
 			<div class="cform-response-output"></div></li> 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Root relative URLs
+ * Root relative URLs.
  *
  * WordPress likes to use absolute URLs on everything - let's clean that up.
  * Inspired by http://www.456bereastreet.com/archive/201010/how_to_make_wordpress_urls_root_relative/
@@ -10,24 +10,26 @@
  *
  * @author Scott Walkinshaw <scott.walkinshaw@gmail.com>
  */
-function roots_root_relative_url($input) {
-  preg_match('|https?://([^/]+)(/.*)|i', $input, $matches);
+function roots_root_relative_url($input)
+{
+    preg_match('|https?://([^/]+)(/.*)|i', $input, $matches);
 
-  if (!isset($matches[1]) || !isset($matches[2])) {
-    return $input; 
-  } elseif (($matches[1] === $_SERVER['SERVER_NAME']) || $matches[1] === $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT']) {
-    return wp_make_link_relative($input);
-  } else {
-    return $input;
-  }
+    if (!isset($matches[1]) || !isset($matches[2])) {
+        return $input;
+    } elseif (($matches[1] === $_SERVER['SERVER_NAME']) || $matches[1] === $_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT']) {
+        return wp_make_link_relative($input);
+    } else {
+        return $input;
+    }
 }
 
-function roots_enable_root_relative_urls() {
-  return !(is_admin() || in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'))) && current_theme_supports('root-relative-urls');
+function roots_enable_root_relative_urls()
+{
+    return !(is_admin() || in_array($GLOBALS['pagenow'], ['wp-login.php', 'wp-register.php'])) && current_theme_supports('root-relative-urls');
 }
 
 if (roots_enable_root_relative_urls()) {
-  $root_rel_filters = array(
+    $root_rel_filters = [
     'bloginfo_url',
     'the_permalink',
     'wp_list_pages',
@@ -43,8 +45,8 @@ if (roots_enable_root_relative_urls()) {
     'tag_link',
     'the_author_posts_link',
     'script_loader_src',
-    'style_loader_src'
-  );
+    'style_loader_src',
+  ];
 
-  add_filters($root_rel_filters, 'roots_root_relative_url');
+    add_filters($root_rel_filters, 'roots_root_relative_url');
 }

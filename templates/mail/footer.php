@@ -13,7 +13,7 @@
                           <table class="tiny-button facebook">
                             <tr>
                               <td>
-                                <a href="<?php echo of_get_option( 'facebook_url', '#' ); ?>">Facebook</a>
+                                <a href="<?php echo of_get_option('facebook_url', '#'); ?>">Facebook</a>
                               </td>
                             </tr>
                           </table>
@@ -23,7 +23,7 @@
                           <table class="tiny-button twitter">
                             <tr>
                               <td>
-                                <a href="<?php echo of_get_option( 'twitter_url', '#' ); ?>">Twitter</a>
+                                <a href="<?php echo of_get_option('twitter_url', '#'); ?>">Twitter</a>
                               </td>
                             </tr>
                           </table>
@@ -33,7 +33,7 @@
                           <table class="tiny-button google-plus">
                             <tr>
                               <td>
-                                <a href="<?php echo of_get_option( 'googleplus_url', '#' ); ?>">Google +</a>
+                                <a href="<?php echo of_get_option('googleplus_url', '#'); ?>">Google +</a>
                               </td>
                             </tr>
                           </table>
@@ -41,7 +41,7 @@
                           <table class="tiny-button linkedin">
                             <tr>
                               <td>
-                                <a href="<?php echo of_get_option( 'linkedin_url', '#' ); ?>">Linkedin</a>
+                                <a href="<?php echo of_get_option('linkedin_url', '#'); ?>">Linkedin</a>
                               </td>
                             </tr>
                           </table>
