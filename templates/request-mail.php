@@ -31,11 +31,11 @@ Cordialement</textarea>
 		</div>
 		
 		<div class="form-group col-md-6">
-		<input type="hidden" name="title" value="<?php the_title( ); ?>">
+		<input type="hidden" name="title" value="<?php the_title(); ?>">
 		<input type="hidden" name="url" value="<?php echo post_permalink(); ?>">
 
 	  	<input type="hidden" name="action" value="contact">
-	  	<?php wp_nonce_field( 'ajax_contact_nonce', 'security' ); ?>
+	  	<?php wp_nonce_field('ajax_contact_nonce', 'security'); ?>
 	  	<button type="submit" class="btn btn-default send-message"><?php _e('Request showing', 'roots-immo'); ?></button>
 	  </div>
 		<div class="cform-response-output"></div>

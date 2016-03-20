@@ -28,6 +28,6 @@
 
 <?php get_template_part('templates/featured'); ?>
 
-<?php //get_template_part('templates/propriete-recente'); ?>
+<?php //get_template_part('templates/propriete-recente');?>
 
 <?php get_template_part('templates/partenaires'); ?>

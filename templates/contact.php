@@ -1,16 +1,16 @@
-<?php 
+<?php
+
 global $logo_url;
 
 $emogrifier = new \Pelago\Emogrifier();
 
 /* gestion du message */
-ob_start();// mise en tampon
-include(TEMPLATEPATH . '/templates/mail/head.php');
-include(TEMPLATEPATH . '/templates/mail/content.php');
-include(TEMPLATEPATH . '/templates/mail/footer.php');
+ob_start(); // mise en tampon
+include TEMPLATEPATH.'/templates/mail/head.php';
+include TEMPLATEPATH.'/templates/mail/content.php';
+include TEMPLATEPATH.'/templates/mail/footer.php';
 $html = ob_get_contents();
 ob_end_clean();
-
 
 $css = '
 #outlook a { 
@@ -785,4 +785,3 @@ $emogrifier->setCss($css);
 
 $mergedHtml = $emogrifier->emogrify();
 echo $mergedHtml;
-?>

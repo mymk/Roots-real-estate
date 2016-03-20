@@ -1,3 +1,3 @@
-<?php 
-/* page partenaires */
-?>
+<?php
+
+/* page partenaires */;

@@ -12,19 +12,22 @@
                   <p>Nom : <?php echo $name ?></p>
                   <p>Email : <?php echo $sender ?></p>
                   <p>Tel : <?php echo $tel; ?></p>
-                    <p>titre du bien à louer ou à visiter : <?php echo $title ;?></p>
+                    <p>titre du bien à louer ou à visiter : <?php echo $title; ?></p>
                   <?php 
-                  if(isset($url)){
-                  ?>
+                  if (isset($url)) {
+                      ?>
                     <p>Url  : <a href="<?php echo $url ?>"> <?php echo $title ?></p>
                   <?php
+
                   }
                   ?>
                   <?php 
-                  if(isset($date)){
-                  ?>
-                    <p>Date de visite souhaité  : <?php echo $date ;?></p>
+                  if (isset($date)) {
+                      ?>
+                    <p>Date de visite souhaité  : <?php echo $date;
+                      ?></p>
                   <?php
+
                   }
                   ?>
                   <p></p>

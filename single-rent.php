@@ -2,7 +2,7 @@
 /*
 Template Name: single location Template
 */
-	global $prefix;
+    global $prefix;
 ?>
 <?php while (have_posts()) : the_post(); ?>
 <!-- Single Rent -->
@@ -18,39 +18,49 @@ Template Name: single location Template
 				
 			<ul class="nav nav-tabs">
 		    	<li class="active"><a href="#photos" data-toggle="tab"><i class="icon-camera"></i><?php _e('Photos', 'roots-immo'); ?></a></li>
-		    	<?php if(has_Video()){ ?>
-		    	<li><a href="#video" data-toggle="tab"><i class="icon-video"></i><?php _e('Video', 'roots-immo'); ?></a></li>
-		    	<?php } ?>
-		    	<?php if(has_Map()){ ?>
-			  	<li><a href="#map" data-toggle="tab"><i class="icon-map"></i><?php _e('Map', 'roots-immo'); ?></a></li>
-			  	<?php } ?>
+		    	<?php if (has_Video()) {
+    ?>
+		    	<li><a href="#video" data-toggle="tab"><i class="icon-video"></i><?php _e('Video', 'roots-immo');
+    ?></a></li>
+		    	<?php 
+} ?>
+		    	<?php if (has_Map()) {
+    ?>
+			  	<li><a href="#map" data-toggle="tab"><i class="icon-map"></i><?php _e('Map', 'roots-immo');
+    ?></a></li>
+			  	<?php 
+} ?>
 			</ul>
 			
 			<div class="tab-content">
 				<div class="tab-pane active" id="photos">
 
 					<?php 
-					 if(has_gallery()){
-					 	get_template_part('templates/post-slider');
-					 } else if (has_post_thumbnail( )){
-					  	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
-						?>
-							<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0] ;?>">
-								<?php the_post_thumbnail('single-item', array('class' => 'img-preview scale-with-grid')); ?>
+                     if (has_gallery()) {
+                         get_template_part('templates/post-slider');
+                     } elseif (has_post_thumbnail()) {
+                         $large_image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
+                         ?>
+							<a id="fancybox-manual-c" class="fancybox" href="<?php echo $large_image_url[0];
+                         ?>">
+								<?php the_post_thumbnail('single-item', ['class' => 'img-preview scale-with-grid']);
+                         ?>
 							</a>
 						<?php
 
-					} else {
-						?>
-						<img src="<?php bloginfo('template_directory' ); ?>/assets/img/logo.jpg" alt="placeholder+image">
+                     } else {
+                         ?>
+						<img src="<?php bloginfo('template_directory');
+                         ?>/assets/img/logo.jpg" alt="placeholder+image">
 							
 						<?php
-					}		 
-					?>
+
+                     }
+                    ?>
 
 				</div>
 
-			    <?php if(has_Video()): ?>
+			    <?php if (has_Video()): ?>
 				<div class="tab-pane" id="video">
 					<div class="fluid-width-video-wrapper" style="padding-top: 56.2%;">
 						<iframe src="http://player.vimeo.com/video/12158329" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid317791"></iframe>
@@ -58,14 +68,14 @@ Template Name: single location Template
 				</div>
 			    <?php endif; ?>
 
-			    <?php if(has_Map()): ?>
+			    <?php if (has_Map()): ?>
 			  	<div class="tab-pane" id="map">
 			  		<?php 
-				  		$mapAdresse = rwmb_meta( $prefix.'_address' );
-						$mapPoint = rwmb_meta( $prefix.'_location' );
-							
-						if(!empty($mapAdresse)) :
-					?>
+                        $mapAdresse = rwmb_meta($prefix.'_address');
+                        $mapPoint = rwmb_meta($prefix.'_location');
+
+                        if (!empty($mapAdresse)) :
+                    ?>
 
 						<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=<?php echo $mapAdresse; ?>&amp;aq=3&amp;sll=<?php echo $mapPoint; ?>&amp;ie=UTF8&amp;t=m&amp;ll=<?php echo $mapPoint; ?>amp;z=13&amp;output=embed"></iframe>
 
